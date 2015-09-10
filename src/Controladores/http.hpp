@@ -15,7 +15,7 @@ class http{
 	std::string palabraComando; //indica la palabra a consultar
 	std::string extencionComando; //indica la extencion de la pagina (html, php, aspx...)
 	std::string comando;
-	Proxy proxies;
+	Proxy *proxies;
 
 	
 	
@@ -27,11 +27,11 @@ class http{
     std::string getEncabezado();
     std::string get_palabra();
     std::string get_extencion();
-	http();
+	http(Proxy *proxies);
 	~http();
-	int descargar_html(std::string palabra);
+	int descargar_html(std::string palabra,std::string proxyURL);
 	void descargar_sinonimos_completos();
-	void construir_comando(); //construlle el comando con base en el encabezado, la palabra a consulatar y la extencion
+	void construir_comando(std::string proxyURL); //construlle el comando con base en el encabezado, la palabra a consulatar y la extencion
 	
 };
 
