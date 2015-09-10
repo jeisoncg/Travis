@@ -3,14 +3,19 @@
 
 #include <string>
 #include <vector>
+#include "Proxy.cpp"
 
 using std::vector;
+
 class http{
+	
 	private:
+	
 	std::string encabezadoComando; //indica la pagina principal de la que extraera la informacion
 	std::string palabraComando; //indica la palabra a consultar
 	std::string extencionComando; //indica la extencion de la pagina (html, php, aspx...)
 	std::string comando;
+	Proxy proxies;
 
 	
 	
