@@ -40,8 +40,12 @@ int Proxy::ping(string target)
 {
 	string comando = "ping -c 1 " + target;
 	int retorno = system(comando.c_str());
-	cout<<retorno;
+	system("clear");
+	if (retorno == 0)
+	{
+		return 0;
+		}
 
-return 0;
+return -1;
 }
 
