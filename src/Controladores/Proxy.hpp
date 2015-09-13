@@ -23,11 +23,11 @@ class Proxy{
 
 		Proxy();
 		~Proxy();
-		string get_ProxyUrl(int posicion);
-		int get_TotalProxiesAlmacenados(void);
-		
-		void set_ProxyUrlDesdeArchivo(string url);
-		int ping(string target);
+		string get_ProxyUrl(int posicion); //retorna el proxy ubicado en la posicion indicada
+		int get_TotalProxiesAlmacenados(void); //retorna cuantos proxys hay almacenados
+		string retornar_url_sin_puerto(string url); //recibe una url con puerto y la devuelve sin este
+		void set_ProxyUrlDesdeArchivo(string url); //construye un vector de proxys desde un archivo de texto
+		int ping(string target); //verifica si un objetivo responde a la solicitud ping y retorna 0 en caso de ser afirmativo
 };
 
 #endif
