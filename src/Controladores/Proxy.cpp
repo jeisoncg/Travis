@@ -30,6 +30,9 @@ void Proxy::set_ProxyUrlDesdeArchivo(string url){
 			input.getline(cadena, 128);
 			string tmp = cadena;
 			
+				this->proxyUrl.push_back(cadena);
+				cout<<cadena<<endl;
+			
 		
 			};
 	
@@ -38,7 +41,9 @@ void Proxy::set_ProxyUrlDesdeArchivo(string url){
 	
 int Proxy::ping(string target)
 {
+	target = Proxy::retornar_url_sin_puerto(target);
 	string comando = "ping -c 1 " + target;
+	cout << comando<<endl;
 	int retorno = system(comando.c_str());
 	system("clear");
 	if (retorno == 0)
@@ -48,4 +53,19 @@ int Proxy::ping(string target)
 
 return -1;
 }
-
+string Proxy::retornar_url_sin_puerto(string target)
+{
+	int size=target.size();
+	string target2="";
+	for(int i=0; i<size;i++)
+	{
+		if(target.at(i)!=':')
+		{
+			target2=target2+target.at(i);
+		}
+		else{
+			i=target.size();
+		}
+	}
+	return target2;
+}
