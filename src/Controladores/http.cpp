@@ -1,5 +1,4 @@
 #include "http.hpp"
-#include "Lectura.cpp"
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -19,23 +18,16 @@ http::~http()
 }
 void http::construir_comando()
 {
+	
 	system("mkdir ~/TravisTMP");//Directorio organizado para los .html
-	this->comando= encabezadoComando + palabraComando + " -o ~/TravisTMP/" + palabraComando+extencionComando; //es la suma de los string anteriores para descargar la pagina con el comando GET 
+	this->comando= encabezadoComando + palabraComando + " -o ~/TravisTMP/" + palabraComando+extencionComando + 
+	" --http-proxy="+proxy_actual; //es la suma de los string anteriores para descargar la pagina con el comando GET 
 }
-void http::descargar_sinonimos_completos()
-{
-	Lectura lectura;
-	lectura.Leer("in.txt");
-	int i,  size = lectura.getPalabras().size();
-	for(i = 0; i < size ; i++)
-	{
-		http::descargar_html(lectura.getPalabras().at(i));
-	}
-}
+
 int http::descargar_html(string palabra)
 {
 	set_palabra(palabra);
-	char cadena[6000]; //variable que recibe la linea leida del fstream
+	//char cadena[6000]; //variable que recibe la linea leida del fstream
 	
 
 
@@ -44,7 +36,7 @@ http::construir_comando();
 
  system(this->comando.c_str());
 //~ printf("%s",final.c_str());
-
+/*
 int contador =0;
 
    ifstream fe((palabraComando + ".html").c_str()); //se abre el fichero
@@ -55,10 +47,10 @@ int contador =0;
 		
 			string tmp = cadena;
 			if(contador==504)
-			cout<<tmp<<endl;
+		//	cout<<tmp<<endl;
     
     }
-   fe.close();
+   fe.close();*/
    return 0;
 }
 void http::set_encabezado(string encabezado){
@@ -71,6 +63,10 @@ void http::set_palabra(string palabra){
 	
 void http::set_extencion(string extencion){
 	this->extencionComando=extencion;
+}
+void http::set_proxy_actual(string nuevo_proxy)
+{
+	this->proxy_actual=nuevo_proxy;
 }
 
 string http::getEncabezado()
@@ -86,5 +82,12 @@ string http::get_palabra()
 string http::get_extencion(){
 	return this->extencionComando;
 }
+string http::get_comando()
+{
+	return this->comando;
+}
 
-
+string http::get_proxy_actual()
+{
+	return this->proxy_actual;
+}
