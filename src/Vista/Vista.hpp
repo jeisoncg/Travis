@@ -2,6 +2,8 @@
 #define Vista_hpp
 
 #include "../Controladores/Lectura.cpp"
+#include "../Controladores/Proxy.cpp"
+#include "../Controladores/http.cpp"
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -20,12 +22,14 @@ class Vista{
 	
 		Lectura lectura;
 		ConexionDB *conexion;
-		
+		http descargas;
+		Proxy proxy;
 		void leerPalabras();
 		void mostrarPalabras();
 		void registrarPalabras();
 		void realizarConsulta(string consulta);
-	
+	    void mostrar_lista_proxis(); //muestra los  proxis existentes en proxis.txt
+	    void descargar_todos_sinonimos();
 	public:
 		Vista();
 		~Vista();
