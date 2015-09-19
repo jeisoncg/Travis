@@ -8,6 +8,8 @@
 #include <string>
 #include <vector>
 #include <stdlib.h>
+#include "ProxyCh.cpp"
+#include "../Vista/Color.cpp"
 
 using namespace std;
 
@@ -15,7 +17,8 @@ class Proxy{
 
 
 	private:
-
+		Color color;
+		ProxyCh validadorProxy; //Va a validar usando telnel el proxy ingresado
 		vector <string> proxyUrl;//El formato de cada linea del vector es: 127.0.0.1:8080 por poner un ejemplo.
 		void set_ProxyUrl(string url);
 		

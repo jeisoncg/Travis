@@ -22,6 +22,9 @@ int ProxyCh::isProxy(std::string proxyIp, std::string proxyPort){
 			std::string tmp = cadena;
 			int cadenaSize = tmp.length(); 
 			std::string palabra = "";
+			if (cadenaSize == 0){
+				return -1;
+				}
 			for (int i = 0; i < cadenaSize; i++){
 				
 				palabra = palabra + cadena[i];

@@ -20,6 +20,8 @@ class Vista{
 	
 	private:
 	
+		Color color;
+	
 		Lectura lectura;
 		ConexionDB *conexion;
 		http descargas;
@@ -30,6 +32,8 @@ class Vista{
 		void realizarConsulta(string consulta);
 	    void mostrar_lista_proxis(); //muestra los  proxis existentes en proxis.txt
 	    void descargar_todos_sinonimos();
+	    void cargar_proxis();
+	    
 	public:
 		Vista();
 		~Vista();

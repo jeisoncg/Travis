@@ -32,9 +32,10 @@ void Vista::menu(){
 		cout<<"2. Mostrar palabras."<<endl;
 		cout<<"3. Registrar palabras en la base de datos."<<endl;
 		cout<<"4. Realizar consulta a la base de datos (Solo ejecuta)."<<endl;
-		cout<<"5. Mostrar lista de proxys cargados"<<endl;
-		cout<<"6. Descargar lista de sinonimos"<<endl;
-		cout<<"7. Salir."<<endl<<endl;
+		cout<<"5. Cargar Proxys"<<endl;
+		cout<<"6. Mostrar lista de proxys cargados"<<endl;
+		cout<<"7. Descargar lista de sinonimos"<<endl;
+		cout<<"8. Salir."<<endl<<endl;
 		
 		int seleccion = -1;
 		
@@ -44,21 +45,20 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 7)){
+			if ((seleccion > 0)&&(seleccion < 9)){
 				
-				seleccionNoValida = false;
 				
 				if (seleccion == 1){
-					leerPalabras();
+					Vista::leerPalabras();
 					
 					}
 				if (seleccion == 2){
-					mostrarPalabras();
+					Vista::mostrarPalabras();
 					
 					}
 				if (seleccion == 3){
 						
-						registrarPalabras();
+						Vista::registrarPalabras();
 						
 					}
 				if (seleccion == 4){
@@ -69,22 +69,39 @@ void Vista::menu(){
 					cin.ignore();
 					string consulta;
 					getline(cin, consulta);	
-					realizarConsulta(consulta);
+					Vista::realizarConsulta(consulta);
 					
 					}
 				if (seleccion == 5){
-					cout<<"Lista de proxys:"<<endl;
-					mostrar_lista_proxis();
+					cout<<"Ruta del archivo con los Proxys: ";
+					Vista::cargar_proxis();
 					}
 				if (seleccion == 6){
+					cout<<"Lista de proxys:"<<endl;
+					Vista::mostrar_lista_proxis();
+					}
+				if (seleccion == 7){
 					cout<<"Descargando informacion sinomial:"<<endl;
 					Vista::descargar_todos_sinonimos();
+					}
+					
+				if (seleccion == 8){
+					return;
 					}
 				
 				}
 			
 		};
 		
+	}
+	
+void Vista::cargar_proxis(){
+	
+	    string ruta_proxys;
+	    cin >> ruta_proxys;
+	    cout<<endl;
+	    this->proxy.set_ProxyUrlDesdeArchivo(ruta_proxys);
+	    menu();
 	}
 	
 void Vista::leerPalabras(){
@@ -124,22 +141,20 @@ void Vista::mostrar_lista_proxis()
 	{
 		cout << proxy.get_ProxyUrl(i)<<endl;
 	}
+	menu();
 }
 
 void Vista::descargar_todos_sinonimos()
 {
-	int i=0;
-	int iaux=0;
-    int j=0;
-cout<<"Ingrese la ruta del archivo contenedor de los proxys:"<<endl;
-
-	    string ruta_proxys;
-	    cin >> ruta_proxys;
-	    this->proxy.set_ProxyUrlDesdeArchivo(ruta_proxys);
-      int size =lectura.getPalabras().size();
-cout <<"Ingrese el numero de palabra desde la que desea iniciar:"<<endl;
-cin>> i;
-iaux=i;
+		int i=0;
+		int iaux=0;
+		int j=0;
+		
+		int size =lectura.getPalabras().size();
+		cout <<"Ingrese el numero de palabra desde la que desea iniciar: ";
+		cin>> i;
+		iaux=i;
+		
       for(; i<size;i++)
       {
 	  if(((i-iaux)%700)==0)
