@@ -5,7 +5,7 @@ TorManager::~TorManager(){}
 
 bool TorManager::isTorRunning(void){
 
-		system("ps u > prcs.txt");
+		system("ps -ef > prcs.txt");
 		
 		std::ifstream input("prcs.txt");
 		
