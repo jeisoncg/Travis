@@ -1,9 +1,17 @@
 #include "Vista.hpp"
 
 Vista::Vista(){
-	
-	    
-	    
+	    	
+	    if (!this->tormanager.isTorRunning()){
+			cout<< color.BOLDRED << " [Warning]: " << color.RESET << " No se está ejecutando Tor" << endl << endl;
+		}else{
+			
+			cout<< color.BOLDGREEN << " [OK]: " << color.RESET << " Está ejecutando Tor" << endl << endl;
+			TorManager x;
+			x.startHttpProxy("9050","8083");
+			
+		}
+		
 		//~ cout<<"...Datos de Conexión a la Base de Datos..."<<endl<<endl;
 		//~ cout<<"Host BD: ";
 		//~ string host;
@@ -27,15 +35,17 @@ Vista::~Vista(){}
 
 void Vista::menu(){
 	
+		cout<<endl;
 		cout<<"Menú"<<endl<<endl;
 		cout<<"1. Leer palabras desde archivo."<<endl;
 		cout<<"2. Mostrar palabras."<<endl;
 		cout<<"3. Registrar palabras en la base de datos."<<endl;
 		cout<<"4. Realizar consulta a la base de datos (Solo ejecuta)."<<endl;
-		cout<<"5. Cargar Proxys"<<endl;
-		cout<<"6. Mostrar lista de proxys cargados"<<endl;
-		cout<<"7. Descargar lista de sinonimos"<<endl;
-		cout<<"8. Salir."<<endl<<endl;
+		/*cout<<"5. Cargar Tor."<<endl;
+		cout<<"6. Cargar Proxys"<<endl;
+		cout<<"7. Mostrar lista de proxys cargados"<<endl;*/
+		cout<<"5. Descargar lista de sinonimos"<<endl;
+		cout<<"6. Salir."<<endl<<endl;
 		
 		int seleccion = -1;
 		
@@ -45,7 +55,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 9)){
+			if ((seleccion > 0)&&(seleccion < 7)){
 				
 				
 				if (seleccion == 1){
@@ -72,20 +82,24 @@ void Vista::menu(){
 					Vista::realizarConsulta(consulta);
 					
 					}
-				if (seleccion == 5){
+				/*if (seleccion == 5){
+					cout<<"Cargando tor\n ";
+					system("tor &");
+					}
+				if (seleccion == 6){
 					cout<<"Ruta del archivo con los Proxys: ";
 					Vista::cargar_proxis();
 					}
-				if (seleccion == 6){
+				if (seleccion == 7){
 					cout<<"Lista de proxys:"<<endl;
 					Vista::mostrar_lista_proxis();
-					}
-				if (seleccion == 7){
+					}*/
+				if (seleccion == 5){
 					cout<<"Descargando informacion sinomial:"<<endl;
 					Vista::descargar_todos_sinonimos();
 					}
 					
-				if (seleccion == 8){
+				if (seleccion == 6){
 					return;
 					}
 				
@@ -148,7 +162,7 @@ void Vista::descargar_todos_sinonimos()
 {
 		int i=0;
 		int iaux=0;
-		int j=0;
+		//int j=0;
 		
 		int size =lectura.getPalabras().size();
 		cout <<"Ingrese el numero de palabra desde la que desea iniciar: ";
@@ -157,9 +171,9 @@ void Vista::descargar_todos_sinonimos()
 		
       for(; i<size;i++)
       {
-	  if(((i-iaux)%700)==0)
+	  if(((i-iaux)%500)==0)
 	  {
-		  for(int k=0; k<proxy.get_TotalProxiesAlmacenados(); k++)
+		  /*for(int k=0; k<proxy.get_TotalProxiesAlmacenados(); k++)
 		  {
 				if(proxy.ping(proxy.retornar_url_sin_puerto(proxy.get_ProxyUrl(j)))==0)
 					{
@@ -171,8 +185,13 @@ void Vista::descargar_todos_sinonimos()
 				else{
 				    j++;
 					}
-	  }
-	  }	  
+			}*/
+			
+			descargas.descargar_html(lectura.getPalabras().at(i));
+			tormanager.get_New_Tot_IP_Address();
+			cout<<color.BOLDGREEN<<"Cambio de IP"<<color.RESET<<endl;
+	  }	 
+	  
 	  
 	 else{
 		  cout<<descargas.get_proxy_actual()<<endl;

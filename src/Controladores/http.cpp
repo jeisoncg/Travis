@@ -7,6 +7,9 @@ using namespace std;
 
 http::http()
 {
+	//string user = getenv("USER");
+	//string comando_tmp = "mkdir /home/" + user + "/TravisTMP";
+	//system(comando_tmp.c_str());
 	//this->encabezadoComando="GET www.wordreference.com/sinonimos/"; 
 	this->encabezadoComando="aria2c http://www.wordreference.com/sinonimos/"; 
 	this->extencionComando = ".html"; 
@@ -18,10 +21,15 @@ http::~http()
 }
 void http::construir_comando()
 {
+	string user = getenv("USER");
+	//string comando_tmp = "mkdir /home/" + user + "/TravisTMP";
+	string ruta = "FILES/";
+	//system(comando_tmp.c_str());//Directorio organizado para los .html
+	/*this->comando= encabezadoComando + palabraComando + " -o ~/TravisTMP/" + palabraComando+extencionComando + 
+	" --http-proxy="+proxy_actual; //es la suma de los string anteriores para descargar la pagina con el comando GET */
 	
-	system("mkdir ~/TravisTMP");//Directorio organizado para los .html
-	this->comando= encabezadoComando + palabraComando + " -o ~/TravisTMP/" + palabraComando+extencionComando + 
-	" --http-proxy="+proxy_actual; //es la suma de los string anteriores para descargar la pagina con el comando GET 
+	this->comando= encabezadoComando + palabraComando + " -o " + ruta  + palabraComando+extencionComando + 
+	" --http-proxy=localhost:8083"; //es la suma de los string anteriores para descargar la pagina con el comando GET
 }
 
 int http::descargar_html(string palabra)

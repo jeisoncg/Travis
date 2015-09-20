@@ -1,0 +1,7 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jeisoncg 25044  0.0  0.0  16100  5992 pts/2    Ss   01:51   0:00 /bin/bash
+jeisoncg 25301  0.1  0.2  41824 23824 pts/2    S+   02:01   0:00 tor -controlport 9100
+jeisoncg 25762  0.0  0.0  13064  2760 pts/0    Ss+  02:07   0:00 /bin/sh ./geany_run_script.sh
+jeisoncg 25764  0.0  0.0  25988  2164 pts/0    S+   02:07   0:00 ./main
+jeisoncg 25765  0.0  0.0  13064  2752 pts/0    S+   02:07   0:00 sh -c ps u > prcs.txt
+jeisoncg 25766  0.0  0.0  24676  3192 pts/0    R+   02:07   0:00 ps u

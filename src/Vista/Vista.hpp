@@ -1,6 +1,7 @@
 #ifndef Vista_hpp
 #define Vista_hpp
 
+#include "../Controladores/TorManager.cpp"
 #include "../Controladores/Lectura.cpp"
 #include "../Controladores/Proxy.cpp"
 #include "../Controladores/http.cpp"
@@ -21,7 +22,7 @@ class Vista{
 	private:
 	
 		Color color;
-	
+		TorManager tormanager;
 		Lectura lectura;
 		ConexionDB *conexion;
 		http descargas;
