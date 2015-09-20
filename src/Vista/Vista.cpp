@@ -167,6 +167,12 @@ void Vista::descargar_todos_sinonimos()
 		int size =lectura.getPalabras().size();
 		cout <<"Ingrese el numero de palabra desde la que desea iniciar: ";
 		cin>> i;
+		cout <<"Ingrese el numero de palabra desde la que desea finalizar, escriba -1 si quiere que sean todas: ";
+		int tmp = 0;
+		cin>> tmp;
+		if (tmp != -1){
+				size = tmp;
+			}
 		iaux=i;
 		
       for(; i<size;i++)
