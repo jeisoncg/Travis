@@ -1,0 +1,104 @@
+09/19 20:20:13.08 [9781] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 dglibz.so
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so.10
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so.6
+09/19 20:20:13.08 [9781] 0+0: --- [z] 0 libz.so.4
+09/19 20:20:13.09 [9781] 0+0: --- [/lib/libz.so.1]
+09/19 20:20:13.09 [9781] 0+0: --- [z] 95EF678 /lib/libz.so.1
+09/19 20:20:13.09 [9781] 0+0: --- [z] optional: gziocallback
+09/19 20:20:13.09 [9781] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:20:13.09 [9781] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:20:13.085 [9781] ERROR: PAM module is not built in.
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:20:13.09 [9781] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:20:13.10 [9781] 0+0: --- [/lib/libpam.so.0]
+09/19 20:20:13.10 [9781] 0+0: --- [pam] 95EFBC0 /lib/libpam.so.0
+09/19 20:20:13.10 [9781] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:20:30.12 [9790] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 dglibz.so
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so.10
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so.6
+09/19 20:20:30.12 [9790] 0+0: --- [z] 0 libz.so.4
+09/19 20:20:30.12 [9790] 0+0: --- [/lib/libz.so.1]
+09/19 20:20:30.12 [9790] 0+0: --- [z] 93241B8 /lib/libz.so.1
+09/19 20:20:30.12 [9790] 0+0: --- [z] optional: gziocallback
+09/19 20:20:30.12 [9790] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:20:30.12 [9790] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:20:30.125 [9790] ERROR: PAM module is not built in.
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:20:30.13 [9790] 0+0: --- [/lib/libpam.so.0]
+09/19 20:20:30.13 [9790] 0+0: --- [pam] 9324740 /lib/libpam.so.0
+09/19 20:20:30.13 [9790] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:20:48.33 [9803] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:20:48.33 [9803] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:20:48.33 [9803] 0+0: PORT> -P8080
+09/19 20:20:58.75 [9817] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 dglibz.so
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so.10
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so.6
+09/19 20:20:58.75 [9817] 0+0: --- [z] 0 libz.so.4
+09/19 20:20:58.75 [9817] 0+0: --- [/lib/libz.so.1]
+09/19 20:20:58.75 [9817] 0+0: --- [z] 9133D30 /lib/libz.so.1
+09/19 20:20:58.75 [9817] 0+0: --- [z] optional: gziocallback
+09/19 20:20:58.75 [9817] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:20:58.75 [9817] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:20:58.751 [9817] ERROR: PAM module is not built in.
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:20:58.75 [9817] 0+0: --- [/lib/libpam.so.0]
+09/19 20:20:58.75 [9817] 0+0: --- [pam] 9134278 /lib/libpam.so.0
+09/19 20:20:58.75 [9817] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:22:07.59 [9817] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:07.59 [9817] 0+0: PORT> -Plocalhost:8080
+09/19 20:22:14.86 [9827] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:22:14.86 [9827] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:14.86 [9827] 0+0: PORT> -P8080
+09/19 20:22:31.85 [9846] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:22:31.85 [9846] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:31.85 [9846] 0+0: PORT> -P8080
+09/19 20:22:58.51 [9859] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:22:58.51 [9859] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:58.51 [9859] 0+0: PORT> -P8080
+09/19 20:24:24.35 [9880] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:24:24.35 [9880] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:24:24.35 [9880] 0+0: PORT> -P8080
+09/19 20:24:49.11 [9899] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:24:49.11 [9899] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:24:49.11 [9899] 0+0: PORT> -P8080
+09/19 20:24:54.04 [9912] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:24:54.04 [9912] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:24:54.04 [9912] 0+0: PORT> -P8081
+09/19 20:25:18.80 [9929] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:25:18.81 [9929] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:25:18.81 [9929] 0+0: PORT> -P8081
+09/19 20:25:35.21 [9942] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/act/credhy_cache128s
+09/19 20:25:35.21 [9942] 0+0: command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:25:35.21 [9942] 0+0: PORT> -P8083

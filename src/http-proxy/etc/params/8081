@@ -1,0 +1,7 @@
+-P8081
+env[18] TMPDIR=/tmp
+env[99] LIBPATH=.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc
+ext[0] DGROOT=${EXECDIR}/..
+arg[3] SERVER=http
+arg[4] SOCKS=localhost:9050
+arg[5] ADMIN=J@J.com

@@ -1,0 +1,210 @@
+-- InitLog for [_8083_]
+09/19 20:25:35.45 [9942] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:25:35.45 [9942] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:25:35.45 [9942] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:25:35.45 [9942] 0+0: BINSHELL=/bin/sh
+09/19 20:25:35.45 [9942] 0+0: MAXIMA=delegated:64 for small mem=3257M
+09/19 20:25:35.45 [9942] 0+0: ### [0] capskey 0
+09/19 20:25:35.45 [9942] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/capskey 0
+09/19 20:25:35.45 [9942] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/capskey 0
+09/19 20:25:35.45 [9942] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./capskey 0
+09/19 20:25:35.45 [9942] 0+0: ### [4] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/capskey 0
+09/19 20:25:35.45 [9944] 0+0: -- Fork(daemon): 9942 -> 9944
+09/19 20:25:35.45 [9944] 0+0: server_open(delegate,:8083,listen=20)
+09/19 20:25:35.45 [9944] 0+0: server_open(delegate,:8083) BOUND
+09/19 20:25:35.45 [9944] 0+0: DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT^M
+09/19 20:25:35.45 [9944] 0+0: <DeleGate/9.9.13> [9944] -P8083 READY^M
+09/19 20:25:35.45 [9944] 0+0: HostID: 2014/10/26/04/10-9E (Linux/3.16.7-24-desktop) linux-uw8t
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/dglibz.so 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 dglibz.so
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.0.9.8 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.1.0.0 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.10 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so.10
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.6 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so.6
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.4 0
+09/19 20:25:35.45 [9944] 0+0: --- [z] 0 libz.so.4
+09/19 20:25:35.45 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [4] /home/jeisoncg/lib/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [5] /usr/local/lib/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [6] /usr/lib/libz.so.1 0
+09/19 20:25:35.45 [9944] 0+0: ### [7] /lib/libz.so.1 9aac780
+09/19 20:25:35.45 [9944] 0+0: --- [/lib/libz.so.1]
+09/19 20:25:35.45 [9944] 0+0: --- [z] 9AA1B10 /lib/libz.so.1
+09/19 20:25:35.45 [9944] 0+0: --- [z] optional: gziocallback
+09/19 20:25:35.45 [9944] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:25:35.45 [9944] 0+0: +++ loaded Zlib 1.2.8
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/dglibpam.so 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.0.9.8 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.1.0.0 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.10 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.6 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.4 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.1 0
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:25:35.46 [9944] 0+0: ### [0] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [1] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [2] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [3] /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [4] /home/jeisoncg/lib/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [5] /usr/local/lib/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [6] /usr/lib/libpam.so.0 0
+09/19 20:25:35.46 [9944] 0+0: ### [7] /lib/libpam.so.0 9aac780
+09/19 20:25:35.46 [9944] 0+0: --- [/lib/libpam.so.0]
+09/19 20:25:35.46 [9944] 0+0: --- [pam] 9AAC780 /lib/libpam.so.0
+09/19 20:25:35.46 [9944] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:25:35.46 [9944] 0+0: PORT= 8083/9 (31,147)
+09/19 20:25:35.46 [9944] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+09/19 20:25:35.46 [9944] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+09/19 20:25:35.46 [9944] 0+0: #### gzip/gunzip = dynamically linked
+09/19 20:25:35.46 [9944] 0+0: ADMIN=J@J.com protocol=http(specialist)
+09/19 20:25:35.46 [9944] 0+0: #### CACHE DISABLED #### Cache directory seems not exist: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/cache
+09/19 20:25:35.46 [9944] 0+0: WORKDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/work/8083
+09/19 20:25:35.46 [9944] 0+0: MOUNT[0]X[2] /-/builtin/icons/* = default
+09/19 20:25:35.46 [9944] 0+0: MOUNT[1]X[3] /-/* = forbidden,from=!.RELIABLE,default
+09/19 20:25:35.46 [9944] 0+0: MOUNT[2]X[0] /-* = default
+09/19 20:25:35.46 [9944] 0+0: MOUNT[3]X[1] /=* = default
+09/19 20:25:35.46 [9944] 0+0: MOUNT[4]=[4] /favicon.ico builtin:icons/ysato/default.ico default,direction=fo,onerror=404,expires=15m
+09/19 20:25:35.47 [9944] 0+0: #### stack size limit = 800000 (8388608)
+09/19 20:25:35.47 [9944] 0+0: Stay open PIDFILE for accept() lock[fd=13]
+09/19 20:25:35.47 [9944] 0+0: StickyReport[14,15]127.0.0.127:65535><127.0.0.127:65535 212992/212992 212992/212992
+09/19 20:25:35.47 [9944] 0+0: env[18] TMPDIR=/tmp
+09/19 20:25:35.47 [9944] 0+0: env[99] LIBPATH=.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc
+09/19 20:25:35.47 [9944] 0+0: ext[0] DGROOT=${EXECDIR}/..
+09/19 20:25:35.47 [9944] 0+0: arg[3] SERVER=http
+09/19 20:25:35.47 [9944] 0+0: arg[4] SOCKS=localhost:9050
+09/19 20:25:35.47 [9944] 0+0: arg[5] ADMIN=J@J.com
+09/19 20:25:35.47 [9944] 0+0: gen[0] DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT
+09/19 20:25:35.47 [9944] 0+0: TMPFILE(setLastModified) = (16) /tmp/dg9944.000003.1442712335
+09/19 20:25:35.47 [9944] 0+0: >>>TMPFILE(setLastModified)>>>9ac4670[16]
+09/19 20:25:35.47 [9944] 0+0: DELEGATE_Modified[1]: 55fe0b0f 1442712335
+09/19 20:25:35.47 [9944] 0+0: --INITIALIZATION DONE-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:25:35.47 [9944] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:25:35.48 [9942] 0+0: --beDaemon: ready=1, stat=1
+09/19 20:25:35.48 [9942] 0+0: --beDaemon: going background ...
+09/19 20:25:35.48 [9942] 0+0: --beDaemon: going background
+09/19 20:25:35.48 [9944] 0+0: PollIn.POLLHUP (8) errno=0
+09/19 20:25:35.48 [9944] 0+0: PollIn.POLLHUP (8) errno=0
+09/19 20:25:35.48 [9944] 0+0: ## left connected but dead [8] <= caps.c:203
+09/19 20:25:35.48 [9944] 0+0: --beDaemon:[8]0 wcc=1 err=0 rdy=1 9942/1

@@ -1,0 +1,535 @@
+09/19 20:20:48.33 [9803] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:20:48.33 [9803] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:20:48.33 [9803] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:20:48.36 [9803] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] 959E850 /lib/libcrypto.so.1.0.0
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:20:48.36 [9803] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:20:48.36 [9803] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:20:48.36 [9803] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:20:48.36 [9803] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:20:48.36 [9803] 0+0: --- [ssl] 0 libssl.so
+09/19 20:20:48.37 [9803] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:20:48.37 [9803] 0+0: --- [ssl] 959F460 /lib/libssl.so.1.0.0
+09/19 20:20:48.37 [9803] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:20:48.37 [9803] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:20:48.37 [9803] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:20:48.51 [9803] 0+0: -- checked integrity:OK (0.145) deccbddd8b42ee4f
+09/19 20:20:48.51 [9803] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:20:48.51 [9803] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:20:48.81 [9803] 0+0: ... gethostname(linux-uw8t)
+09/19 20:20:48.92 [9803] 0+0: configuring default RESOLV ...
+09/19 20:20:48.92 [9803] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:20:48.92 [9803] 0+0: ... NIS not available (no default domain)
+09/19 20:20:48.92 [9803] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:20:48.92 [9803] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:20:48.92 [9803] 0+0: ### don't export RESOLV=''
+09/19 20:20:49.13 [9803] 0+0: {R} ### empty SOA name for SOA home
+09/19 20:20:49.13 [9803] 0+0: {R} SOA got [home][home][] 6617 3600 3600 3600 3600
+09/19 20:20:49.32 [9803] 0+0: {R} SOA got [][a.root-servers.net][nstld.verisign-grs.com] 2015091901 1800 900 604800 86400
+09/19 20:20:49.53 [9803] 0+0: mkdirShared FALED errno=17: /tmp
+09/19 20:20:49.53 [9803] 0+0: {R} retrying AAAA [fd33]
+09/19 20:20:49.54 [9803] 0+0: {R} ### empty SOA name for SOA home
+09/19 20:20:49.54 [9803] 0+0: {R} SOA got [home][home][] 6619 3600 3600 3600 3600
+09/19 20:20:49.99 [9803] 0+0: mkdirShared FALED errno=17: /tmp
+09/19 20:20:49.99 [9803] 0+0: mkdirShared FALED errno=17: /tmp/resolvy
+09/19 20:20:49.99 [9803] 0+0: mkdirShared FALED errno=17: /tmp/resolvy/8ef6ff61bf7eddecbe4bac45eb45668c
+09/19 20:20:49.99 [9803] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:20:50.06 [9803] 0+0: {R} ### empty SOA name for SOA home
+09/19 20:20:50.06 [9803] 0+0: {R} SOA got [home][home][] 6623 3600 3600 3600 3600
+09/19 20:20:50.19 [9803] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:20:50.20 [9803] 0+0: {R} ### empty SOA name for SOA home
+09/19 20:20:50.20 [9803] 0+0: {R} SOA got [home][home][] 6625 3600 3600 3600 3600
+09/19 20:20:50.32 [9803] 0+0: gethostbyname(linux-uw8t) unknown[1.40s] recv[192.168.1.1](103) Q[linux-uw8t] ID=8/8 AA=0 RD=1 RA=1 RCODE=3 ans,ns,add=0,1,0
+09/19 20:20:50.32 [9803] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:20:50.32 [9803] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:20:50.32 [9803] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:20:50.32 [9803] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:20:50.32 [9803] 0+0: BINSHELL=/bin/sh
+09/19 20:20:50.32 [9803] 0+0: MAXIMA=delegated:64 for small mem=3275M
+09/19 20:20:50.32 [9808] 0+0: -- Fork(daemon): 9803 -> 9808
+09/19 20:20:50.32 [9808] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:20:50.32 [9808] 0+0: server_open(delegate,:8080) BOUND
+09/19 20:20:50.32 [9808] 0+0: DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT^M
+09/19 20:20:50.32 [9808] 0+0: <DeleGate/9.9.13> [9808] -P8080 READY^M
+09/19 20:20:50.32 [9808] 0+0: HostID: 2014/10/26/04/10-9E (Linux/3.16.7-24-desktop) linux-uw8t
+09/19 20:20:50.32 [9808] 0+0: --- [z] 0 dglibz.so
+09/19 20:20:50.32 [9808] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:20:50.32 [9808] 0+0: --- [z] 0 libz.so
+09/19 20:20:50.32 [9808] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:20:50.32 [9808] 0+0: --- [z] 0 libz.so.10
+09/19 20:20:50.33 [9808] 0+0: --- [z] 0 libz.so.6
+09/19 20:20:50.33 [9808] 0+0: --- [z] 0 libz.so.4
+09/19 20:20:50.33 [9808] 0+0: --- [/lib/libz.so.1]
+09/19 20:20:50.33 [9808] 0+0: --- [z] 959EAF8 /lib/libz.so.1
+09/19 20:20:50.33 [9808] 0+0: --- [z] optional: gziocallback
+09/19 20:20:50.33 [9808] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:20:50.33 [9808] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:20:50.327 [9808] ERROR: PAM module is not built in.
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:20:50.33 [9808] 0+0: --- [/lib/libpam.so.0]
+09/19 20:20:50.33 [9808] 0+0: --- [pam] 95DCD38 /lib/libpam.so.0
+09/19 20:20:50.33 [9808] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:20:50.33 [9808] 0+0: PORT= 8080/11 (31,144)
+09/19 20:20:50.33 [9808] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+09/19 20:20:50.33 [9808] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+09/19 20:20:50.33 [9808] 0+0: #### gzip/gunzip = dynamically linked
+09/19 20:20:50.33 [9808] 0+0: ADMIN= protocol=http(specialist)
+09/19 20:20:50.33 [9808] 0+0: EXIT: no ADMIN parameter given.
+09/19 20:20:53.32 [9803] 0+0: --beDaemon: ready=0, stat=-1
+09/19 20:20:53.32 [9803] 0+0: --beDaemon: going background ...
+09/19 20:20:53.32 [9803] 0+0: --beDaemon: going background
+09/19 20:20:53.33 [9808] 0+0: #Sig/CSC finish 5 3 P1 R0 E0 {0 r0 t0} 0/0/0
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:22:14.86 [9827] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] 93B4FC8 /lib/libcrypto.so.1.0.0
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:22:14.86 [9827] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:22:14.86 [9827] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:22:14.86 [9827] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:22:14.86 [9827] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:22:14.86 [9827] 0+0: --- [ssl] 0 libssl.so
+09/19 20:22:14.86 [9827] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:22:14.86 [9827] 0+0: --- [ssl] 93B5BD8 /lib/libssl.so.1.0.0
+09/19 20:22:14.86 [9827] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:22:14.86 [9827] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:22:14.86 [9827] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:22:14.86 [9827] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:22:14.86 [9827] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:22:14.86 [9827] 0+0: ... gethostname(linux-uw8t)
+09/19 20:22:14.92 [9827] 0+0: configuring default RESOLV ...
+09/19 20:22:14.92 [9827] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:22:14.93 [9827] 0+0: ... NIS not available (no default domain)
+09/19 20:22:14.93 [9827] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:22:14.93 [9827] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:22:14.93 [9827] 0+0: ### don't export RESOLV=''
+09/19 20:22:15.16 [9827] 0+0: {R} retrying AAAA [fd33]
+09/19 20:22:15.16 [9827] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:22:15.23 [9827] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:22:15.23 [9827] 0+0: gethostbyname(linux-uw8t) unknown[0.30s] 
+09/19 20:22:15.23 [9827] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:22:15.23 [9827] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:22:15.23 [9827] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:15.23 [9827] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:22:15.23 [9827] 0+0: BINSHELL=/bin/sh
+09/19 20:22:15.23 [9827] 0+0: MAXIMA=delegated:64 for small mem=3284M
+09/19 20:22:15.23 [9829] 0+0: -- Fork(daemon): 9827 -> 9829
+09/19 20:22:15.23 [9829] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:22:15.23 [9829] 0+0: server_open(delegate,:8080) BOUND
+09/19 20:22:15.23 [9829] 0+0: DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT^M
+09/19 20:22:15.23 [9829] 0+0: <DeleGate/9.9.13> [9829] -P8080 READY^M
+09/19 20:22:15.23 [9829] 0+0: HostID: 2014/10/26/04/10-9E (Linux/3.16.7-24-desktop) linux-uw8t
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 dglibz.so
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so.10
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so.6
+09/19 20:22:15.24 [9829] 0+0: --- [z] 0 libz.so.4
+09/19 20:22:15.24 [9829] 0+0: --- [/lib/libz.so.1]
+09/19 20:22:15.24 [9829] 0+0: --- [z] 93B5270 /lib/libz.so.1
+09/19 20:22:15.24 [9829] 0+0: --- [z] optional: gziocallback
+09/19 20:22:15.24 [9829] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:22:15.24 [9829] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:22:15.240 [9829] ERROR: PAM module is not built in.
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:22:15.24 [9829] 0+0: --- [/lib/libpam.so.0]
+09/19 20:22:15.24 [9829] 0+0: --- [pam] 93BFEE0 /lib/libpam.so.0
+09/19 20:22:15.24 [9829] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:22:15.25 [9829] 0+0: PORT= 8080/9 (31,144)
+09/19 20:22:15.25 [9829] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+09/19 20:22:15.25 [9829] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+09/19 20:22:15.25 [9829] 0+0: #### gzip/gunzip = dynamically linked
+09/19 20:22:15.25 [9829] 0+0: ADMIN= protocol=http(specialist)
+09/19 20:22:15.25 [9829] 0+0: EXIT: no ADMIN parameter given.
+09/19 20:22:18.23 [9827] 0+0: --beDaemon: ready=0, stat=-1
+09/19 20:22:18.24 [9827] 0+0: --beDaemon: going background ...
+09/19 20:22:18.24 [9827] 0+0: --beDaemon: going background
+09/19 20:22:18.25 [9829] 0+0: #Sig/CSC finish 5 3 P1 R0 E0 {0 r0 t0} 0/0/0
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:22:31.85 [9846] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] 97E1E90 /lib/libcrypto.so.1.0.0
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:22:31.85 [9846] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:22:31.85 [9846] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:22:31.85 [9846] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:22:31.85 [9846] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:22:31.85 [9846] 0+0: --- [ssl] 0 libssl.so
+09/19 20:22:31.85 [9846] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:22:31.85 [9846] 0+0: --- [ssl] 97E2AA0 /lib/libssl.so.1.0.0
+09/19 20:22:31.85 [9846] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:22:31.85 [9846] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:22:31.85 [9846] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:22:31.85 [9846] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:22:31.85 [9846] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:22:31.86 [9846] 0+0: ... gethostname(linux-uw8t)
+09/19 20:22:31.96 [9846] 0+0: configuring default RESOLV ...
+09/19 20:22:31.96 [9846] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:22:31.96 [9846] 0+0: ... NIS not available (no default domain)
+09/19 20:22:31.96 [9846] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:22:31.96 [9846] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:22:31.96 [9846] 0+0: ### don't export RESOLV=''
+09/19 20:22:32.02 [9846] 0+0: {R} retrying AAAA [fd33]
+09/19 20:22:32.02 [9846] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:22:32.09 [9846] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:22:32.09 [9846] 0+0: gethostbyname(linux-uw8t) unknown[0.13s] 
+09/19 20:22:32.09 [9846] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:22:32.09 [9846] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:22:32.09 [9846] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:32.09 [9846] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:22:32.09 [9846] 0+0: BINSHELL=/bin/sh
+09/19 20:22:32.09 [9846] 0+0: MAXIMA=delegated:64 for small mem=3278M
+09/19 20:22:32.09 [9848] 0+0: -- Fork(daemon): 9846 -> 9848
+09/19 20:22:32.09 [9848] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:22:32.09 [9848] 0+0: server_open(delegate,:8080) BOUND
+09/19 20:22:32.09 [9848] 0+0: DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT^M
+09/19 20:22:32.09 [9848] 0+0: <DeleGate/9.9.13> [9848] -P8080 READY^M
+09/19 20:22:32.09 [9848] 0+0: HostID: 2014/10/26/04/10-9E (Linux/3.16.7-24-desktop) linux-uw8t
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 dglibz.so
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so.10
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so.6
+09/19 20:22:32.09 [9848] 0+0: --- [z] 0 libz.so.4
+09/19 20:22:32.09 [9848] 0+0: --- [/lib/libz.so.1]
+09/19 20:22:32.09 [9848] 0+0: --- [z] 97E2138 /lib/libz.so.1
+09/19 20:22:32.09 [9848] 0+0: --- [z] optional: gziocallback
+09/19 20:22:32.09 [9848] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:22:32.09 [9848] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:22:32.094 [9848] ERROR: PAM module is not built in.
+09/19 20:22:32.09 [9848] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:22:32.09 [9848] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:22:32.10 [9848] 0+0: --- [/lib/libpam.so.0]
+09/19 20:22:32.10 [9848] 0+0: --- [pam] 97ED360 /lib/libpam.so.0
+09/19 20:22:32.10 [9848] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:22:32.10 [9848] 0+0: PORT= 8080/9 (31,144)
+09/19 20:22:32.10 [9848] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+09/19 20:22:32.10 [9848] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+09/19 20:22:32.10 [9848] 0+0: #### gzip/gunzip = dynamically linked
+09/19 20:22:32.10 [9848] 0+0: ADMIN= protocol=http(specialist)
+09/19 20:22:32.10 [9848] 0+0: EXIT: no ADMIN parameter given.
+09/19 20:22:35.09 [9846] 0+0: --beDaemon: ready=0, stat=-1
+09/19 20:22:35.09 [9846] 0+0: --beDaemon: going background ...
+09/19 20:22:35.09 [9846] 0+0: --beDaemon: going background
+09/19 20:22:35.10 [9848] 0+0: #Sig/CSC finish 5 3 P1 R0 E0 {0 r0 t0} 0/0/0
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:22:58.51 [9859] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] 885DAC8 /lib/libcrypto.so.1.0.0
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:22:58.51 [9859] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:22:58.51 [9859] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:22:58.51 [9859] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:22:58.51 [9859] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:22:58.51 [9859] 0+0: --- [ssl] 0 libssl.so
+09/19 20:22:58.51 [9859] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:22:58.51 [9859] 0+0: --- [ssl] 885E6D8 /lib/libssl.so.1.0.0
+09/19 20:22:58.51 [9859] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:22:58.51 [9859] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:22:58.51 [9859] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:22:58.51 [9859] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:22:58.51 [9859] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:22:58.51 [9859] 0+0: ... gethostname(linux-uw8t)
+09/19 20:22:58.61 [9859] 0+0: configuring default RESOLV ...
+09/19 20:22:58.61 [9859] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:22:58.61 [9859] 0+0: ... NIS not available (no default domain)
+09/19 20:22:58.61 [9859] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:22:58.61 [9859] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:22:58.61 [9859] 0+0: ### don't export RESOLV=''
+09/19 20:22:58.79 [9859] 0+0: {R} retrying AAAA [fd33]
+09/19 20:22:58.79 [9859] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:22:58.86 [9859] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:22:58.86 [9859] 0+0: gethostbyname(linux-uw8t) unknown[0.24s] 
+09/19 20:22:58.86 [9859] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:22:58.86 [9859] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:22:58.86 [9859] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:58.86 [9859] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:22:58.86 [9859] 0+0: BINSHELL=/bin/sh
+09/19 20:22:58.86 [9859] 0+0: MAXIMA=delegated:64 for small mem=3281M
+09/19 20:22:58.86 [9861] 0+0: -- Fork(daemon): 9859 -> 9861
+09/19 20:22:58.86 [9861] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:22:58.86 [9861] 0+0: server_open(delegate,:8080) BOUND
+09/19 20:22:58.86 [9861] 0+0: DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT^M
+09/19 20:22:58.86 [9861] 0+0: <DeleGate/9.9.13> [9861] -P8080 READY^M
+09/19 20:22:58.86 [9861] 0+0: HostID: 2014/10/26/04/10-9E (Linux/3.16.7-24-desktop) linux-uw8t
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 dglibz.so
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so.0.9.8
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so.1.0.0
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so.10
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so.6
+09/19 20:22:58.86 [9861] 0+0: --- [z] 0 libz.so.4
+09/19 20:22:58.86 [9861] 0+0: --- [/lib/libz.so.1]
+09/19 20:22:58.86 [9861] 0+0: --- [z] 885DD70 /lib/libz.so.1
+09/19 20:22:58.86 [9861] 0+0: --- [z] optional: gziocallback
+09/19 20:22:58.86 [9861] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+09/19 20:22:58.86 [9861] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 20:22:58.864 [9861] ERROR: PAM module is not built in.
+09/19 20:22:58.86 [9861] 0+0: --- [pam] 0 dglibpam.so
+09/19 20:22:58.86 [9861] 0+0: --- [pam] 0 libpam.so.0.9.8
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so.1.0.0
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so.10
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so.6
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so.4
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 0 libpam.so.1
+09/19 20:22:58.87 [9861] 0+0: --- [/lib/libpam.so.0]
+09/19 20:22:58.87 [9861] 0+0: --- [pam] 8868FB0 /lib/libpam.so.0
+09/19 20:22:58.87 [9861] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+09/19 20:22:58.87 [9861] 0+0: PORT= 8080/9 (31,144)
+09/19 20:22:58.87 [9861] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+09/19 20:22:58.87 [9861] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+09/19 20:22:58.87 [9861] 0+0: #### gzip/gunzip = dynamically linked
+09/19 20:22:58.87 [9861] 0+0: ADMIN=J@J.com protocol=http(specialist)
+09/19 20:22:58.87 [9861] 0+0: #### CACHE DISABLED #### Cache directory seems not exist: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/cache
+09/19 20:22:58.87 [9861] 0+0: #### NonceKey created: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/adm/secret/noncekey
+09/19 20:22:58.87 [9861] 0+0: WORKDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/work/8080
+09/19 20:22:58.87 [9861] 0+0: MOUNT[0]X[2] /-/builtin/icons/* = default
+09/19 20:22:58.87 [9861] 0+0: MOUNT[1]X[3] /-/* = forbidden,from=!.RELIABLE,default
+09/19 20:22:58.87 [9861] 0+0: MOUNT[2]X[0] /-* = default
+09/19 20:22:58.87 [9861] 0+0: MOUNT[3]X[1] /=* = default
+09/19 20:22:58.87 [9861] 0+0: MOUNT[4]=[4] /favicon.ico builtin:icons/ysato/default.ico default,direction=fo,onerror=404,expires=15m
+09/19 20:22:58.87 [9861] 0+0: #### stack size limit = 800000 (8388608)
+09/19 20:22:58.87 [9861] 0+0: Stay open PIDFILE for accept() lock[fd=13]
+09/19 20:22:58.87 [9861] 0+0: StickyReport[14,15]127.0.0.127:65535><127.0.0.127:65535 212992/212992 212992/212992
+09/19 20:22:58.87 [9861] 0+0: env[18] TMPDIR=/tmp
+09/19 20:22:58.87 [9861] 0+0: env[99] LIBPATH=.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/lib;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.;/home/jeisoncg/Downloads/dg9_9_13/DGROOT/etc
+09/19 20:22:58.87 [9861] 0+0: ext[0] DGROOT=${EXECDIR}/..
+09/19 20:22:58.87 [9861] 0+0: arg[2] SERVER=http
+09/19 20:22:58.87 [9861] 0+0: arg[3] SOCKS=localhost:9050
+09/19 20:22:58.87 [9861] 0+0: arg[4] ADMIN=J@J.com
+09/19 20:22:58.87 [9861] 0+0: gen[0] DGROOT=/home/jeisoncg/Downloads/dg9_9_13/DGROOT
+09/19 20:22:58.87 [9861] 0+0: DELEGATE_Modified[1]: 55fe0a72 1442712178
+09/19 20:22:58.87 [9861] 0+0: --INITIALIZATION DONE-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:22:58.88 [9861] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:22:58.89 [9859] 0+0: --beDaemon: ready=1, stat=1
+09/19 20:22:58.89 [9859] 0+0: --beDaemon: going background ...
+09/19 20:22:58.89 [9859] 0+0: --beDaemon: going background
+09/19 20:22:58.89 [9861] 0+0: ## left connected but dead [8] <= caps.c:203
+09/19 20:22:58.89 [9861] 0+0: --beDaemon:[8]0 wcc=1 err=0 rdy=1 9859/1
+09/19 20:22:58.89 [9861] 0+0: #### restarting is set on config err.
+-- {{ ---- ERROR in initialization ----
+ppid=9593
+22:58.505 [9859] delegated.c:6294 --- DO_STARTUP
+22:58.505 [9859] delegated.c:6326 --- DO_INITIALIZE
+22:58.505 [9859] delegated.c:6658 --- _main START
+22:58.505 [9859] filter.c:520 --- [-1] command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+22:58.506 [9859] delegated.c:6748 --- _main ConnInit() DONE
+22:58.506 [9859] delegated.c:6764 --- _main fromInetd()=0
+22:58.506 [9859] filter.c:520 --- [3] command PATH: /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13 -> /home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+22:58.507 [9859] dl.c:224 --- dl_library(crypto)...
+22:58.507 [9859] dl.c:301 --- [crypto] 0 dglibcrypto.so
+22:58.508 [9859] dl.c:301 --- [crypto] 0 libcrypto.so.0.9.8
+22:58.508 [9859] dl.c:301 --- [crypto] 0 libcrypto.so
+22:58.510 [9859] dl.c:301 --- [crypto] 885DAC8 /lib/libcrypto.so.1.0.0
+22:58.510 [9859] dl.c:315 --- [/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin] putenv(DYLIB_crypto=/lib/libcrypto.so.1.0.0)
+
+22:58.510 [9859] dl.c:224 --- dl_library(ssl)...
+22:58.510 [9859] dl.c:301 --- [ssl] 0 dglibssl.so
+22:58.511 [9859] dl.c:301 --- [ssl] 0 libssl.so.0.9.8
+22:58.511 [9859] dl.c:301 --- [ssl] 0 libssl.so
+22:58.511 [9859] dl.c:301 --- [ssl] 885E6D8 /lib/libssl.so.1.0.0
+22:58.511 [9859] dl.c:315 --- [/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin] putenv(DYLIB_ssl=/lib/libssl.so.1.0.0)
+
+22:58.512 [9859] delegated.c:3627 --- _main scan_HOSTS0() DONE
+22:58.512 [9859] delegated.c:3632 --- _main scan_HOSTSLISTS() DONE
+22:58.512 [9859] inets.c:4897 --- testing resolver[SYS] with 'WwW.DeleGate.ORG'
+22:58.612 [9859] inets.c:5102 --F RES_ORDER='' -> 'CFNDS' (default)
+22:58.612 [9859] delegated.c:3645 --- _main init_resolv() DONE
+22:58.857 [9859] inets.c:622 --E unknown gethostname(linux-uw8t)
+22:58.861 [9861] dl.c:224 --- dl_library(z)...
+22:58.862 [9861] dl.c:301 --- [z] 0 dglibz.so
+22:58.862 [9861] dl.c:301 --- [z] 0 libz.so.0.9.8
+22:58.862 [9861] dl.c:301 --- [z] 0 libz.so
+22:58.862 [9861] dl.c:301 --- [z] 0 libz.so.1.0.0
+22:58.863 [9861] dl.c:301 --- [z] 0 libz.so.10
+22:58.863 [9861] dl.c:301 --- [z] 0 libz.so.6
+22:58.863 [9861] dl.c:301 --- [z] 0 libz.so.4
+22:58.863 [9861] dl.c:301 --- [z] 885DD70 /lib/libz.so.1
+22:58.863 [9861] dl.c:315 --- [/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin] putenv(DYLIB_z=/lib/libz.so.1)
+
+22:58.864 [9861] dl.c:224 --- dl_library(pam)...
+22:58.864 [9861] dl.c:301 --- [pam] 0 dglibpam.so
+22:58.864 [9861] dl.c:301 --- [pam] 0 libpam.so.0.9.8
+22:58.865 [9861] dl.c:301 --- [pam] 0 libpam.so
+22:58.865 [9861] dl.c:301 --- [pam] 0 libpam.so.1.0.0
+22:58.865 [9861] dl.c:301 --- [pam] 0 libpam.so.10
+22:58.865 [9861] dl.c:301 --- [pam] 0 libpam.so.6
+22:58.866 [9861] dl.c:301 --- [pam] 0 libpam.so.4
+22:58.866 [9861] dl.c:301 --- [pam] 0 libpam.so.1
+22:58.866 [9861] dl.c:301 --- [pam] 8868FB0 /lib/libpam.so.0
+22:58.866 [9861] dl.c:315 --- [/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin] putenv(DYLIB_pam=/lib/libpam.so.0)
+
+-- }} ---- ERROR in initialization ----
+09/19 20:22:58.89 [9861] 0+0: #### wait the first contact...
+09/19 20:22:58.89 [9861] 0+0: #### output reg:0 fifo:0 socket:-1/0
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:24:24.35 [9880] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] 930A028 /lib/libcrypto.so.1.0.0
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:24:24.35 [9880] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:24:24.35 [9880] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:24:24.35 [9880] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:24:24.35 [9880] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:24:24.35 [9880] 0+0: --- [ssl] 0 libssl.so
+09/19 20:24:24.35 [9880] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:24:24.35 [9880] 0+0: --- [ssl] 930AC38 /lib/libssl.so.1.0.0
+09/19 20:24:24.35 [9880] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:24:24.35 [9880] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:24:24.35 [9880] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:24:24.35 [9880] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:24:24.35 [9880] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:24:24.35 [9880] 0+0: ... gethostname(linux-uw8t)
+09/19 20:24:24.47 [9880] 0+0: configuring default RESOLV ...
+09/19 20:24:24.47 [9880] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:24:24.47 [9880] 0+0: ... NIS not available (no default domain)
+09/19 20:24:24.47 [9880] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:24:24.47 [9880] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:24:24.47 [9880] 0+0: ### don't export RESOLV=''
+09/19 20:24:24.54 [9880] 0+0: {R} retrying AAAA [fd33]
+09/19 20:24:24.54 [9880] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:24:24.61 [9880] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:24:24.61 [9880] 0+0: gethostbyname(linux-uw8t) unknown[0.14s] 
+09/19 20:24:24.61 [9880] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:24:24.61 [9880] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:24:24.61 [9880] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:24:24.61 [9880] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:24:24.61 [9880] 0+0: BINSHELL=/bin/sh
+09/19 20:24:24.61 [9880] 0+0: MAXIMA=delegated:64 for small mem=3272M
+09/19 20:24:24.61 [9882] 0+0: -- Fork(daemon): 9880 -> 9882
+09/19 20:24:24.61 [9882] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:24:24.61 [9882] 0+0: bind_inet(9,0.0.0.0:8080) failed: ERRNO=98 (the port is used by others)
+09/19 20:24:24.61 [9882] 0+0: server_open() failed
+09/19 20:24:24.62 [9882] 0+0: FATAL: cannot open server port :8080
+09/19 20:24:24.62 [9882] 0+0: Exit (-1) DeleGate: cannot open server port :8080
+09/19 20:24:24.62 [9882] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+09/19 20:24:24.62 [9880] 0+0: --beDaemon: ready=1, stat=-2
+09/19 20:24:24.62 [9880] 0+0: --beDaemon: going background ...
+09/19 20:24:24.62 [9880] 0+0: --beDaemon: going background
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] 0 dglibcrypto.so
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] 0 libcrypto.so
+09/19 20:24:49.11 [9899] 0+0: --- [/lib/libcrypto.so.1.0.0]
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] 913C3F8 /lib/libcrypto.so.1.0.0
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_get_servername
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_get_servername_type
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSLv2_server_method
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSLv2_client_method
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+09/19 20:24:49.11 [9899] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+09/19 20:24:49.11 [9899] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+09/19 20:24:49.11 [9899] 0+0: --- [ssl] 0 dglibssl.so
+09/19 20:24:49.11 [9899] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/19 20:24:49.11 [9899] 0+0: --- [ssl] 0 libssl.so
+09/19 20:24:49.11 [9899] 0+0: --- [/lib/libssl.so.1.0.0]
+09/19 20:24:49.11 [9899] 0+0: --- [ssl] 913D008 /lib/libssl.so.1.0.0
+09/19 20:24:49.11 [9899] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+09/19 20:24:49.11 [9899] 0+0: ---- unknown = 0+0, already = 2 / 114
+09/19 20:24:49.11 [9899] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+09/19 20:24:49.12 [9899] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/19 20:24:49.12 [9899] 0+0: ... you can suppress this test by RES_WAIT=0
+09/19 20:24:49.12 [9899] 0+0: ... gethostname(linux-uw8t)
+09/19 20:24:49.41 [9899] 0+0: configuring default RESOLV ...
+09/19 20:24:49.41 [9899] 0+0: ... gethostname()='linux-uw8t'
+09/19 20:24:49.41 [9899] 0+0: ... NIS not available (no default domain)
+09/19 20:24:49.41 [9899] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/19 20:24:49.41 [9899] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/19 20:24:49.41 [9899] 0+0: ### don't export RESOLV=''
+09/19 20:24:49.54 [9899] 0+0: {R} retrying AAAA [fd33]
+09/19 20:24:49.54 [9899] 0+0: {R} ERROR: unknown DNS server: fd33
+09/19 20:24:49.62 [9899] 0+0: {R} retrying AAAA [linux-uw8t]
+09/19 20:24:49.62 [9899] 0+0: gethostbyname(linux-uw8t) unknown[0.21s] 
+09/19 20:24:49.62 [9899] 0+0: ERROR .localnet[2] linux-uw8t ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/19 20:24:49.62 [9899] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
+09/19 20:24:49.62 [9899] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
+09/19 20:24:49.62 [9899] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
+09/19 20:24:49.62 [9899] 0+0: BINSHELL=/bin/sh
+09/19 20:24:49.62 [9899] 0+0: MAXIMA=delegated:64 for small mem=3270M
+09/19 20:24:49.62 [9901] 0+0: -- Fork(daemon): 9899 -> 9901
+09/19 20:24:49.62 [9901] 0+0: server_open(delegate,:8080,listen=20)
+09/19 20:24:49.62 [9901] 0+0: bind_inet(9,0.0.0.0:8080) failed: ERRNO=98 (the port is used by others)
+09/19 20:24:49.62 [9901] 0+0: server_open() failed
+09/19 20:24:49.62 [9901] 0+0: FATAL: cannot open server port :8080
+09/19 20:24:49.62 [9901] 0+0: Exit (-1) DeleGate: cannot open server port :8080
+09/19 20:24:49.62 [9901] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+09/19 20:24:49.62 [9899] 0+0: --beDaemon: ready=1, stat=-2
+09/19 20:24:49.63 [9899] 0+0: --beDaemon: going background ...
+09/19 20:24:49.63 [9899] 0+0: --beDaemon: going background
