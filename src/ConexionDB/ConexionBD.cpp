@@ -25,11 +25,15 @@ void ConexionDB::ejecutarConsulta(string consulta){
 			stmt = con->createStatement();
 			res = stmt->executeQuery(consulta.c_str());
 			
-			cout<<"Ejecutado: " + consulta <<endl;
+			//cout<<"Ejecutado: " + consulta <<endl;
 
 		} catch (sql::SQLException e) {
-	
-			cout<<e.what()<<endl;
+			string error = "";
+			error = e.what();
+			if( error != ""){
+				cout<<e.what()<<endl;
+			}
+			
 		}
 	
 	}

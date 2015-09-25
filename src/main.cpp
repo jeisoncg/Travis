@@ -2,10 +2,8 @@
 
 int main(){
 	
-	//printf(getenv("USER"));
-	Vista  x;
-	x.menu();
-	
+	Vista*  x = new Vista("jarvis","root","root","localhost:3306");
+	x->menu();	
 	
 	return 0;
 	
