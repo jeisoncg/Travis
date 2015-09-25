@@ -1,33 +1,19 @@
 #include "Vista.hpp"
 
-Vista::Vista(){
+Vista::Vista(string db_name,string user,string pass,string host){
 	    	
 	    if (!this->tormanager.isTorRunning()){
-			cout<< color.BOLDRED << " [Warning]: " << color.RESET << " No se está ejecutando Tor" << endl << endl;
+			cout<< color.BOLDRED << " [Warning]: " << color.RESET << " No se está ejecutando Tor" << endl ;
 		}else{
 			
-			cout<< color.BOLDGREEN << " [OK]: " << color.RESET << " Está ejecutando Tor" << endl << endl;
+			cout<< color.BOLDGREEN << " [OK]: " << color.RESET << " Está ejecutando Tor" << endl ;
 			TorManager x;
 			x.startHttpProxy("9050","8083");
 			
 		}
-		
-		//~ cout<<"...Datos de Conexión a la Base de Datos..."<<endl<<endl;
-		//~ cout<<"Host BD: ";
-		//~ string host;
-		//~ cin >> host;
-		//~ cout<<"Nombre BD: ";
-		//~ string db_name;
-		//~ cin >> db_name;
-		//~ cout<<"Usuario: ";
-		//~ string user;
-		//~ cin >> user;
-		//~ cout<<"Password: ";
-		//~ string pass;
-		//~ cin >> pass;
-		//~ system("clear");
-		//~ 
-		//~ this->conexion = new ConexionDB(db_name, user, pass, host);
+		 
+		this->conexion = new ConexionDB(db_name, user, pass, host);
+		cout << color.BOLDGREEN << " [Conectado a]: " << color.RESET << host << " DB: " <<  db_name << endl;
 	    Vista::menu();
 	}
 	
@@ -36,7 +22,7 @@ Vista::~Vista(){}
 void Vista::menu(){
 	
 		cout<<endl;
-		cout<<"Menú"<<endl<<endl;
+		cout<<" Menú"<<endl<<endl;
 		cout<<"1. Leer palabras desde archivo."<<endl;
 		cout<<"2. Mostrar palabras."<<endl;
 		cout<<"3. Registrar palabras en la base de datos."<<endl;
@@ -126,7 +112,9 @@ void Vista::leerPalabras(){
 		cin>>ruta;
 		
 		lectura.Leer(ruta);
+		vector <string> palabras_tmp = lectura.getPalabras();
 		int tamano = lectura.getPalabras().size();
+		
 		cout << "Cantidad:" + static_cast<ostringstream*>(&(ostringstream() << tamano))->str() << endl;
 		menu();
 	

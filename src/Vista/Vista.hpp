@@ -36,7 +36,7 @@ class Vista{
 	    void cargar_proxis();
 	    
 	public:
-		Vista();
+		Vista(string db_name,string user,string pass,string host);
 		~Vista();
 		void menu();
 		
