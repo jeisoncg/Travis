@@ -1,0 +1,12 @@
+created by uid=1000 pid=18849 time=1443230464
+configuration:
+RES_ORDER=CFNDS
+HOSTSFILE=/etc/hosts
+NISMAP_NAME=hosts.byname
+NISMAP_ADDR=hosts.byaddr
+RSLV_CONF=/etc/resolv.conf
+DNS_NSCOUNT=1
+DNS_OPTIONS=513
+DNS_DEFDNAME=homestation
+DNS_SERVER=127.0.1.1
+DNS_SEARCH=homestation

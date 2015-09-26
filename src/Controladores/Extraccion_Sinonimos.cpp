@@ -3,32 +3,20 @@
 #include <string>
 #include <vector>
 #include <stdio.h>
-struct relac_sinonimo {
-   std::string palabra1; std::string palabra2;
-};
-struct relac_antonimo{
-   std::string palabra1; std::string palabra2;
-};
+#include "Extraccion_Sinonimos.hpp"
+
 using namespace std;
-vector <relac_sinonimo> lista_sinonimos;
-vector <relac_antonimo> lista_antonimos;
-void imprimir_relaciones()
+Extraccion_Sinonimos::Extraccion_Sinonimos()
 {
-	int lista_sinonimos_size = lista_sinonimos.size();
-	for(int i =0; i <lista_sinonimos_size; i++)
-	{
-		cout << lista_sinonimos[i].palabra1<<":"<<lista_sinonimos[i].palabra2<<endl;
-	}
+	
 }
-void imprimir_relaciones_antonimos()
+Extraccion_Sinonimos::~Extraccion_Sinonimos()
 {
-	int lista_antonimos_size = lista_antonimos.size();
-	for(int i =0; i <lista_antonimos_size; i++)
-	{
-		cout << lista_antonimos[i].palabra1<<":"<<lista_antonimos[i].palabra2<<endl;
-	}
+	
 }
-int adicionar_relacion_sinonimos(string sinonimos, string palabra)
+
+
+int Extraccion_Sinonimos::adicionar_relacion_sinonimos(string sinonimos, string palabra)
 {
 	
 	relac_sinonimo relacion;
@@ -43,10 +31,10 @@ int adicionar_relacion_sinonimos(string sinonimos, string palabra)
 		}
 		
 	}
-	imprimir_relaciones();
+
 	return 0;
 }
-int adicionar_relacion_antonimos(string antonimos, string palabra)
+int Extraccion_Sinonimos::adicionar_relacion_antonimos(string antonimos, string palabra)
 {
 	
 	relac_antonimo relacion;
@@ -61,10 +49,9 @@ int adicionar_relacion_antonimos(string antonimos, string palabra)
 		}
 		
 	}
-	imprimir_relaciones_antonimos();
 	return 0;
 }
-int construir_antonimos(char *cadena, string palabra)
+int Extraccion_Sinonimos::construir_antonimos(char *cadena, string palabra)
 {
 	
 	string lista_antonimos="";
@@ -74,7 +61,7 @@ int construir_antonimos(char *cadena, string palabra)
 	{
 	 if(cadena[i] == 'E' && cadena[i+1] == 'S' && cadena[i+2] == 's')
 		 {
-			 cout << multiplicidad_de_palabras<<endl;
+			
 						 multiplicidad_de_palabras++;
 						 if(multiplicidad_de_palabras==2)
 						 {
@@ -107,13 +94,13 @@ int construir_antonimos(char *cadena, string palabra)
 	}
 	
 }
-    cout <<lista_antonimos<<endl;
-    adicionar_relacion_antonimos(lista_antonimos,palabra);
+
+    Extraccion_Sinonimos::adicionar_relacion_antonimos(lista_antonimos,palabra);
 	return 0;
 }
 
 
-int construir_sinonimos(char *cadena, string palabra)
+int Extraccion_Sinonimos::construir_sinonimos(char *cadena, string palabra)
 {
 	string lista_sinonimos="";
 	int estado=0;
@@ -122,7 +109,7 @@ int construir_sinonimos(char *cadena, string palabra)
 	{
 	 if(cadena[i] == 'E' && cadena[i+1] == 'S' && cadena[i+2] == 's')
 		 {
-			 cout << multiplicidad_de_palabras<<endl;
+		
 						 multiplicidad_de_palabras++;
 						 if(multiplicidad_de_palabras==2)
 						 {
@@ -150,19 +137,28 @@ int construir_sinonimos(char *cadena, string palabra)
 		lista_sinonimos+=cadena[i];
 	}
 }
-    cout <<lista_sinonimos<<endl;
-    adicionar_relacion_sinonimos(lista_sinonimos,palabra);
+    Extraccion_Sinonimos::adicionar_relacion_sinonimos(lista_sinonimos,palabra);
 	return 0;
 }
-int main (int args, char **argv)
+vector <Extraccion_Sinonimos::relac_sinonimo> Extraccion_Sinonimos::get_lista_sinonimos()
+{
+	return this->lista_sinonimos;
+}
+
+vector <Extraccion_Sinonimos::relac_antonimo> Extraccion_Sinonimos::get_lista_antonimos()
+{
+	return this->lista_antonimos;
+}
+
+
+int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabra)
 {
 	
-	cout << "hola mundo!"<<endl;
+	
 	
 	char cadena[500000];
     ifstream fe;
-    string palabra="bien";
-    string direccion="/home/lusho/TravisTMP/"+palabra+".html";
+    string direccion=ruta+"/"+palabra+".html";
     fe.open(direccion.c_str());
     while(fe.getline(cadena, 500000))
     {

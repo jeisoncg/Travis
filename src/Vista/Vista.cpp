@@ -17,7 +17,13 @@ Vista::Vista(string db_name,string user,string pass,string host){
 	    Vista::menu();
 	}
 	
-Vista::~Vista(){}
+Vista::Vista()
+{
+	Vista::menu();
+}
+	
+Vista::~Vista(){
+	}
 
 void Vista::menu(){
 	
@@ -31,7 +37,8 @@ void Vista::menu(){
 		cout<<"6. Cargar Proxys"<<endl;
 		cout<<"7. Mostrar lista de proxys cargados"<<endl;*/
 		cout<<"5. Descargar lista de sinonimos"<<endl;
-		cout<<"6. Salir."<<endl<<endl;
+		cout << "7. Mostrar sinonimos y antonimos de una palabra"<<endl;
+		cout<<"8. Salir."<<endl<<endl;
 		
 		int seleccion = -1;
 		
@@ -41,7 +48,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 7)){
+			if ((seleccion > 0)&&(seleccion < 8)){
 				
 				
 				if (seleccion == 1){
@@ -84,8 +91,10 @@ void Vista::menu(){
 					cout<<"Descargando informacion sinomial:"<<endl;
 					Vista::descargar_todos_sinonimos();
 					}
-					
-				if (seleccion == 6){
+					if (seleccion == 7){
+					Vista::extraer_una_palabra_sin_ant();
+					}
+				if (seleccion == 8){
 					return;
 					}
 				
@@ -144,6 +153,38 @@ void Vista::mostrar_lista_proxis()
 		cout << proxy.get_ProxyUrl(i)<<endl;
 	}
 	menu();
+}
+void Vista::imprimir_relaciones_sinonimos()
+{
+	vector <Extraccion_Sinonimos::relac_sinonimo> lista_sinonimos;
+	lista_sinonimos=una_extraccion.get_lista_sinonimos();
+	int lista_sinonimos_size =lista_sinonimos.size();
+	for(int i =0; i <lista_sinonimos_size; i++)
+	{
+		cout << lista_sinonimos[i].palabra1<<":"<<lista_sinonimos[i].palabra2<<endl;
+	}
+}
+void Vista::imprimir_relaciones_antonimos()
+{
+	vector <Extraccion_Sinonimos::relac_antonimo> lista_antonimos=una_extraccion.get_lista_antonimos();
+	int lista_antonimos_size = lista_antonimos.size();
+	for(int i =0; i <lista_antonimos_size; i++)
+	{
+		cout << lista_antonimos[i].palabra1<<":"<<lista_antonimos[i].palabra2<<endl;
+	}
+}
+void Vista::extraer_una_palabra_sin_ant()
+{
+	string ruta, palabra;
+	cout<<"Ingrese la ruta de los archivos .html:";
+	cin>>ruta;
+	cout<<"Ingrese la palabra:";
+	cin>>palabra;
+	una_extraccion.extraer_sinonimos_antonimos(ruta,palabra);
+	cout << "--------Lista de sinonimos de "<<palabra<<"--------"<<endl;
+	Vista::imprimir_relaciones_sinonimos();
+	cout << "--------Lista de antonimos de "<<palabra<<"--------"<<endl;
+	Vista::imprimir_relaciones_antonimos();
 }
 
 void Vista::descargar_todos_sinonimos()

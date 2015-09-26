@@ -2,7 +2,7 @@
 
 int main(){
 	
-	Vista*  x = new Vista("jarvis","root","root","localhost:3306");
+	Vista*  x = new Vista();
 	x->menu();	
 	
 	return 0;

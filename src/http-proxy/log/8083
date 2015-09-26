@@ -29524,3 +29524,65 @@ BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
 09/20 02:07:39.38 [25781] 269+14/0/12: disconnected [34] -@[127.0.0.1]localhost:39295 (5.318s)(0)
 09/20 02:08:09.41 [25781] 269+14/0/12: StickyServer done [timeout] 14 req / 14+0/9 conn / 46 sec
 09/20 02:08:09.42 [25781] 269+14/0/12: #Sig/CSC finish 2124 106 P2 R0 E0 {0 r0 t0} 0/0/0
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 dglibcrypto.so
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.1.0.0
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.10
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.6
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.4
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.1
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.0
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 libcrypto.so.0.9.7
+09/25 20:20:59.98 [18849] 0+0: --- [crypto] 0 crypto
+09/25 20:20:59.98 [18849] 0+0: ## cannot load crypto
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 dglibssl.so
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.0.9.8
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.1.0.0
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.10
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.6
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.4
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.1
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.0
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 libssl.so.0.9.7
+(UNIX) 20:20:59.982 [18849] ##fopen_PATHX(r) ign.dir.{/usr/lib}/usr/lib/ssl <= dl.c:274
+09/25 20:20:59.98 [18849] 0+0: --- [ssl] 0 ssl
+09/25 20:20:59.98 [18849] 0+0: ## cannot load ssl
+09/25 20:20:59.98 [18849] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+09/25 20:20:59.98 [18849] 0+0: ... you can suppress this test by RES_WAIT=0
+09/25 20:21:01.08 [18849] 0+0: ... gethostname(tux)
+09/25 20:21:02.36 [18849] 0+0: configuring default RESOLV ...
+09/25 20:21:02.36 [18849] 0+0: ... gethostname()='tux'
+09/25 20:21:02.36 [18849] 0+0: ... NIS not available (no default domain)
+09/25 20:21:02.36 [18849] 0+0: ### FATAL: RES_ORDER='' -> 'CFNDS' (default)
+09/25 20:21:02.36 [18849] 0+0: {R} confid(detected)[892422d33f39d8d04d166540de347f80]<-[]
+09/25 20:21:02.36 [18849] 0+0: ### don't export RESOLV=''
+09/25 20:21:03.18 [18849] 0+0: {R} [tux.homestation]*1 q=0,a=1, s=1,r=1 (0s)
+09/25 20:21:03.43 [18849] 0+0: {R} [tux]*1 q=0,a=1, s=1,r=1 (0s)
+09/25 20:21:04.31 [18849] 0+0: mkdirShared FALED errno=17: /home/lusho/Travis/src/http-proxy/tmp
+09/25 20:21:04.31 [18849] 0+0: {R} retrying AAAA [tux]
+09/25 20:21:04.41 [18849] 0+0: {R} [tux.homestation]*1 q=0,a=1, s=1,r=1 (0s)
+09/25 20:21:04.69 [18849] 0+0: {R} [tux]*1 q=0,a=1, s=1,r=1 (0s)
+09/25 20:21:05.44 [18849] 0+0: mkdirShared FALED errno=17: /home/lusho/Travis/src/http-proxy/tmp
+09/25 20:21:05.44 [18849] 0+0: mkdirShared FALED errno=17: /home/lusho/Travis/src/http-proxy/tmp/resolvy
+09/25 20:21:05.44 [18849] 0+0: mkdirShared FALED errno=17: /home/lusho/Travis/src/http-proxy/tmp/resolvy/e00a6bd9105a3503395fa1ee6900bb27
+09/25 20:21:05.44 [18849] 0+0: gethostbyname(tux) unknown[3.09s] recv[127.0.1.1](21) Q[tux] ID=4/4 AA=0 RD=1 RA=1 RCODE=2 ans,ns,add=0,0,0
+09/25 20:21:05.44 [18849] 0+0: ERROR .localnet[2] tux ? unknown
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+09/25 20:21:05.44 [18849] 0+0: --INITIALIZATION START-15092520--500: 9.9.13 on Linux/3.19.0-28-generic--
+09/25 20:21:05.44 [18849] 0+0: _execPath=/home/lusho/Travis/src/http-proxy/bin/dg9_9_13
+09/25 20:21:05.44 [18849] 0+0: EXECDIR=/home/lusho/Travis/src/http-proxy/bin
+09/25 20:21:05.44 [18849] 0+0: BINSHELL=/bin/sh
+09/25 20:21:05.44 [18849] 0+0: MAXIMA=delegated:64 for small mem=956M
+09/25 20:21:05.44 [18851] 0+0: -- Fork(daemon): 18849 -> 18851
+09/25 20:21:05.44 [18851] 0+0: server_open(delegate,:8083,listen=20)
+09/25 20:21:05.44 [18851] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+09/25 20:21:05.44 [18851] 0+0: server_open() failed
+09/25 20:21:05.44 [18851] 0+0: FATAL: cannot open server port :8083
+09/25 20:21:05.44 [18851] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+09/25 20:21:05.44 [18851] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+09/25 20:21:05.44 [18849] 0+0: --beDaemon: ready=1, stat=-2
+09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background ...
+09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background
