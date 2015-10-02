@@ -1,6 +1,7 @@
 -P8083
 env[16] TMPDIR=/tmp
-env[91] LIBPATH=.;/home/jeisoncg/Travis/src;/home/jeisoncg/Travis/src/http-proxy/lib;/home/jeisoncg/Travis/src/http-proxy/bin;/home/jeisoncg/Travis/src/http-proxy/etc
+env[92] LIBPATH=.;/home/jeisoncg/Travis/src;/home/jeisoncg/Travis/src/http-proxy/lib;/home/jeisoncg/Travis/src/http-proxy/bin;/home/jeisoncg/Travis/src/http-proxy/etc
+env[96] RESOLV=cache,file,dns
 ext[0] DGROOT=${EXECDIR}/..
 arg[3] SERVER=http
 arg[4] SOCKS=localhost:9050

@@ -66,7 +66,7 @@ void Lectura::RegistrarPalabrasBD(vector <string> palabras, ConexionDB *conexion
 		
 		int tmp_palabras_size = palabras.size();
 		int contador = 0;
-		for (int i = 50000 ; i < tmp_palabras_size ; i++){
+		for (int i = 0 ; i < tmp_palabras_size ; i++){
 				contador++;
 				
 				conexion->ejecutarConsulta("INSERT INTO Diccionario (palabra) VALUES (\'" + palabras[i] + "\')");

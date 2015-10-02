@@ -1,6 +1,6 @@
 #include "Vista.hpp"
 
-Vista::Vista(string db_name,string user,string pass,string host){
+Vista::Vista(string db_name,string user,string pass,string host, string rutaArchivos, string rutaDiccionario){
 	    	
 	    if (!this->tormanager.isTorRunning()){
 			cout<< color.BOLDRED << " [Warning]: " << color.RESET << " No se está ejecutando Tor" << endl ;
@@ -11,9 +11,21 @@ Vista::Vista(string db_name,string user,string pass,string host){
 			x.startHttpProxy("9050","8083");
 			
 		}
-		 
+		this->rutaDiccionario = rutaDiccionario;
+		lectura.Leer(rutaDiccionario);
+		int tamano = lectura.getPalabras().size();
+		this->rutaArchivos = rutaArchivos;
 		this->conexion = new ConexionDB(db_name, user, pass, host);
 		cout << color.BOLDGREEN << " [Conectado a]: " << color.RESET << host << " DB: " <<  db_name << endl;
+		cout << color.BOLDBLUE << " [Ruta de los archivos]: " << color.RESET << rutaArchivos << endl;
+		cout << color.BOLDBLUE << " [Ruta del diccionario] [Cantidad: " << tamano << "]: " << color.RESET << rutaDiccionario << endl;
+		
+		
+		
+		
+		
+		
+		
 	    Vista::menu();
 	}
 	
@@ -29,16 +41,17 @@ void Vista::menu(){
 	
 		cout<<endl;
 		cout<<" Menú"<<endl<<endl;
-		cout<<"1. Leer palabras desde archivo."<<endl;
+		cout<<"1. Leer palabras desde archivo. (Están precargadas)"<<endl;
 		cout<<"2. Mostrar palabras."<<endl;
 		cout<<"3. Registrar palabras en la base de datos."<<endl;
 		cout<<"4. Realizar consulta a la base de datos (Solo ejecuta)."<<endl;
 		/*cout<<"5. Cargar Tor."<<endl;
 		cout<<"6. Cargar Proxys"<<endl;
 		cout<<"7. Mostrar lista de proxys cargados"<<endl;*/
-		cout<<"5. Descargar lista de sinonimos"<<endl;
-		cout << "7. Mostrar sinonimos y antonimos de una palabra"<<endl;
-		cout<<"8. Salir."<<endl<<endl;
+		cout<<"5. Descargar lista de sinonimos."<<endl;
+		cout<<"7. Mostrar sinonimos y antonimos de una palabra."<<endl;
+		cout<<"8. Extraer sinonimos y antonimos del diccionario."<<endl;
+		cout<<endl;
 		
 		int seleccion = -1;
 		
@@ -48,7 +61,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 8)){
+			if ((seleccion > 0)&&(seleccion < 9)){
 				
 				
 				if (seleccion == 1){
@@ -94,8 +107,21 @@ void Vista::menu(){
 					if (seleccion == 7){
 					Vista::extraer_una_palabra_sin_ant();
 					}
+					
 				if (seleccion == 8){
-					return;
+					
+					int i=0;
+	
+					int size =lectura.getPalabras().size();
+					cout <<"Ingrese el numero de palabra desde la que desea iniciar: ";
+					cin>> i;
+					cout <<"Ingrese el numero de palabra desde la que desea finalizar, escriba 0 si quiere que sean todas: ";
+					int tmp = 0;
+					cin>> tmp;
+					if (tmp != 0){
+							size = tmp;
+						}
+					Vista::extraer_todas_relaciones_antonimos(i,size);
 					}
 				
 				}
@@ -157,7 +183,8 @@ void Vista::mostrar_lista_proxis()
 void Vista::imprimir_relaciones_sinonimos()
 {
 	vector <Extraccion_Sinonimos::relac_sinonimo> lista_sinonimos;
-	lista_sinonimos=una_extraccion.get_lista_sinonimos();
+	lista_sinonimos.clear();
+	lista_sinonimos=una_extraccion->get_lista_sinonimos();
 	int lista_sinonimos_size =lista_sinonimos.size();
 	for(int i =0; i <lista_sinonimos_size; i++)
 	{
@@ -166,7 +193,9 @@ void Vista::imprimir_relaciones_sinonimos()
 }
 void Vista::imprimir_relaciones_antonimos()
 {
-	vector <Extraccion_Sinonimos::relac_antonimo> lista_antonimos=una_extraccion.get_lista_antonimos();
+	vector <Extraccion_Sinonimos::relac_antonimo> lista_antonimos;
+	lista_antonimos.clear();
+	lista_antonimos=una_extraccion->get_lista_antonimos();
 	int lista_antonimos_size = lista_antonimos.size();
 	for(int i =0; i <lista_antonimos_size; i++)
 	{
@@ -175,16 +204,26 @@ void Vista::imprimir_relaciones_antonimos()
 }
 void Vista::extraer_una_palabra_sin_ant()
 {
-	string ruta, palabra;
-	cout<<"Ingrese la ruta de los archivos .html:";
-	cin>>ruta;
-	cout<<"Ingrese la palabra:";
+	cout<<endl;
+	this->una_extraccion = new Extraccion_Sinonimos();
+	string palabra ="";
+	//cout<<"Ingrese la ruta de los archivos .html:";
+	//cin>>ruta;
+	cout<<"Ingrese la palabra: ";
 	cin>>palabra;
-	una_extraccion.extraer_sinonimos_antonimos(ruta,palabra);
-	cout << "--------Lista de sinonimos de "<<palabra<<"--------"<<endl;
+	una_extraccion->extraer_sinonimos_antonimos(this->rutaArchivos,palabra);
+	
+	RelacionSinAnt relacion;
+	relacion.setPalabra(palabra);
+	relacion.setSinonimos(una_extraccion->getSinonimos());
+	relacion.setAntonimos(una_extraccion->getAntonimos());
+	relacion.print();
+	
+	/*cout << "--------Lista de sinonimos de "<<palabra<<"--------"<<endl;
 	Vista::imprimir_relaciones_sinonimos();
 	cout << "--------Lista de antonimos de "<<palabra<<"--------"<<endl;
-	Vista::imprimir_relaciones_antonimos();
+	Vista::imprimir_relaciones_antonimos();*/
+	menu();
 }
 
 void Vista::descargar_todos_sinonimos()
@@ -233,8 +272,33 @@ void Vista::descargar_todos_sinonimos()
 		  descargas.descargar_html(lectura.getPalabras().at(i));
 	 }
   }
-	 
+
+}	 
 	  
-     
+void Vista::extraer_todas_relaciones_antonimos(int posInicial, int posFinal){
+		
+		string palabra ="";
+		Extraccion_Sinonimos *extraccion  = new Extraccion_Sinonimos();
+		
+		for (int i = posInicial ; i < posFinal ;i++){
+				
+				RelacionSinAnt relacion;
+				extraccion = new Extraccion_Sinonimos();
+				extraccion->extraer_sinonimos_antonimos(this->rutaArchivos,lectura.getPalabras()[i]);
+				
+				relacion.setPalabra(lectura.getPalabras()[i]);
+				relacion.setSinonimos(extraccion->getSinonimos());
+				relacion.setAntonimos(extraccion->getAntonimos());
+				
+				//relacion.print();
+				this->palabras_sinonimos_antonimos.push_back(relacion);
+				std::cout << extraccion->getSinonimos().size() << " " << extraccion->getAntonimos().size() << std::endl;
+				
+			}
+		
+		//extraccion->RegistrarSinonimosBD(this->palabras_sinonimos_antonimos,this->conexion);
 	
-}
+	
+	}
+	
+

@@ -1,252 +1,277 @@
 UID        PID  PPID  C STIME TTY          TIME CMD
-root         1     0  0 09:56 ?        00:00:00 /sbin/init
-root         2     0  0 09:56 ?        00:00:00 [kthreadd]
-root         3     2  0 09:56 ?        00:00:01 [ksoftirqd/0]
-root         5     2  0 09:56 ?        00:00:00 [kworker/0:0H]
-root         7     2  0 09:56 ?        00:01:51 [rcu_sched]
-root         8     2  0 09:56 ?        00:00:00 [rcu_bh]
-root         9     2  0 09:56 ?        00:00:58 [rcuos/0]
-root        10     2  0 09:56 ?        00:00:00 [rcuob/0]
-root        11     2  0 09:56 ?        00:00:00 [migration/0]
-root        12     2  0 09:56 ?        00:00:00 [watchdog/0]
-root        13     2  0 09:56 ?        00:00:00 [watchdog/1]
-root        14     2  0 09:56 ?        00:00:09 [migration/1]
-root        15     2  0 09:56 ?        00:00:00 [ksoftirqd/1]
-root        17     2  0 09:56 ?        00:00:00 [kworker/1:0H]
-root        18     2  0 09:56 ?        00:00:20 [rcuos/1]
-root        19     2  0 09:56 ?        00:00:00 [rcuob/1]
-root        21     2  0 09:56 ?        00:00:00 [watchdog/2]
-root        22     2  0 09:56 ?        00:00:09 [migration/2]
-root        23     2  0 09:56 ?        00:00:00 [ksoftirqd/2]
-root        25     2  0 09:56 ?        00:00:00 [kworker/2:0H]
-root        26     2  0 09:56 ?        00:00:58 [rcuos/2]
-root        27     2  0 09:56 ?        00:00:00 [rcuob/2]
-root        28     2  0 09:56 ?        00:00:00 [watchdog/3]
-root        29     2  0 09:56 ?        00:00:00 [migration/3]
-root        30     2  0 09:56 ?        00:00:00 [ksoftirqd/3]
-root        32     2  0 09:56 ?        00:00:00 [kworker/3:0H]
-root        33     2  0 09:56 ?        00:00:20 [rcuos/3]
-root        34     2  0 09:56 ?        00:00:00 [rcuob/3]
-root        35     2  0 09:56 ?        00:00:00 [khelper]
-root        36     2  0 09:56 ?        00:00:00 [kdevtmpfs]
-root        37     2  0 09:56 ?        00:00:00 [netns]
-root        38     2  0 09:56 ?        00:00:00 [perf]
-root        39     2  0 09:56 ?        00:00:00 [khungtaskd]
-root        40     2  0 09:56 ?        00:00:00 [writeback]
-root        41     2  0 09:56 ?        00:00:00 [ksmd]
-root        42     2  0 09:56 ?        00:00:06 [khugepaged]
-root        43     2  0 09:56 ?        00:00:00 [crypto]
-root        44     2  0 09:56 ?        00:00:00 [kintegrityd]
-root        45     2  0 09:56 ?        00:00:00 [bioset]
-root        46     2  0 09:56 ?        00:00:00 [kblockd]
-root        47     2  0 09:56 ?        00:00:00 [ata_sff]
-root        48     2  0 09:56 ?        00:00:00 [md]
-root        49     2  0 09:56 ?        00:00:00 [devfreq_wq]
-root        55     2  0 09:56 ?        00:00:11 [kswapd0]
-root        56     2  0 09:56 ?        00:00:00 [fsnotify_mark]
-root        57     2  0 09:56 ?        00:00:00 [ecryptfs-kthrea]
-root        69     2  0 09:56 ?        00:00:00 [kthrotld]
-root        70     2  0 09:56 ?        00:00:00 [acpi_thermal_pm]
-root        71     2  0 09:56 ?        00:00:00 [scsi_eh_0]
-root        72     2  0 09:56 ?        00:00:00 [scsi_tmf_0]
-root        73     2  0 09:56 ?        00:00:00 [scsi_eh_1]
-root        74     2  0 09:56 ?        00:00:00 [scsi_tmf_1]
-root        76     2  0 09:56 ?        00:00:00 [scsi_eh_2]
-root        77     2  0 09:56 ?        00:00:00 [scsi_tmf_2]
-root        78     2  0 09:56 ?        00:00:00 [scsi_eh_3]
-root        79     2  0 09:56 ?        00:00:00 [scsi_tmf_3]
-root        85     2  0 09:56 ?        00:00:00 [ipv6_addrconf]
-root       105     2  0 09:56 ?        00:00:00 [deferwq]
-root       106     2  0 09:56 ?        00:00:00 [charger_manager]
-root       155     2  0 09:56 ?        00:00:00 [scsi_eh_4]
-root       156     2  0 09:56 ?        00:00:00 [kpsmoused]
-root       157     2  0 09:56 ?        00:00:00 [scsi_tmf_4]
-root       160     2  0 09:56 ?        00:00:04 [usb-storage]
-root       161     2  0 09:56 ?        00:00:00 [scsi_eh_5]
-root       162     2  0 09:56 ?        00:00:00 [scsi_tmf_5]
-root       163     2  0 09:56 ?        00:00:01 [usb-storage]
-root       177     2  0 09:56 ?        00:00:00 [kworker/0:1H]
-root       181     2  0 09:56 ?        00:00:00 [kworker/2:1H]
-root       182     2  0 09:56 ?        00:00:00 [kworker/3:1H]
-root       183     2  0 09:56 ?        00:00:00 [jbd2/sda1-8]
-root       184     2  0 09:56 ?        00:00:00 [ext4-rsv-conver]
-root       185     2  0 09:56 ?        00:00:02 [kworker/1:1H]
-root       308     1  0 09:56 ?        00:00:00 upstart-udev-bridge --daemon
-root       314     1  0 09:56 ?        00:00:00 /lib/systemd/systemd-udevd --daemon
-root       358     2  0 09:56 ?        00:00:00 [irq/27-mei_me]
-root       369     2  0 09:56 ?        00:00:00 [edac-poller]
-root       433     2  0 09:56 ?        00:00:00 [kvm-irqfd-clean]
-root       483     2  0 09:56 ?        00:00:00 [hd-audio0]
-root       516     1  0 09:56 ?        00:00:00 upstart-socket-bridge --daemon
-root       701     2  0 09:56 ?        00:00:04 [jbd2/sda5-8]
-root       702     2  0 09:56 ?        00:00:00 [ext4-rsv-conver]
-root       791     1  0 09:56 ?        00:00:00 upstart-file-bridge --daemon
-syslog     804     1  0 09:56 ?        00:00:00 rsyslogd
-message+   814     1  0 09:56 ?        00:00:02 dbus-daemon --system --fork
-root       863     1  0 09:56 ?        00:00:00 /usr/sbin/ModemManager
-root       864     1  0 09:56 ?        00:00:00 /usr/sbin/bluetoothd
-root       879     2  0 09:56 ?        00:00:00 [krfcommd]
-avahi      913     1  0 09:56 ?        00:00:00 avahi-daemon: running [tux.local]
-avahi      929   913  0 09:56 ?        00:00:00 avahi-daemon: chroot helper
-root       935     1  0 09:56 ?        00:00:00 /lib/systemd/systemd-logind
-root       967     1  0 09:56 tty4     00:00:00 /sbin/getty -8 38400 tty4
-root       971     1  0 09:56 tty5     00:00:00 /sbin/getty -8 38400 tty5
-root       972     1  0 09:56 ?        00:00:01 thermald --no-daemon --dbus-enable
-root       978     1  0 09:56 tty2     00:00:00 /sbin/getty -8 38400 tty2
-root       979     1  0 09:56 tty3     00:00:00 /sbin/getty -8 38400 tty3
-root       984     1  0 09:56 tty6     00:00:00 /sbin/getty -8 38400 tty6
-root      1050     1  0 09:56 ?        00:00:00 /usr/sbin/cups-browsed
-root      1068     1  0 09:56 ?        00:00:05 acpid -c /etc/acpi/events -s /var/run/acpid.socket
-root      1082     1  0 09:56 ?        00:00:01 /usr/sbin/irqbalance
-root      1086     1  0 09:56 ?        00:00:00 cron
-root      1092     1  0 09:56 ?        00:00:00 NetworkManager
-root      1098     1  0 09:56 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
-mysql     1109     1  0 09:56 ?        00:00:26 /usr/sbin/mysqld
-whoopsie  1147     1  0 09:56 ?        00:00:00 whoopsie
-postgres  1152     1  0 09:56 ?        00:00:00 /usr/lib/postgresql/9.3/bin/postgres -D /var/lib/postgresql/9.3/main -c config_file=/etc/postgresql/9.3/main/postgresql.conf
-root      1186  1092  0 09:56 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-615ce549-1428-4b1e-aa59-653abc771100-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
-root      1198     1  0 09:56 ?        00:00:01 lightdm
-root      1210  1198  4 09:56 tty7     00:27:16 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
-root      1213     1  0 09:56 ?        00:00:13 /usr/lib/accountsservice/accounts-daemon
-postgres  1253  1152  0 09:56 ?        00:00:00 postgres: checkpointer process                                                                                              
-postgres  1254  1152  0 09:56 ?        00:00:00 postgres: writer process                                                                                                    
-postgres  1255  1152  0 09:56 ?        00:00:00 postgres: wal writer process                                                                                                
-postgres  1256  1152  0 09:56 ?        00:00:00 postgres: autovacuum launcher process                                                                                       
-postgres  1257  1152  0 09:56 ?        00:00:00 postgres: stats collector process                                                                                           
-root      1284     2  0 09:56 ?        00:00:00 [kauditd]
-root      1424  1198  0 09:56 ?        00:00:00 lightdm --session-child 12 19
-nobody    1458  1092  0 09:56 ?        00:00:04 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
-root      1505     1  0 09:56 ?        00:00:00 /usr/lib/upower/upowerd
-rtkit     1538     1  0 09:56 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
-kernoops  1580     1  0 09:56 ?        00:00:00 /usr/sbin/kerneloops
-lusho     1823     1  0 09:56 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
-lusho     1825  1424  0 09:56 ?        00:00:00 init --user
-lusho     1910  1825  0 09:56 ?        00:00:14 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-nzdCkvhccB
-lusho     1921  1825  0 09:56 ?        00:00:00 upstart-event-bridge
-lusho     1933  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
-lusho     1947  1825  0 09:56 ?        00:01:44 /usr/bin/ibus-daemon --daemonize --xim
-lusho     1967  1825  0 09:56 ?        00:00:10 /usr/lib/unity-settings-daemon/unity-settings-daemon
-lusho     1973  1825  0 09:56 ?        00:00:46 /usr/lib/x86_64-linux-gnu/hud/hud-service
-lusho     1974  1825  0 09:56 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
-lusho     1975  1825  0 09:56 ?        00:00:00 gnome-session --session=ubuntu
-lusho     1980  1974  0 09:56 ?        00:00:02 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
-lusho     1984  1825  0 09:56 ?        00:00:55 /usr/lib/unity/unity-panel-service
-lusho     1986  1825  0 09:56 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
-lusho     1988  1825  0 09:56 ?        00:00:00 upstart-file-bridge --daemon --user
-lusho     1990  1825  0 09:56 ?        00:00:03 upstart-dbus-bridge --daemon --session --user --bus-name session
-lusho     1993  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfsd
-lusho     1995  1825  0 09:56 ?        00:00:09 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
-lusho     2000  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
-lusho     2016  1947  0 09:56 ?        00:00:00 /usr/lib/ibus/ibus-dconf
-lusho     2017  1947  0 09:56 ?        00:00:15 /usr/lib/ibus/ibus-ui-gtk3
-lusho     2019  1825  0 09:56 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
-lusho     2038  1947  0 09:56 ?        00:00:28 /usr/lib/ibus/ibus-engine-simple
-lusho     2049  1825  0 09:56 ?        00:00:22 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
-lusho     2061  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
-lusho     2063  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
-lusho     2065  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
-lusho     2070  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
-lusho     2076  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
-lusho     2079  1825  0 09:56 ?        00:00:10 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
-lusho     2084  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
-lusho     2086  1825  0 09:56 ?        00:00:02 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
-lusho     2098  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
-lusho     2117  1825  1 09:56 ?        00:09:11 /usr/bin/pulseaudio --start --log-target=syslog
-lusho     2128  1825  0 09:56 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
-lusho     2132  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
-colord    2135     1  0 09:56 ?        00:00:00 /usr/lib/colord/colord
-lusho     2152  1825  0 09:56 ?        00:00:00 /usr/lib/dconf/dconf-service
-lusho     2161  1975  2 09:56 ?        00:14:19 compiz
-lusho     2174  1975  0 09:56 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
-lusho     2178  1975  0 09:56 ?        00:00:00 nm-applet
-lusho     2181  1975  0 09:56 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
-lusho     2201  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
-lusho     2209  1825  0 09:56 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
-root      2212     1  0 09:56 ?        00:00:03 /usr/lib/udisks2/udisksd --no-debug
-lusho     2225  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
-root      2227     1  0 09:56 ?        00:00:01 /usr/sbin/apache2 -k start
-lusho     2234  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
-lusho     2240  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
-www-data  2254  2227  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  2255  2227  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  2256  2227  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  2257  2227  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  2258  2227  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
-lusho     2265  1825  0 09:56 ?        00:00:10 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
-root      2306     1  0 09:56 tty1     00:00:00 /sbin/getty -8 38400 tty1
-lusho     2316  1825  0 09:56 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
-lusho     2465  1825  0 09:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
-lusho     2469  1975  0 09:56 ?        00:00:00 telepathy-indicator
-lusho     2478  1825  0 09:56 ?        00:00:00 /usr/lib/telepathy/mission-control-5
-root      2499     1  0 09:56 ?        00:00:00 /usr/sbin/cupsd -f
-lusho     2504  1975  0 09:56 ?        00:00:01 zeitgeist-datahub
-lusho     2509  1825  0 09:56 ?        00:00:00 /usr/bin/zeitgeist-daemon
-lusho     2515  1825  0 09:56 ?        00:00:01 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
-lusho     2532  2515  0 09:56 ?        00:00:00 /bin/cat
-lusho     2547  1825 27 09:57 ?        02:52:44 /usr/lib/firefox/firefox
-lusho     2576  1825  0 09:57 ?        00:00:00 /usr/lib/libunity-webapps/unity-webapps-service
-lusho     2651  1975  0 09:57 ?        00:00:01 update-notifier
-lusho     2744  1975  0 09:58 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
-lusho     2923  1825  0 10:19 ?        00:00:01 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
-lusho     2937  1825  0 10:19 ?        00:00:04 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
-lusho     2940  1825  0 10:19 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
-lusho     3009  1825  0 10:20 ?        00:02:33 /usr/lib/gvfs/gvfsd-metadata
-lusho     3047  1825  0 10:20 ?        00:00:16 tor -controlport 9100
-lusho     3078  1825  0 10:24 ?        00:00:00 http-proxy/bin/dg9_9_13 -{000+00}[http://-/]-P8083 -- -------------------------
-lusho     3082  1825  0 10:25 ?        00:00:02 gnome-calculator
-lusho     3535  1825  0 10:49 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
-lusho     3547  1825  0 10:49 ?        00:00:00 bash /usr/bin/steam steam://rungameid/570
-lusho     3558  3547  0 10:49 ?        00:00:00 bash /home/lusho/.local/share/Steam/steam.sh steam://rungameid/570
-lusho     3559  3547  0 10:49 ?        00:00:00 tee /tmp/dumps/lusho_stdout.txt
-lusho     3688  3558  2 10:49 ?        00:14:00 /home/lusho/.local/share/Steam/ubuntu12_32/steam steam://rungameid/570
-lusho     3691  3688  0 10:49 ?        00:00:00 /home/lusho/.local/share/Steam/ubuntu12_32/steam steam://rungameid/570
-lusho     3692  3691  0 10:49 ?        00:00:00 sh -c "/home/lusho/.local/share/Steam/ubuntu12_32/steamwebhelper" -cefhost -cachedir "config/htmlcache" -steampid 3688 -buildid 1440016726 -steamid "0"  --disable-gpu-compositing --disable-gpu --process-per-tab --enable-system-flash --disable-spell-checking
-lusho     3693  3692  0 10:49 ?        00:00:11 /home/lusho/.local/share/Steam/ubuntu12_32/steamwebhelper -cefhost -cachedir config/htmlcache -steampid 3688 -buildid 1440016726 -steamid 0 --disable-gpu-compositing --disable-gpu --process-per-tab --enable-system-flash --disable-spell-checking
-lusho     3696  3693  0 10:49 ?        00:00:00 /home/lusho/.local/share/Steam/ubuntu12_32/steamwebhelper --type=zygote --no-sandbox --lang=en_US.UTF-8 --product-version=Valve Steam Client
-lusho     3928  1825  1 10:51 ?        00:05:57 geany
-lusho     3942  1825  0 10:51 ?        00:00:01 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/3
-lusho     3961  1825  0 10:52 ?        00:01:32 nautilus --new-window
-lusho     3978  3696  0 10:52 ?        00:00:00 /home/lusho/.local/share/Steam/ubuntu12_32/steamwebhelper --type=renderer --disable-gpu-compositing --enable-pinch --no-sandbox --enable-deferred-image-decoding --lang=en-US --lang=en_US.UTF-8 --product-version=Valve Steam Client --disable-spell-checking --enable-system-flash --enable-pinch --enable-pinch-virtual-viewport --enable-delegated-renderer --num-raster-threads=2 --use-image-texture-target=3553 --disable-accelerated-video-decode --disable-gpu-compositing --channel=3693.0.1136011712
-www-data  4270  2227  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  4273  2227  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  4274  2227  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  4275  2227  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
-www-data  4276  2227  0 11:08 ?        00:00:00 /usr/sbin/apache2 -k start
-lusho     4400  1825  0 11:12 ?        00:00:28 /usr/bin/python /usr/bin/software-center
-lusho     4427  1825  0 11:12 ?        00:00:00 /usr/lib/geoclue/geoclue-master
-lusho     4431  1825  0 11:12 ?        00:00:00 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
-lusho     4659  1825  0 11:30 ?        00:00:12 gedit /home/lusho/Descargas/Proyecto(1).sql
-lusho     4951  4400  0 11:36 ?        00:00:00 [debconf-communi] <defunct>
-lusho     5843  1825  0 11:49 ?        00:00:00 /usr/bin/python3 /usr/share/unity-scopes/facebook/unity_facebook_daemon.py
-lusho     5845  1825  0 11:49 ?        00:00:00 /usr/bin/python3 /usr/share/unity-scopes/shotwell/unity_shotwell_daemon.py
-lusho     5847  1825  0 11:49 ?        00:00:00 /usr/bin/python3 /usr/share/unity-scopes/flickr/unity_flickr_daemon.py
-lusho     5849  1825  0 11:49 ?        00:00:00 /usr/bin/python3 /usr/share/unity-scopes/picasa/unity_picasa_daemon.py
-lusho    11485  1825  0 13:49 ?        00:00:24 gnome-terminal
-lusho    11494 11485  0 13:49 ?        00:00:00 gnome-pty-helper
-lusho    11495 11485  0 13:49 pts/8    00:00:00 bash
-lusho    13175  1825  0 15:18 ?        00:00:02 gimp-2.8
-lusho    13210 13175  0 15:18 ?        00:00:00 /usr/lib/gimp/2.0/plug-ins/script-fu -gimp 13 12 -run 0
-root     14866     2  0 16:25 ?        00:00:03 [kworker/u8:6]
-lusho    15375 11485  0 16:37 pts/18   00:00:00 /bin/sh ./geany_run_script.sh
-root     15600     2  0 16:48 ?        00:00:03 [kworker/u8:3]
-root     16392     2  0 17:44 ?        00:00:01 [kworker/u8:4]
-root     17053     2  0 18:17 ?        00:00:00 [kworker/2:0]
-root     17302     2  0 18:36 ?        00:00:01 [kworker/u8:5]
-root     17732     2  0 19:01 ?        00:00:00 [kworker/1:1]
-root     18037     2  0 19:28 ?        00:00:00 [kworker/3:2]
-root     18062     2  0 19:32 ?        00:00:00 [kworker/u8:1]
-lusho    18170  2547  6 19:36 ?        00:02:42 /usr/lib/firefox/plugin-container /usr/lib/flashplugin-installer/libflashplayer.so -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 2547 true plugin
-root     18297     2  0 19:43 ?        00:00:00 [kworker/3:1]
-root     18406     2  0 19:51 ?        00:00:00 [kworker/1:2]
-root     18636     2  0 20:06 ?        00:00:00 [kworker/0:0]
-root     18707     2  0 20:10 ?        00:00:00 [kworker/2:2]
-root     18728     2  0 20:11 ?        00:00:00 [kworker/0:1]
-root     18798     2  0 20:17 ?        00:00:00 [kworker/0:2]
-root     18801     1  0 20:18 ?        00:00:00 /usr/bin/python3 /usr/sbin/aptd
-root     18805     2  0 20:18 ?        00:00:00 [kworker/1:0]
-root     18806     2  0 20:18 ?        00:00:00 [kworker/u8:0]
-root     18808     2  0 20:19 ?        00:00:00 [kworker/u8:2]
-lusho    18843 11485  0 20:20 pts/25   00:00:00 /bin/sh ./geany_run_script.sh
-lusho    18845 18843  0 20:20 pts/25   00:00:00 ./main
-lusho    18846 18845  0 20:20 pts/25   00:00:00 sh -c ps -ef > prcs.txt
-lusho    18847 18846  0 20:20 pts/25   00:00:00 ps -ef
+root         1     0  0 Sep25 ?        00:00:05 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 Sep25 ?        00:00:00 [kthreadd]
+root         3     2  0 Sep25 ?        00:00:02 [ksoftirqd/0]
+root         5     2  0 Sep25 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Sep25 ?        00:00:00 [rcuc/0]
+root         8     2  0 Sep25 ?        00:00:00 [rcub/0]
+root         9     2  0 Sep25 ?        00:04:16 [rcu_preempt]
+root        10     2  0 Sep25 ?        00:00:33 [rcuop/0]
+root        11     2  0 Sep25 ?        00:00:12 [rcuop/1]
+root        12     2  0 Sep25 ?        00:00:55 [rcuop/2]
+root        13     2  0 Sep25 ?        00:00:15 [rcuop/3]
+root        14     2  0 Sep25 ?        00:00:34 [rcuop/4]
+root        15     2  0 Sep25 ?        00:00:22 [rcuop/5]
+root        16     2  0 Sep25 ?        00:00:00 [rcuop/6]
+root        17     2  0 Sep25 ?        00:00:00 [rcuop/7]
+root        18     2  0 Sep25 ?        00:00:00 [rcu_sched]
+root        19     2  0 Sep25 ?        00:00:00 [rcuos/0]
+root        20     2  0 Sep25 ?        00:00:00 [rcuos/1]
+root        21     2  0 Sep25 ?        00:00:00 [rcuos/2]
+root        22     2  0 Sep25 ?        00:00:00 [rcuos/3]
+root        23     2  0 Sep25 ?        00:00:00 [rcuos/4]
+root        24     2  0 Sep25 ?        00:00:00 [rcuos/5]
+root        25     2  0 Sep25 ?        00:00:00 [rcuos/6]
+root        26     2  0 Sep25 ?        00:00:00 [rcuos/7]
+root        27     2  0 Sep25 ?        00:00:00 [rcu_bh]
+root        28     2  0 Sep25 ?        00:00:00 [rcuob/0]
+root        29     2  0 Sep25 ?        00:00:00 [rcuob/1]
+root        30     2  0 Sep25 ?        00:00:00 [rcuob/2]
+root        31     2  0 Sep25 ?        00:00:00 [rcuob/3]
+root        32     2  0 Sep25 ?        00:00:00 [rcuob/4]
+root        33     2  0 Sep25 ?        00:00:00 [rcuob/5]
+root        34     2  0 Sep25 ?        00:00:00 [rcuob/6]
+root        35     2  0 Sep25 ?        00:00:00 [rcuob/7]
+root        36     2  0 Sep25 ?        00:00:00 [migration/0]
+root        37     2  0 Sep25 ?        00:00:00 [watchdog/0]
+root        38     2  0 Sep25 ?        00:00:00 [watchdog/1]
+root        39     2  0 Sep25 ?        00:00:00 [migration/1]
+root        40     2  0 Sep25 ?        00:00:00 [rcuc/1]
+root        41     2  0 Sep25 ?        00:00:01 [ksoftirqd/1]
+root        43     2  0 Sep25 ?        00:00:00 [kworker/1:0H]
+root        44     2  0 Sep25 ?        00:00:00 [watchdog/2]
+root        45     2  0 Sep25 ?        00:00:00 [migration/2]
+root        46     2  0 Sep25 ?        00:00:00 [rcuc/2]
+root        47     2  0 Sep25 ?        00:00:01 [ksoftirqd/2]
+root        49     2  0 Sep25 ?        00:00:00 [kworker/2:0H]
+root        50     2  0 Sep25 ?        00:00:00 [watchdog/3]
+root        51     2  0 Sep25 ?        00:00:00 [migration/3]
+root        52     2  0 Sep25 ?        00:00:00 [rcuc/3]
+root        53     2  0 Sep25 ?        00:00:00 [ksoftirqd/3]
+root        55     2  0 Sep25 ?        00:00:00 [kworker/3:0H]
+root        56     2  0 Sep25 ?        00:00:00 [watchdog/4]
+root        57     2  0 Sep25 ?        00:00:00 [migration/4]
+root        58     2  0 Sep25 ?        00:00:00 [rcuc/4]
+root        59     2  0 Sep25 ?        00:00:01 [ksoftirqd/4]
+root        61     2  0 Sep25 ?        00:00:00 [kworker/4:0H]
+root        62     2  0 Sep25 ?        00:00:00 [watchdog/5]
+root        63     2  0 Sep25 ?        00:00:00 [migration/5]
+root        64     2  0 Sep25 ?        00:00:00 [rcuc/5]
+root        65     2  0 Sep25 ?        00:00:01 [ksoftirqd/5]
+root        67     2  0 Sep25 ?        00:00:00 [kworker/5:0H]
+root        68     2  0 Sep25 ?        00:00:00 [khelper]
+root        69     2  0 Sep25 ?        00:00:00 [kdevtmpfs]
+root        70     2  0 Sep25 ?        00:00:00 [netns]
+root        71     2  0 Sep25 ?        00:00:00 [khungtaskd]
+root        72     2  0 Sep25 ?        00:00:00 [writeback]
+root        73     2  0 Sep25 ?        00:00:00 [ksmd]
+root        74     2  0 Sep25 ?        00:00:02 [khugepaged]
+root        75     2  0 Sep25 ?        00:00:00 [crypto]
+root        76     2  0 Sep25 ?        00:00:00 [kintegrityd]
+root        77     2  0 Sep25 ?        00:00:00 [bioset]
+root        78     2  0 Sep25 ?        00:00:00 [kblockd]
+root        79     2  0 Sep25 ?        00:00:00 [ata_sff]
+root        80     2  0 Sep25 ?        00:00:00 [khubd]
+root        82     2  0 Sep25 ?        00:00:02 [kswapd0]
+root        83     2  0 Sep25 ?        00:00:00 [fsnotify_mark]
+root        90     2  0 Sep25 ?        00:00:00 [kthrotld]
+root        91     2  0 Sep25 ?        00:00:00 [scsi_eh_0]
+root        92     2  0 Sep25 ?        00:00:00 [scsi_tmf_0]
+root        93     2  0 Sep25 ?        00:00:00 [scsi_eh_1]
+root        94     2  0 Sep25 ?        00:00:00 [scsi_tmf_1]
+root        95     2  0 Sep25 ?        00:00:00 [scsi_eh_2]
+root        96     2  0 Sep25 ?        00:00:00 [scsi_tmf_2]
+root        97     2  0 Sep25 ?        00:00:00 [scsi_eh_3]
+root        98     2  0 Sep25 ?        00:00:00 [scsi_tmf_3]
+root       105     2  0 Sep25 ?        00:00:00 [kpsmoused]
+root       107     2  0 Sep25 ?        00:00:00 [ipv6_addrconf]
+root       108     2  0 Sep25 ?        00:00:00 [deferwq]
+root       164     2  0 Sep25 ?        00:00:00 [kauditd]
+root       274     2  0 Sep25 ?        00:00:00 [ttm_swap]
+root       278     2  0 Sep25 ?        00:00:00 [kworker/4:1H]
+root       279     2  0 Sep25 ?        00:00:00 [kworker/5:1H]
+root       280     2  0 Sep25 ?        00:00:00 [kworker/0:1H]
+root       281     2  0 Sep25 ?        00:00:00 [kworker/2:1H]
+root       282     2  0 Sep25 ?        00:00:00 [kworker/3:1H]
+root       283     2  0 Sep25 ?        00:01:21 [kworker/1:1H]
+root       293     2  0 Sep25 ?        00:00:00 [scsi_eh_4]
+root       294     2  0 Sep25 ?        00:00:00 [scsi_tmf_4]
+root       295     2  0 Sep25 ?        00:00:00 [scsi_eh_5]
+root       296     2  0 Sep25 ?        00:00:00 [scsi_tmf_5]
+root       297     2  0 Sep25 ?        00:00:00 [radeon-crtc]
+root       298     2  0 Sep25 ?        00:00:00 [radeon-crtc]
+root       299     2  0 Sep25 ?        00:00:00 [radeon-crtc]
+root       300     2  0 Sep25 ?        00:00:00 [radeon-crtc]
+root       305     2  0 Sep25 ?        00:00:00 [bioset]
+root       323     2  0 Sep25 ?        00:00:00 [btrfs-worker]
+root       324     2  0 Sep25 ?        00:00:00 [kworker/u17:0]
+root       325     2  0 Sep25 ?        00:00:00 [btrfs-worker-hi]
+root       326     2  0 Sep25 ?        00:00:00 [btrfs-delalloc]
+root       327     2  0 Sep25 ?        00:00:00 [btrfs-flush_del]
+root       328     2  0 Sep25 ?        00:00:00 [btrfs-cache]
+root       329     2  0 Sep25 ?        00:00:00 [btrfs-submit]
+root       330     2  0 Sep25 ?        00:00:00 [btrfs-fixup]
+root       331     2  0 Sep25 ?        00:00:00 [btrfs-endio]
+root       332     2  0 Sep25 ?        00:00:00 [btrfs-endio-met]
+root       333     2  0 Sep25 ?        00:00:00 [btrfs-endio-met]
+root       334     2  0 Sep25 ?        00:00:00 [btrfs-endio-rai]
+root       335     2  0 Sep25 ?        00:00:00 [btrfs-rmw]
+root       336     2  0 Sep25 ?        00:00:00 [btrfs-endio-wri]
+root       337     2  0 Sep25 ?        00:00:00 [btrfs-freespace]
+root       338     2  0 Sep25 ?        00:00:00 [btrfs-delayed-m]
+root       339     2  0 Sep25 ?        00:00:00 [btrfs-readahead]
+root       340     2  0 Sep25 ?        00:00:00 [btrfs-qgroup-re]
+root       341     2  0 Sep25 ?        00:00:00 [btrfs-extent-re]
+root       342     2  0 Sep25 ?        00:00:02 [btrfs-cleaner]
+root       343     2  0 Sep25 ?        00:00:15 [btrfs-transacti]
+root       433     1  0 Sep25 ?        00:00:01 /usr/lib/systemd/systemd-journald
+root       443     1  0 Sep25 ?        00:00:00 /sbin/lvmetad
+root       444     1  0 Sep25 ?        00:00:02 /sbin/dmeventd
+root       456     1  0 Sep25 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       464     1  0 Sep25 ?        00:00:45 /usr/sbin/haveged -w 1024 -v 0 -F
+root       576     2  0 Sep25 ?        00:00:00 [edac-poller]
+root       593     2  0 Sep25 ?        00:00:00 [hd-audio1]
+root       596     2  0 Sep25 ?        00:00:00 [hd-audio0]
+root       653     2  0 Sep25 ?        00:00:00 [xfsalloc]
+root       654     2  0 Sep25 ?        00:00:00 [xfs_mru_cache]
+root       655     2  0 Sep25 ?        00:00:00 [xfslogd]
+root       656     2  0 Sep25 ?        00:00:00 [xfs-data/sda4]
+root       657     2  0 Sep25 ?        00:00:00 [xfs-conv/sda4]
+root       658     2  0 Sep25 ?        00:00:00 [xfs-cil/sda4]
+root       661     2  0 Sep25 ?        00:00:55 [xfsaild/sda4]
+root       686     1  0 Sep25 ?        00:00:00 /sbin/auditd -n
+root       863     1  0 Sep25 ?        00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+avahi      864     1  0 Sep25 ?        00:00:00 avahi-daemon: running [Isometric.local]
+root       867     1  0 Sep25 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log
+root       868     1  0 Sep25 ?        00:00:00 /usr/sbin/ModemManager
+nscd       870     1  0 Sep25 ?        00:00:11 /usr/sbin/nscd
+root       871     1  0 Sep25 ?        00:00:05 /usr/sbin/irqbalance --foreground
+message+   873     1  0 Sep25 ?        00:00:06 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       887     1  0 Sep25 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root       889     1  0 Sep25 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+polkitd    955     1  0 Sep25 ?        00:00:05 /usr/lib/polkit-1/polkitd --no-debug
+root       956     1  0 Sep25 ?        00:00:15 /usr/sbin/NetworkManager --no-daemon
+root       966     2  0 Sep25 ?        00:00:00 [cfg80211]
+root       974     1  0 Sep25 ?        00:00:00 /usr/bin/kdm
+root       999     1  0 Sep25 ?        00:00:00 /usr/sbin/cupsd -f
+root      1013   974  6 Sep25 tty7     01:11:54 /usr/bin/Xorg -br :0 vt7 -nolisten tcp -seat seat0 -auth /var/lib/kdm/AuthFiles/A:0-CrYCsa
+ntp       1055     1  0 Sep25 ?        00:00:06 /usr/sbin/ntpd -p /var/run/ntp/ntpd.pid -g -u ntp:ntp -c /etc/ntp.conf
+root      1106     1  0 Sep25 ?        00:00:00 /usr/lib/postfix/master -w
+postfix   1126  1106  0 Sep25 ?        00:00:00 qmgr -l -t fifo -u
+root      1142   956  0 Sep25 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/nm-dhcp-helper -pf /var/run/dhclient-enp2s0.pid -lf /var/lib/NetworkManager/dhclient-8931c668-2dd4-4da8-a2d5-a6bae58e25f3-enp2s0.lease -cf /var/lib/NetworkManager/dhclient-enp2s0.conf enp2s0
+root      1162     1  0 Sep25 ?        00:00:00 /usr/sbin/cron -n
+root      1194   974  0 Sep25 ?        00:00:00 -:0
+jeisoncg  1442     1  0 Sep25 ?        00:00:00 /usr/lib/systemd/systemd --user
+jeisoncg  1443  1442  0 Sep25 ?        00:00:00 (sd-pam)
+jeisoncg  1444  1194  0 Sep25 ?        00:00:00 /bin/sh /usr/bin/startkde
+jeisoncg  1528     1  0 Sep25 ?        00:00:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session /usr/bin/gpg-agent --sh --daemon --keep-display --write-env-file /home/jeisoncg/.gnupg/agent.info-Isometric:0 /etc/X11/xinit/xinitrc
+jeisoncg  1529     1  0 Sep25 ?        00:00:25 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+jeisoncg  1530  1444  0 Sep25 ?        00:00:01 /usr/bin/gpg-agent --sh --daemon --keep-display --write-env-file /home/jeisoncg/.gnupg/agent.info-Isometric:0 /etc/X11/xinit/xinitrc
+root      1570     1  0 Sep25 ?        00:00:00 /usr/lib64/kde4/libexec/start_kdeinit +kcminit_startup
+jeisoncg  1571     1  0 Sep25 ?        00:00:00 kdeinit4: kdeinit4 Running...
+jeisoncg  1572  1571  0 Sep25 ?        00:00:00 kdeinit4: klauncher [kdeinit] --fd=9
+jeisoncg  1574     1  0 Sep25 ?        00:00:14 kdeinit4: kded4 [kdeinit]
+jeisoncg  1577     1  0 Sep25 ?        00:00:01 kdeinit4: kglobalaccel [kdeinit]
+jeisoncg  1588     1  0 Sep25 ?        00:00:03 /usr/bin/kactivitymanagerd
+root      1589     1  0 Sep25 ?        00:00:00 /usr/lib/upower/upowerd
+jeisoncg  1612  1444  0 Sep25 ?        00:00:00 kwrapper4 ksmserver
+jeisoncg  1613  1571  0 Sep25 ?        00:00:03 kdeinit4: ksmserver [kdeinit]
+root      1620     1  0 Sep25 ?        00:00:11 /usr/lib/udisks2/udisksd --no-debug
+jeisoncg  1630  1613  2 Sep25 ?        00:24:43 kwin -session 10155fea1ef000144292980800000016150000_1443144805_536384
+jeisoncg  1640     1  0 Sep25 ?        00:00:56 /usr/bin/baloo_file
+jeisoncg  1641     1  1 Sep25 ?        00:11:10 kdeinit4: plasma-desktop [kdeinit]
+jeisoncg  1647     1  0 Sep25 ?        00:00:06 /usr/bin/knotify4
+jeisoncg  1656     1  0 Sep25 ?        00:00:27 /usr/bin/kuiserver
+root      1658     1  0 Sep25 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+jeisoncg  1669  1641  0 Sep25 ?        00:00:29 ksysguardd
+jeisoncg  1684     1  0 Sep25 ?        00:00:12 kdeinit4: krunner [kdeinit]
+jeisoncg  1686     1  0 Sep25 ?        00:00:33 kdeinit4: kmix [kdeinit] -session 10155fea1ef00014429170050000
+jeisoncg  1690     1  2 Sep25 ?        00:31:36 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1691     1  0 Sep25 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+jeisoncg  1705     1  0 Sep25 ?        00:00:01 /usr/lib64/kde4/libexec/polkit-kde-authentication-agent-1
+jeisoncg  1706     1  0 Sep25 ?        00:00:08 kdeinit4: klipper [kdeinit]
+jeisoncg  1720  1571 25 Sep25 ?        04:41:19 /usr/lib64/firefox/firefox
+jeisoncg  1743     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfsd
+jeisoncg  1747     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+jeisoncg  1791  1720  0 Sep25 ?        00:00:22 /usr/lib/mozilla/kmozillahelper
+jeisoncg  1795     1  0 Sep25 ?        00:00:00 /usr/lib/at-spi2/at-spi-bus-launcher
+root      4616     2  0 Sep25 ?        00:00:00 [scsi_eh_7]
+root      4617     2  0 Sep25 ?        00:00:00 [scsi_tmf_7]
+root      4618     2  0 Sep25 ?        00:00:01 [usb-storage]
+root      4667     2  0 Sep25 ?        00:00:00 [kworker/u17:1]
+jeisoncg  4722  1571  0 Sep25 ?        00:00:00 kdeinit4: kio_http_cache_cleaner [kdeinit]
+root      6502     1  0 Sep25 ?        00:00:00 /bin/bash /usr/lib/mysql/mysql-systemd-helper start default
+mysql     6517  6502  0 Sep25 ?        00:02:55 /usr/sbin/mysqld --user=mysql --group=mysql --innodb_file_format=Barracuda --innodb_file_per_table=ON --server-id=1 --sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+jeisoncg  6556  1720  4 Sep25 ?        00:14:15 /usr/lib64/firefox/plugin-container /usr/lib64/browser-plugins/libflashplayer.so -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 1720 true plugin
+jeisoncg  6645  1571  0 Sep25 ?        00:00:34 kdeinit4: dolphin [kdeinit] --icon system-file-manager -captio
+root     10075     1  0 00:28 ?        00:00:00 /bin/dbus-launch --autolaunch 4ed603cd18304c8d9216b69334cdeb3a --binary-syntax --close-stderr
+root     10076     1  0 00:28 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+wwwrun   12541 15914  0 00:42 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+root     12869     2  0 01:00 ?        00:00:06 [kworker/2:2]
+root     13089     2  0 01:12 ?        00:00:05 [kworker/4:2]
+root     13473     2  0 01:30 ?        00:00:02 [kworker/0:0]
+root     13908     2  0 01:45 ?        00:00:00 [kworker/3:2]
+jeisoncg 13940  1571  1 01:46 ?        00:00:40 /usr/bin/geany /home/jeisoncg/Travis/src/main.cpp
+root     14225     2  0 02:00 ?        00:00:02 [kworker/2:0]
+root     14227     2  0 02:00 ?        00:00:00 [kworker/5:0]
+root     14228     2  0 02:00 ?        00:00:01 [kworker/0:1]
+root     14349     2  0 02:05 ?        00:00:00 [kworker/u16:4]
+jeisoncg 14437     1  0 02:07 ?        00:00:01 kdeinit4: konsole [kdeinit]
+jeisoncg 14439 14437  0 02:07 pts/1    00:00:00 /bin/bash
+root     14507     2  0 02:12 ?        00:00:00 [kworker/1:1]
+root     14567     2  0 02:15 ?        00:00:00 [kworker/5:2]
+root     14568     2  0 02:15 ?        00:00:00 [kworker/3:1]
+root     14572     2  0 02:15 ?        00:00:00 [kworker/u16:2]
+root     14578     2  0 02:18 ?        00:00:00 [kworker/1:0]
+root     14616     2  0 02:20 ?        00:00:00 [kworker/4:1]
+root     14618     2  0 02:20 ?        00:00:00 [kworker/u16:5]
+root     14619     2  0 02:20 ?        00:00:00 [kworker/u16:6]
+jeisoncg 14671  1571  0 02:22 ?        00:00:00 kdeinit4: kwrite [kdeinit] /home/jeisoncg/Travis/src/in.txt
+root     14692     2  0 02:23 ?        00:00:00 [kworker/1:2]
+jeisoncg 14741 13940 25 02:25 ?        00:00:00 /usr/bin/xterm -e /bin/sh ./geany_run_script.sh
+jeisoncg 14743 14741  0 02:25 pts/2    00:00:00 /bin/sh ./geany_run_script.sh
+jeisoncg 14745 14743  0 02:25 pts/2    00:00:00 ./main
+jeisoncg 14746 14745  0 02:25 pts/2    00:00:00 sh -c ps -ef > prcs.txt
+jeisoncg 14747 14746  0 02:25 pts/2    00:00:00 ps -ef
+root     15914     1  0 Sep25 ?        00:00:03 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   15931 15914  0 Sep25 ?        00:00:08 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   15932 15914  0 Sep25 ?        00:00:08 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   15933 15914  0 Sep25 ?        00:00:17 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   15934 15914  0 Sep25 ?        00:00:08 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   16586 15914  0 Sep25 ?        00:00:09 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   16590 15914  0 Sep25 ?        00:00:03 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   16591 15914  0 Sep25 ?        00:00:09 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   16592 15914  0 Sep25 ?        00:00:06 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun   16593 15914  0 Sep25 ?        00:00:07 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+jeisoncg 16642     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+jeisoncg 18467     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+jeisoncg 18472     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+jeisoncg 18477     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+jeisoncg 18481     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+jeisoncg 18485     1  0 Sep25 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+jeisoncg 18488     1  0 Sep25 ?        00:00:00 /usr/lib/goa-daemon
+jeisoncg 20442     1  0 Sep25 ?        00:00:01 /usr/bin/akonadi_control
+jeisoncg 20444 20442  0 Sep25 ?        00:00:01 akonadiserver
+jeisoncg 20446 20444  0 Sep25 ?        00:00:50 /usr/sbin/mysqld --defaults-file=/home/jeisoncg/.local/share/akonadi/mysql.conf --datadir=/home/jeisoncg/.local/share/akonadi/db_data/ --socket=/tmp/akonadi-jeisoncg.30ZPPG/mysql.socket
+jeisoncg 20496 20442  0 Sep25 ?        00:00:00 /usr/bin/akonadi_agent_launcher akonadi_akonotes_resource akonadi_akonotes_resource_0
+jeisoncg 20497 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_archivemail_agent --identifier akonadi_archivemail_agent
+jeisoncg 20498 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_baloo_indexer --identifier akonadi_baloo_indexer
+jeisoncg 20501 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_birthdays_resource --identifier akonadi_birthdays_resource
+jeisoncg 20502 20442  0 Sep25 ?        00:00:00 /usr/bin/akonadi_agent_launcher akonadi_contacts_resource akonadi_contacts_resource_0
+jeisoncg 20503 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_followupreminder_agent --identifier akonadi_followupreminder_agent
+jeisoncg 20506 20442  0 Sep25 ?        00:00:00 /usr/bin/akonadi_agent_launcher akonadi_ical_resource akonadi_ical_resource_0
+jeisoncg 20507 20442  0 Sep25 ?        00:00:00 /usr/bin/akonadi_agent_launcher akonadi_maildir_resource akonadi_maildir_resource_0
+jeisoncg 20508 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_maildispatcher_agent --identifier akonadi_maildispatcher_agent
+jeisoncg 20509 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_mailfilter_agent --identifier akonadi_mailfilter_agent
+jeisoncg 20510 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_migration_agent --identifier akonadi_migration_agent
+jeisoncg 20511 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_newmailnotifier_agent --identifier akonadi_newmailnotifier_agent
+jeisoncg 20512 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_notes_agent --identifier akonadi_notes_agent
+jeisoncg 20513 20442  0 Sep25 ?        00:00:01 /usr/bin/akonadi_sendlater_agent --identifier akonadi_sendlater_agent
+jeisoncg 20544 20498  0 Sep25 ?        00:00:00 /bin/cat
+jeisoncg 20555 20498  0 Sep25 ?        00:00:00 /bin/cat
+jeisoncg 20556 20498  0 Sep25 ?        00:00:00 /bin/cat
+jeisoncg 20557 20498  0 Sep25 ?        00:00:00 /bin/cat
+jeisoncg 20558 20498  0 Sep25 ?        00:00:00 /bin/cat
+jeisoncg 21056     1  0 Sep25 ?        00:00:03 http-proxy/bin/dg9_9_13 -{000}[RPM=0.00(0.0 0.0 0.0),IDLE=61557s]-P8083 -- ----
+root     21754     1  0 Sep25 ?        00:00:55 /sbin/mount.ntfs /dev/sda2 /run/media/jeisoncg/A2C25DE9C25DC1E9 -o rw,nodev,nosuid,uid=1000,gid=100,dmask=0077,fmask=0177,uhelper=udisks2
+jeisoncg 32592     1  0 Sep25 ?        00:00:00 /usr/lib64/kde4/libexec/kdesud

@@ -150,13 +150,32 @@ vector <Extraccion_Sinonimos::relac_antonimo> Extraccion_Sinonimos::get_lista_an
 	return this->lista_antonimos;
 }
 
+vector <string> Extraccion_Sinonimos::getSinonimos(void){
+	
+		vector <string> retorno;
+		int tmp_size = get_lista_sinonimos().size();
+		for(int i =0; i <tmp_size; i++)
+		{
+			retorno.push_back(get_lista_sinonimos()[i].palabra2);
+		}
+		return retorno;
+	
+	};
+vector <string> Extraccion_Sinonimos::getAntonimos(void){
+	
+		vector <string> retorno;
+		int tmp_size = get_lista_antonimos().size();
+		for(int i =0; i <tmp_size; i++)
+		{
+			retorno.push_back(get_lista_antonimos()[i].palabra2);
+		}
+		return retorno;
+	};
 
 int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabra)
 {
 	
-	
-	
-	char cadena[500000];
+	char *cadena = new char[500000] ;
     ifstream fe;
     string direccion=ruta+"/"+palabra+".html";
     fe.open(direccion.c_str());
@@ -168,6 +187,7 @@ int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabr
 		 {
 		 construir_sinonimos(cadena,palabra);
 		 construir_antonimos(cadena,palabra);
+		 fe.close();
 		return 0 ;
 	     }
 	 }
@@ -175,3 +195,36 @@ int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabr
    
 	return 0;
 }
+
+void Extraccion_Sinonimos::RegistrarSinonimosBD(vector <RelacionSinAnt> relaciones, ConexionDB *conexion){
+	
+		int tmp_relaciones_size = relaciones.size();
+		int contador = 0;
+		for (int i = 0 ; i < tmp_relaciones_size ; i++){
+				contador++;
+				
+				std::cout << relaciones[i].getPalabra() << std::endl;
+				
+				int tmp_sinonimos_size = relaciones[i].getSinonimos().size();
+				int tmp_antonimos_size = relaciones[i].getAntonimos().size();
+				
+				for (int j = 0; j <tmp_sinonimos_size ; j++){
+						contador++;
+						conexion->ejecutarConsulta("INSERT INTO Sinonimo VALUES (\'" + relaciones[i].getPalabra() + "\',\'" + relaciones[i].getSinonimos()[j] + "\')");
+
+					}
+				
+				for (int j = 0; j <tmp_antonimos_size ; j++){
+						contador++;
+						conexion->ejecutarConsulta("INSERT INTO Antonimo VALUES (\'" + relaciones[i].getPalabra() + "\',\'" + relaciones[i].getAntonimos()[j] + "\')");
+					
+					}
+				
+				if (contador == 10000){
+					conexion = new ConexionDB(conexion->getDB_name(), conexion->getDB_user(), conexion->getDB_password(), conexion->getDB_host());
+					contador = 0;
+					};
+			}
+	
+	
+	};

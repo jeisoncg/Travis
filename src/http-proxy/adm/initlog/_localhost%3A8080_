@@ -1,8 +1,0 @@
--- InitLog for [_localhost:8080_]
-09/19 20:22:07.70 [9817] 0+0: --INITIALIZATION START-15091920--500: 9.9.13 on Linux/3.16.7-24-desktop--
-09/19 20:22:07.70 [9817] 0+0: _execPath=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/./dg9_9_13
-09/19 20:22:07.70 [9817] 0+0: EXECDIR=/home/jeisoncg/Downloads/dg9_9_13/DGROOT/bin/.
-09/19 20:22:07.70 [9817] 0+0: BINSHELL=/bin/sh
-09/19 20:22:07.70 [9817] 0+0: MAXIMA=delegated:64 for small mem=3262M
-09/19 20:22:07.70 [9817] 0+0: ERROR: cannot scan SERVER=socks:localhost:9050
-09/19 20:22:07.70 [9817] 0+0: Exit (-1) ERROR: SERVER=socks:localhost:9050
