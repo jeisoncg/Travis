@@ -29586,3 +29586,544 @@ BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
 09/25 20:21:05.44 [18849] 0+0: --beDaemon: ready=1, stat=-2
 09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background ...
 09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background
+10/03 09:20:30.92 [11839] 0+0: CRC ERROR A9 FFFFFF95
+10/03 09:20:30.93 [11839] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:20:30.93 [11839] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:20:30.93 [11839] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:20:30.99 [11839] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] 985EEF0 /lib/libcrypto.so.1.0.0
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:20:30.99 [11839] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:20:30.99 [11839] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:20:30.99 [11839] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:20:30.99 [11839] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:20:30.99 [11839] 0+0: --- [ssl] 0 libssl.so
+10/03 09:20:31.01 [11839] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:20:31.01 [11839] 0+0: --- [ssl] 985F960 /lib/libssl.so.1.0.0
+10/03 09:20:31.01 [11839] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:20:31.01 [11839] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:20:31.01 [11839] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:20:31.16 [11839] 0+0: -- checked integrity:OK (0.152) deccbddd8b42ee4f
+10/03 09:20:31.16 [11839] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:20:31.16 [11839] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:20:32.27 [11839] 0+0: ... gethostname(linux-0nbh)
+10/03 09:20:32.27 [11839] 0+0: configuring default RESOLV ...
+10/03 09:20:32.27 [11839] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:20:32.27 [11839] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:20:32.55 [11839] 0+0: {R} retrying AAAA [fd33]
+10/03 09:20:32.55 [11839] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:20:32.56 [11839] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:20:32.56 [11839] 0+0: ... DNS available
+10/03 09:20:32.56 [11839] 0+0: ... NIS not available (no default domain)
+10/03 09:20:32.56 [11839] 0+0: ... export RES_ORDER=CFD
+10/03 09:20:32.56 [11839] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:20:32.56 [11839] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:20:32.56 [11839] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:20:32.56 [11839] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:20:32.56 [11839] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:20:32.56 [11839] 0+0: BINSHELL=/bin/sh
+10/03 09:20:32.56 [11839] 0+0: MAXIMA=delegated:64 for small mem=5808M
+10/03 09:20:32.56 [11840] 0+0: -- Fork(daemon): 11839 -> 11840
+10/03 09:20:32.56 [11840] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:20:32.56 [11840] 0+0: server_open(delegate,:8083) BOUND
+10/03 09:20:32.56 [11840] 0+0: DGROOT=/home/jeisoncg/Travis/src/http-proxy^M
+10/03 09:20:32.56 [11840] 0+0: <DeleGate/9.9.13> [11840] -P8083 READY^M
+10/03 09:20:32.56 [11840] 0+0: HostID: 2014/10/26/04/03-40 (Linux/3.16.7-24-desktop) linux-0nbh
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 dglibz.so
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 libz.so.0.9.8
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 libz.so
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 libz.so.1.0.0
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 libz.so.10
+10/03 09:20:32.56 [11840] 0+0: --- [z] 0 libz.so.6
+10/03 09:20:32.57 [11840] 0+0: --- [z] 0 libz.so.4
+10/03 09:20:32.57 [11840] 0+0: --- [/lib/libz.so.1]
+10/03 09:20:32.57 [11840] 0+0: --- [z] 985F198 /lib/libz.so.1
+10/03 09:20:32.57 [11840] 0+0: --- [z] optional: gziocallback
+10/03 09:20:32.57 [11840] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+10/03 09:20:32.57 [11840] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 09:20:32.566 [11840] ERROR: PAM module is not built in.
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 dglibpam.so
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.0.9.8
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.1.0.0
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.10
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.6
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.4
+10/03 09:20:32.57 [11840] 0+0: --- [pam] 0 libpam.so.1
+10/03 09:20:32.59 [11840] 0+0: --- [/lib/libpam.so.0]
+10/03 09:20:32.59 [11840] 0+0: --- [pam] 986D0A0 /lib/libpam.so.0
+10/03 09:20:32.59 [11840] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+10/03 09:20:32.69 [11840] 0+0: PORT= 8083/11 (31,147)
+10/03 09:20:32.69 [11840] 0+0: OWNER=nobody => OWNER=jeisoncg/users(jeisoncg/users)
+10/03 09:20:32.69 [11840] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+10/03 09:20:32.69 [11840] 0+0: #### gzip/gunzip = dynamically linked
+10/03 09:20:32.69 [11840] 0+0: ADMIN=tor@tor.com protocol=http(specialist)
+10/03 09:20:32.69 [11840] 0+0: #### CACHE DISABLED #### Cache directory seems not exist: /home/jeisoncg/Travis/src/http-proxy/cache
+10/03 09:20:32.71 [11840] 0+0: WORKDIR=/home/jeisoncg/Travis/src/http-proxy/work/8083
+10/03 09:20:32.71 [11840] 0+0: MOUNT[0]X[2] /-/builtin/icons/* = default
+10/03 09:20:32.71 [11840] 0+0: MOUNT[1]X[3] /-/* = forbidden,from=!.RELIABLE,default
+10/03 09:20:32.71 [11840] 0+0: MOUNT[2]X[0] /-* = default
+10/03 09:20:32.71 [11840] 0+0: MOUNT[3]X[1] /=* = default
+10/03 09:20:32.71 [11840] 0+0: MOUNT[4]=[4] /favicon.ico builtin:icons/ysato/default.ico default,direction=fo,onerror=404,expires=15m
+10/03 09:20:32.71 [11840] 0+0: #### stack size limit = 800000 (8388608)
+10/03 09:20:32.71 [11840] 0+0: Stay open PIDFILE for accept() lock[fd=15]
+10/03 09:20:32.71 [11840] 0+0: StickyReport[17,18]127.0.0.127:65535><127.0.0.127:65535 212992/212992 212992/212992
+10/03 09:20:32.71 [11840] 0+0: env[18] TMPDIR=/tmp
+10/03 09:20:32.71 [11840] 0+0: env[92] LIBPATH=.;/home/jeisoncg/Travis/src;/home/jeisoncg/Travis/src/http-proxy/lib;/home/jeisoncg/Travis/src/http-proxy/bin;/home/jeisoncg/Travis/src/http-proxy/etc
+10/03 09:20:32.71 [11840] 0+0: env[96] RESOLV=cache,file,dns
+10/03 09:20:32.71 [11840] 0+0: ext[0] DGROOT=${EXECDIR}/..
+10/03 09:20:32.71 [11840] 0+0: arg[3] SERVER=http
+10/03 09:20:32.71 [11840] 0+0: arg[4] SOCKS=localhost:9050
+10/03 09:20:32.71 [11840] 0+0: arg[5] ADMIN=tor@tor.com
+10/03 09:20:32.71 [11840] 0+0: gen[0] DGROOT=/home/jeisoncg/Travis/src/http-proxy
+10/03 09:20:32.72 [11840] 0+0: DELEGATE_Modified[1]: 560fe430 1443882032
+10/03 09:20:32.72 [11840] 0+0: --INITIALIZATION DONE-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:20:32.72 [11840] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:20:32.73 [11839] 0+0: --beDaemon: ready=1, stat=0
+10/03 09:20:32.73 [11839] 0+0: --beDaemon: going background ...
+10/03 09:20:32.73 [11839] 0+0: --beDaemon: going background
+10/03 09:20:32.73 [11840] 0+0: ## left connected but dead [10] <= caps.c:203
+10/03 09:20:32.73 [11840] 0+0: --beDaemon:[10]0 wcc=1 err=0 rdy=1 11839/1
+10/03 09:20:32.73 [11840] 0+0: logMMap: F7259000 5360
+10/03 09:20:32.73 [11840] 0+0: LOG-Socketpair[23,24]
+10/03 09:26:12.65 [11976] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:26:12.65 [11976] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:26:12.65 [11976] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:26:12.66 [11976] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] A3ABF10 /lib/libcrypto.so.1.0.0
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:26:12.66 [11976] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:26:12.66 [11976] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:26:12.66 [11976] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:26:12.66 [11976] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:26:12.66 [11976] 0+0: --- [ssl] 0 libssl.so
+10/03 09:26:12.66 [11976] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:26:12.66 [11976] 0+0: --- [ssl] A3ACB00 /lib/libssl.so.1.0.0
+10/03 09:26:12.66 [11976] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:26:12.66 [11976] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:26:12.66 [11976] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:26:12.66 [11976] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:26:12.66 [11976] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:26:12.66 [11976] 0+0: ... gethostname(linux-0nbh)
+10/03 09:26:12.66 [11976] 0+0: configuring default RESOLV ...
+10/03 09:26:12.66 [11976] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:26:12.66 [11976] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:26:12.93 [11976] 0+0: {R} retrying AAAA [fd33]
+10/03 09:26:12.93 [11976] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:26:12.94 [11976] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:26:12.94 [11976] 0+0: ... DNS available
+10/03 09:26:12.94 [11976] 0+0: ... NIS not available (no default domain)
+10/03 09:26:12.94 [11976] 0+0: ... export RES_ORDER=CFD
+10/03 09:26:12.94 [11976] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:26:12.94 [11976] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:26:12.94 [11976] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:26:12.94 [11976] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:26:12.94 [11976] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:26:12.94 [11976] 0+0: BINSHELL=/bin/sh
+10/03 09:26:12.94 [11976] 0+0: MAXIMA=delegated:64 for small mem=5641M
+10/03 09:26:12.94 [11977] 0+0: -- Fork(daemon): 11976 -> 11977
+10/03 09:26:12.94 [11977] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:26:12.94 [11977] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:26:12.94 [11977] 0+0: server_open() failed
+10/03 09:26:12.94 [11977] 0+0: FATAL: cannot open server port :8083
+10/03 09:26:12.94 [11977] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:26:12.94 [11977] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:26:12.94 [11976] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:26:12.94 [11976] 0+0: --beDaemon: going background ...
+10/03 09:26:12.94 [11976] 0+0: --beDaemon: going background
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:28:08.42 [12007] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] 9668F40 /lib/libcrypto.so.1.0.0
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:28:08.42 [12007] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:28:08.42 [12007] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:28:08.42 [12007] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:28:08.42 [12007] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:28:08.42 [12007] 0+0: --- [ssl] 0 libssl.so
+10/03 09:28:08.42 [12007] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:28:08.42 [12007] 0+0: --- [ssl] 9669B40 /lib/libssl.so.1.0.0
+10/03 09:28:08.42 [12007] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:28:08.42 [12007] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:28:08.42 [12007] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:28:08.42 [12007] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:28:08.42 [12007] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:28:08.42 [12007] 0+0: ... gethostname(linux-0nbh)
+10/03 09:28:08.42 [12007] 0+0: configuring default RESOLV ...
+10/03 09:28:08.42 [12007] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:28:08.42 [12007] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:28:08.53 [12007] 0+0: {R} retrying AAAA [fd33]
+10/03 09:28:08.53 [12007] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:28:08.53 [12007] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:28:08.53 [12007] 0+0: ... DNS available
+10/03 09:28:08.53 [12007] 0+0: ... NIS not available (no default domain)
+10/03 09:28:08.53 [12007] 0+0: ... export RES_ORDER=CFD
+10/03 09:28:08.53 [12007] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:28:08.53 [12007] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:28:08.53 [12007] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:28:08.53 [12007] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:28:08.53 [12007] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:28:08.53 [12007] 0+0: BINSHELL=/bin/sh
+10/03 09:28:08.53 [12007] 0+0: MAXIMA=delegated:64 for small mem=5540M
+10/03 09:28:08.53 [12008] 0+0: -- Fork(daemon): 12007 -> 12008
+10/03 09:28:08.53 [12008] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:28:08.53 [12008] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:28:08.53 [12008] 0+0: server_open() failed
+10/03 09:28:08.54 [12008] 0+0: FATAL: cannot open server port :8083
+10/03 09:28:08.54 [12008] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:28:08.54 [12008] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:28:08.54 [12007] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:28:08.54 [12007] 0+0: --beDaemon: going background ...
+10/03 09:28:08.54 [12007] 0+0: --beDaemon: going background
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:28:16.31 [12018] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] 9B5D0C0 /lib/libcrypto.so.1.0.0
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:28:16.31 [12018] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:28:16.31 [12018] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:28:16.31 [12018] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:28:16.31 [12018] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:28:16.31 [12018] 0+0: --- [ssl] 0 libssl.so
+10/03 09:28:16.31 [12018] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:28:16.31 [12018] 0+0: --- [ssl] 9B5DCB0 /lib/libssl.so.1.0.0
+10/03 09:28:16.31 [12018] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:28:16.31 [12018] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:28:16.31 [12018] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:28:16.31 [12018] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:28:16.31 [12018] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:28:16.31 [12018] 0+0: ... gethostname(linux-0nbh)
+10/03 09:28:16.31 [12018] 0+0: configuring default RESOLV ...
+10/03 09:28:16.31 [12018] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:28:16.31 [12018] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:28:16.58 [12018] 0+0: {R} retrying AAAA [fd33]
+10/03 09:28:16.58 [12018] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:28:16.59 [12018] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:28:16.59 [12018] 0+0: ... DNS available
+10/03 09:28:16.59 [12018] 0+0: ... NIS not available (no default domain)
+10/03 09:28:16.59 [12018] 0+0: ... export RES_ORDER=CFD
+10/03 09:28:16.59 [12018] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:28:16.59 [12018] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:28:16.59 [12018] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:28:16.59 [12018] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:28:16.59 [12018] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:28:16.59 [12018] 0+0: BINSHELL=/bin/sh
+10/03 09:28:16.59 [12018] 0+0: MAXIMA=delegated:64 for small mem=5539M
+10/03 09:28:16.59 [12019] 0+0: -- Fork(daemon): 12018 -> 12019
+10/03 09:28:16.60 [12019] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:28:16.60 [12019] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:28:16.60 [12019] 0+0: server_open() failed
+10/03 09:28:16.60 [12019] 0+0: FATAL: cannot open server port :8083
+10/03 09:28:16.60 [12019] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:28:16.60 [12019] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:28:16.60 [12018] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:28:16.60 [12018] 0+0: --beDaemon: going background ...
+10/03 09:28:16.60 [12018] 0+0: --beDaemon: going background
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:29:29.20 [12044] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] 89B2750 /lib/libcrypto.so.1.0.0
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:29:29.20 [12044] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:29:29.20 [12044] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:29:29.20 [12044] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:29:29.20 [12044] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:29:29.20 [12044] 0+0: --- [ssl] 0 libssl.so
+10/03 09:29:29.20 [12044] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:29:29.20 [12044] 0+0: --- [ssl] 89B3340 /lib/libssl.so.1.0.0
+10/03 09:29:29.20 [12044] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:29:29.20 [12044] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:29:29.20 [12044] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:29:29.20 [12044] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:29:29.20 [12044] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:29:29.20 [12044] 0+0: ... gethostname(linux-0nbh)
+10/03 09:29:29.20 [12044] 0+0: configuring default RESOLV ...
+10/03 09:29:29.20 [12044] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:29:29.20 [12044] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:29:29.43 [12044] 0+0: {R} retrying AAAA [fd33]
+10/03 09:29:29.43 [12044] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:29:29.43 [12044] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:29:29.43 [12044] 0+0: ... DNS available
+10/03 09:29:29.43 [12044] 0+0: ... NIS not available (no default domain)
+10/03 09:29:29.43 [12044] 0+0: ... export RES_ORDER=CFD
+10/03 09:29:29.43 [12044] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:29:29.43 [12044] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:29:29.43 [12044] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:29:29.43 [12044] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:29:29.43 [12044] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:29:29.43 [12044] 0+0: BINSHELL=/bin/sh
+10/03 09:29:29.43 [12044] 0+0: MAXIMA=delegated:64 for small mem=5524M
+10/03 09:29:29.43 [12045] 0+0: -- Fork(daemon): 12044 -> 12045
+10/03 09:29:29.44 [12045] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:29:29.44 [12045] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:29:29.44 [12045] 0+0: server_open() failed
+10/03 09:29:29.44 [12045] 0+0: FATAL: cannot open server port :8083
+10/03 09:29:29.44 [12045] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:29:29.44 [12045] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:29:29.44 [12044] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:29:29.44 [12044] 0+0: --beDaemon: going background ...
+10/03 09:29:29.44 [12044] 0+0: --beDaemon: going background
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:29:46.97 [12069] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] 97ACCB8 /lib/libcrypto.so.1.0.0
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:29:46.97 [12069] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:29:46.97 [12069] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:29:46.97 [12069] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:29:46.97 [12069] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:29:46.97 [12069] 0+0: --- [ssl] 0 libssl.so
+10/03 09:29:46.97 [12069] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:29:46.97 [12069] 0+0: --- [ssl] 97AD888 /lib/libssl.so.1.0.0
+10/03 09:29:46.97 [12069] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:29:46.97 [12069] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:29:46.97 [12069] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:29:46.97 [12069] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:29:46.97 [12069] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:29:46.97 [12069] 0+0: ... gethostname(linux-0nbh)
+10/03 09:29:46.97 [12069] 0+0: configuring default RESOLV ...
+10/03 09:29:46.97 [12069] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:29:46.97 [12069] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:29:47.24 [12069] 0+0: {R} retrying AAAA [fd33]
+10/03 09:29:47.24 [12069] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:29:47.25 [12069] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:29:47.25 [12069] 0+0: ... DNS available
+10/03 09:29:47.25 [12069] 0+0: ... NIS not available (no default domain)
+10/03 09:29:47.25 [12069] 0+0: ... export RES_ORDER=CFD
+10/03 09:29:47.25 [12069] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:29:47.25 [12069] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:29:47.25 [12069] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:29:47.25 [12069] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:29:47.25 [12069] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:29:47.25 [12069] 0+0: BINSHELL=/bin/sh
+10/03 09:29:47.25 [12069] 0+0: MAXIMA=delegated:64 for small mem=5526M
+10/03 09:29:47.25 [12070] 0+0: -- Fork(daemon): 12069 -> 12070
+10/03 09:29:47.25 [12070] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:29:47.25 [12070] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:29:47.25 [12070] 0+0: server_open() failed
+10/03 09:29:47.25 [12070] 0+0: FATAL: cannot open server port :8083
+10/03 09:29:47.25 [12070] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:29:47.25 [12070] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:29:47.25 [12069] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:29:47.25 [12069] 0+0: --beDaemon: going background ...
+10/03 09:29:47.25 [12069] 0+0: --beDaemon: going background
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:51:49.78 [12610] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] 88361D8 /lib/libcrypto.so.1.0.0
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:51:49.78 [12610] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:51:49.78 [12610] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:51:49.78 [12610] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:51:49.78 [12610] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:51:49.78 [12610] 0+0: --- [ssl] 0 libssl.so
+10/03 09:51:49.78 [12610] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:51:49.78 [12610] 0+0: --- [ssl] 8836DC8 /lib/libssl.so.1.0.0
+10/03 09:51:49.78 [12610] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:51:49.78 [12610] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:51:49.78 [12610] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:51:49.78 [12610] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:51:49.78 [12610] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:51:49.78 [12610] 0+0: ... gethostname(linux-0nbh)
+10/03 09:51:49.78 [12610] 0+0: configuring default RESOLV ...
+10/03 09:51:49.78 [12610] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:51:49.78 [12610] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:51:50.37 [12610] 0+0: {R} retrying AAAA [fd33]
+10/03 09:51:50.37 [12610] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:51:50.38 [12610] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:51:50.38 [12610] 0+0: ... DNS available
+10/03 09:51:50.38 [12610] 0+0: ... NIS not available (no default domain)
+10/03 09:51:50.38 [12610] 0+0: ... export RES_ORDER=CFD
+10/03 09:51:50.38 [12610] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:51:50.38 [12610] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:51:50.38 [12610] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:51:50.38 [12610] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:51:50.38 [12610] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:51:50.38 [12610] 0+0: BINSHELL=/bin/sh
+10/03 09:51:50.38 [12610] 0+0: MAXIMA=delegated:64 for small mem=5413M
+10/03 09:51:50.38 [12611] 0+0: -- Fork(daemon): 12610 -> 12611
+10/03 09:51:50.38 [12611] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:51:50.38 [12611] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:51:50.38 [12611] 0+0: server_open() failed
+10/03 09:51:50.38 [12611] 0+0: FATAL: cannot open server port :8083
+10/03 09:51:50.38 [12611] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:51:50.38 [12611] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:51:50.38 [12610] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:51:50.38 [12610] 0+0: --beDaemon: going background ...
+10/03 09:51:50.38 [12610] 0+0: --beDaemon: going background
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:52:20.87 [12629] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] 8DC0B38 /lib/libcrypto.so.1.0.0
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:52:20.87 [12629] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:52:20.87 [12629] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:52:20.88 [12629] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:52:20.88 [12629] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:52:20.88 [12629] 0+0: --- [ssl] 0 libssl.so
+10/03 09:52:20.88 [12629] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:52:20.88 [12629] 0+0: --- [ssl] 8DC1738 /lib/libssl.so.1.0.0
+10/03 09:52:20.88 [12629] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:52:20.88 [12629] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:52:20.88 [12629] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:52:20.88 [12629] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:52:20.88 [12629] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:52:20.88 [12629] 0+0: ... gethostname(linux-0nbh)
+10/03 09:52:20.88 [12629] 0+0: configuring default RESOLV ...
+10/03 09:52:20.88 [12629] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:52:20.88 [12629] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:52:20.99 [12629] 0+0: {R} retrying AAAA [fd33]
+10/03 09:52:20.99 [12629] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:52:20.99 [12629] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:52:20.99 [12629] 0+0: ... DNS available
+10/03 09:52:20.99 [12629] 0+0: ... NIS not available (no default domain)
+10/03 09:52:20.99 [12629] 0+0: ... export RES_ORDER=CFD
+10/03 09:52:20.99 [12629] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:52:20.99 [12629] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:52:20.99 [12629] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:52:20.99 [12629] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:52:20.99 [12629] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:52:20.99 [12629] 0+0: BINSHELL=/bin/sh
+10/03 09:52:20.99 [12629] 0+0: MAXIMA=delegated:64 for small mem=5409M
+10/03 09:52:20.99 [12630] 0+0: -- Fork(daemon): 12629 -> 12630
+10/03 09:52:21.00 [12630] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:52:21.00 [12630] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:52:21.00 [12630] 0+0: server_open() failed
+10/03 09:52:21.00 [12630] 0+0: FATAL: cannot open server port :8083
+10/03 09:52:21.00 [12630] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:52:21.00 [12630] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:52:21.00 [12629] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:52:21.00 [12629] 0+0: --beDaemon: going background ...
+10/03 09:52:21.00 [12629] 0+0: --beDaemon: going background
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] 0 dglibcrypto.so
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] 0 libcrypto.so.0.9.8
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] 0 libcrypto.so
+10/03 09:56:54.32 [12717] 0+0: --- [/lib/libcrypto.so.1.0.0]
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] 972CD70 /lib/libcrypto.so.1.0.0
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_set_SSL_CTX
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_get_servername
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_get_servername_type
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_CTX_callback_ctrl
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_CTX_use_certificate_chain_file
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSLv2_server_method
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSLv2_client_method
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_CTX_set_session_id_context
+10/03 09:56:54.32 [12717] 0+0: --- [crypto] optional: SSL_CTX_set_generate_session_id
+10/03 09:56:54.32 [12717] 0+0: ---- [crypto] loaded 114 syms, unknown=47+9, already=0
+10/03 09:56:54.32 [12717] 0+0: --- [ssl] 0 dglibssl.so
+10/03 09:56:54.32 [12717] 0+0: --- [ssl] 0 libssl.so.0.9.8
+10/03 09:56:54.32 [12717] 0+0: --- [ssl] 0 libssl.so
+10/03 09:56:54.32 [12717] 0+0: --- [/lib/libssl.so.1.0.0]
+10/03 09:56:54.32 [12717] 0+0: --- [ssl] 972D960 /lib/libssl.so.1.0.0
+10/03 09:56:54.32 [12717] 0+0: ---- [ssl] loaded 114 syms, unknown=0+0, already=2
+10/03 09:56:54.32 [12717] 0+0: ---- unknown = 0+0, already = 2 / 114
+10/03 09:56:54.32 [12717] 0+0: +++ loaded OpenSSL 1.0.1k-fips 8 Jan 2015
+10/03 09:56:54.32 [12717] 0+0: ... testing resolver[SYS] with 'WwW.DeleGate.ORG'
+10/03 09:56:54.32 [12717] 0+0: ... you can suppress this test by RES_WAIT=0
+10/03 09:56:54.32 [12717] 0+0: ... gethostname(linux-0nbh)
+10/03 09:56:54.32 [12717] 0+0: configuring default RESOLV ...
+10/03 09:56:54.32 [12717] 0+0: ... gethostname()='linux-0nbh'
+10/03 09:56:54.32 [12717] 0+0: ... SYS: linux-0nbh -> 192.168.1.6
+10/03 09:56:54.67 [12717] 0+0: {R} retrying AAAA [fd33]
+10/03 09:56:54.67 [12717] 0+0: {R} ERROR: unknown DNS server: fd33
+10/03 09:56:54.68 [12717] 0+0: ... DNS: 192.168.1.6 -> linux-0nbh.home
+10/03 09:56:54.68 [12717] 0+0: ... DNS available
+10/03 09:56:54.68 [12717] 0+0: ... NIS not available (no default domain)
+10/03 09:56:54.68 [12717] 0+0: ... export RES_ORDER=CFD
+10/03 09:56:54.68 [12717] 0+0: {R} confid(detected)[8514239a759bd10a50e8ee0c0df647ee]<-[]
+10/03 09:56:54.68 [12717] 0+0: export RESOLV=cache,file,dns (set by default)
+SRCSIGN=9.9.13:20141031184756+0900:49bdc47da013424a:Author@DeleGate.ORG:jQ/cKOjFq0Q5V5c60vDC0kvOLIyxz2D6W0jLnsaNA0RS532Zo+GbYV9xOMb3npkc/tFLpu//S246ODUCwPYaZ8VbQ6BzcbbBf6BLH/V0hCbmmPrptMg8Cwg6l8gTx/x6ifsvt4koLtLGvDZhjfdgs/6VyJSHnH6NHgx9hulDk+U=
+BLDSIGN=9.9.13:20141031100347+0000:49bdc47da013424a::-
+10/03 09:56:54.68 [12717] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:56:54.68 [12717] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:56:54.68 [12717] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:56:54.68 [12717] 0+0: BINSHELL=/bin/sh
+10/03 09:56:54.68 [12717] 0+0: MAXIMA=delegated:64 for small mem=5030M
+10/03 09:56:54.68 [12718] 0+0: -- Fork(daemon): 12717 -> 12718
+10/03 09:56:54.68 [12718] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:56:54.68 [12718] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:56:54.68 [12718] 0+0: server_open() failed
+10/03 09:56:54.68 [12718] 0+0: FATAL: cannot open server port :8083
+10/03 09:56:54.68 [12718] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:56:54.68 [12718] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: going background ...
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: going background

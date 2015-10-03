@@ -1,22 +1,22 @@
 -- InitLog for [_8083_]
-09/25 20:21:05.44 [18849] 0+0: --INITIALIZATION START-15092520--500: 9.9.13 on Linux/3.19.0-28-generic--
-09/25 20:21:05.44 [18849] 0+0: _execPath=/home/lusho/Travis/src/http-proxy/bin/dg9_9_13
-09/25 20:21:05.44 [18849] 0+0: EXECDIR=/home/lusho/Travis/src/http-proxy/bin
-09/25 20:21:05.44 [18849] 0+0: BINSHELL=/bin/sh
-09/25 20:21:05.44 [18849] 0+0: MAXIMA=delegated:64 for small mem=956M
-09/25 20:21:05.44 [18849] 0+0: ### [0] capskey 0
-09/25 20:21:05.44 [18849] 0+0: ### [1] /home/lusho/Travis/src/capskey 0
-09/25 20:21:05.44 [18849] 0+0: ### [2] /home/lusho/Travis/src/http-proxy/lib/capskey 0
-09/25 20:21:05.44 [18849] 0+0: ### [3] /home/lusho/Travis/src/http-proxy/bin/capskey 0
-09/25 20:21:05.44 [18849] 0+0: ### [4] /home/lusho/Travis/src/http-proxy/etc/capskey 0
-09/25 20:21:05.44 [18851] 0+0: -- Fork(daemon): 18849 -> 18851
-09/25 20:21:05.44 [18851] 0+0: server_open(delegate,:8083,listen=20)
-09/25 20:21:05.44 [18851] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
-09/25 20:21:05.44 [18851] 0+0: server_open() failed
-09/25 20:21:05.44 [18851] 0+0: FATAL: cannot open server port :8083
-09/25 20:21:05.44 [18851] 0+0: Exit (-1) DeleGate: cannot open server port :8083
-09/25 20:21:05.44 [18851] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
-09/25 20:21:05.44 [18849] 0+0: PollIn.POLLHUP (9) errno=0
-09/25 20:21:05.44 [18849] 0+0: --beDaemon: ready=1, stat=-2
-09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background ...
-09/25 20:21:05.44 [18849] 0+0: --beDaemon: going background
+10/03 09:56:54.68 [12717] 0+0: --INITIALIZATION START-15100309--500: 9.9.13 on Linux/3.16.7-24-desktop--
+10/03 09:56:54.68 [12717] 0+0: _execPath=/home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 09:56:54.68 [12717] 0+0: EXECDIR=/home/jeisoncg/Travis/src/http-proxy/bin
+10/03 09:56:54.68 [12717] 0+0: BINSHELL=/bin/sh
+10/03 09:56:54.68 [12717] 0+0: MAXIMA=delegated:64 for small mem=5030M
+10/03 09:56:54.68 [12717] 0+0: ### [0] capskey 0
+10/03 09:56:54.68 [12717] 0+0: ### [1] /home/jeisoncg/Travis/src/capskey 0
+10/03 09:56:54.68 [12717] 0+0: ### [2] /home/jeisoncg/Travis/src/http-proxy/lib/capskey 0
+10/03 09:56:54.68 [12717] 0+0: ### [3] /home/jeisoncg/Travis/src/http-proxy/bin/capskey 0
+10/03 09:56:54.68 [12717] 0+0: ### [4] /home/jeisoncg/Travis/src/http-proxy/etc/capskey 0
+10/03 09:56:54.68 [12718] 0+0: -- Fork(daemon): 12717 -> 12718
+10/03 09:56:54.68 [12718] 0+0: server_open(delegate,:8083,listen=20)
+10/03 09:56:54.68 [12718] 0+0: bind_inet(11,0.0.0.0:8083) failed: ERRNO=98 (the port is used by others)
+10/03 09:56:54.68 [12718] 0+0: server_open() failed
+10/03 09:56:54.68 [12718] 0+0: FATAL: cannot open server port :8083
+10/03 09:56:54.68 [12718] 0+0: Exit (-1) DeleGate: cannot open server port :8083
+10/03 09:56:54.68 [12718] 0+0: #Sig/CSC finish 0 0 P1 R0 E0 {0 r0 t0} 0/0/0
+10/03 09:56:54.68 [12717] 0+0: PollIn.POLLHUP (9) errno=0
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: ready=1, stat=-2
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: going background ...
+10/03 09:56:54.68 [12717] 0+0: --beDaemon: going background

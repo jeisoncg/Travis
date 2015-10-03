@@ -20,12 +20,6 @@ Vista::Vista(string db_name,string user,string pass,string host, string rutaArch
 		cout << color.BOLDBLUE << " [Ruta de los archivos]: " << color.RESET << rutaArchivos << endl;
 		cout << color.BOLDBLUE << " [Ruta del diccionario] [Cantidad: " << tamano << "]: " << color.RESET << rutaDiccionario << endl;
 		
-		
-		
-		
-		
-		
-		
 	    Vista::menu();
 	}
 	
@@ -51,6 +45,7 @@ void Vista::menu(){
 		cout<<"5. Descargar lista de sinonimos."<<endl;
 		cout<<"7. Mostrar sinonimos y antonimos de una palabra."<<endl;
 		cout<<"8. Extraer sinonimos y antonimos del diccionario."<<endl;
+		cout<<"9. Descargar lista de sinonimos (Caracter especial)"<<endl;
 		cout<<endl;
 		
 		int seleccion = -1;
@@ -61,7 +56,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 9)){
+			if ((seleccion > 0)&&(seleccion < 10)){
 				
 				
 				if (seleccion == 1){
@@ -123,6 +118,15 @@ void Vista::menu(){
 						}
 					Vista::extraer_todas_relaciones_antonimos(i,size);
 					}
+				
+				}
+				
+				if (seleccion == 9){
+					
+					cout <<"Caracteres especiales: ";
+				
+					Vista::descargar_palabras_caracter_expecial();
+					
 				
 				}
 			
@@ -274,16 +278,49 @@ void Vista::descargar_todos_sinonimos()
   }
 
 }	 
+
+void Vista::descargar_palabras_caracter_expecial(void){
+	ofstream filtro;
+	filtro.open ("palabras_especiales.txt");
+	int tmp_palabras = lectura.getPalabras().size();int entontradas = 0;
+	for (int i = 0; i < tmp_palabras ; i++){
+
+		
+		bool flag = false;
+		string tmp = lectura.getPalabras()[i];
+		if ((tmp.find("ü") > 0) and (tmp.find("ü") < 50)){
+			
+				flag = true;
+			
+			}
+		
+		if (flag){
+				entontradas++;
+				cout << color.GREEN << " [SI] " <<color.RESET<< lectura.getPalabras()[i] << endl;
+				filtro << tmp << "\n";
+						
+				
+			}else{
+						
+				cout << " Encontradas: [" << entontradas << "]/["<<i<<"]" << color.RED<< " [NO] " <<color.RESET<< lectura.getPalabras()[i] << endl;
+						
+				}
+
+	}
+	
+	filtro.close();
+
+}
 	  
 void Vista::extraer_todas_relaciones_antonimos(int posInicial, int posFinal){
-		
+	
 		string palabra ="";
-		Extraccion_Sinonimos *extraccion  = new Extraccion_Sinonimos();
+		
 		
 		for (int i = posInicial ; i < posFinal ;i++){
 				
 				RelacionSinAnt relacion;
-				extraccion = new Extraccion_Sinonimos();
+				Extraccion_Sinonimos *extraccion  = new Extraccion_Sinonimos();
 				extraccion->extraer_sinonimos_antonimos(this->rutaArchivos,lectura.getPalabras()[i]);
 				
 				relacion.setPalabra(lectura.getPalabras()[i]);

@@ -6,14 +6,8 @@
 #include "Extraccion_Sinonimos.hpp"
 
 using namespace std;
-Extraccion_Sinonimos::Extraccion_Sinonimos()
-{
-	
-}
-Extraccion_Sinonimos::~Extraccion_Sinonimos()
-{
-	
-}
+Extraccion_Sinonimos::Extraccion_Sinonimos(){}
+Extraccion_Sinonimos::~Extraccion_Sinonimos(){	}
 
 
 int Extraccion_Sinonimos::adicionar_relacion_sinonimos(string sinonimos, string palabra)
@@ -156,6 +150,7 @@ vector <string> Extraccion_Sinonimos::getSinonimos(void){
 		int tmp_size = get_lista_sinonimos().size();
 		for(int i =0; i <tmp_size; i++)
 		{
+			//std::cout  << "S" << get_lista_sinonimos()[i].palabra2 << std::endl;
 			retorno.push_back(get_lista_sinonimos()[i].palabra2);
 		}
 		return retorno;
@@ -167,6 +162,7 @@ vector <string> Extraccion_Sinonimos::getAntonimos(void){
 		int tmp_size = get_lista_antonimos().size();
 		for(int i =0; i <tmp_size; i++)
 		{
+			//std::cout << "A" << get_lista_sinonimos()[i].palabra2 << std::endl;
 			retorno.push_back(get_lista_antonimos()[i].palabra2);
 		}
 		return retorno;
@@ -192,6 +188,7 @@ int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabr
 	     }
 	 }
     }
+    fe.close();
    
 	return 0;
 }
