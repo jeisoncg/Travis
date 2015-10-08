@@ -159,3 +159,24 @@
 10/03 09:56:54.32 [12717] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
 10/03 09:56:54.32 [12717] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
 10/03 09:56:54.32 [12717] 0+0: PORT> -P8083
+10/03 10:14:53.51 [13086] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:14:53.51 [13086] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:14:53.51 [13086] 0+0: PORT> -P8083
+10/03 10:15:21.64 [13136] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:15:21.64 [13136] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:15:21.64 [13136] 0+0: PORT> -P8083
+10/03 10:18:45.53 [13161] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:18:45.53 [13161] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:18:45.53 [13161] 0+0: PORT> -P8083
+10/03 10:19:41.47 [13197] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:19:41.47 [13197] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:19:41.47 [13197] 0+0: PORT> -P8083
+10/03 10:21:27.98 [13500] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:21:27.99 [13500] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:21:27.99 [13500] 0+0: PORT> -P8083
+10/03 10:32:10.98 [15911] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:32:10.98 [15911] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:32:10.98 [15911] 0+0: PORT> -P8083
+10/03 10:32:44.85 [16617] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /home/jeisoncg/Travis/src/http-proxy/act/credhy_cache128s
+10/03 10:32:44.85 [16617] 0+0: command PATH: /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13 -> /home/jeisoncg/Travis/src/http-proxy/bin/dg9_9_13
+10/03 10:32:44.85 [16617] 0+0: PORT> -P8083

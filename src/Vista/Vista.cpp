@@ -297,7 +297,7 @@ void Vista::descargar_palabras_caracter_expecial(void){
 		if (flag){
 				entontradas++;
 				cout << color.GREEN << " [SI] " <<color.RESET<< lectura.getPalabras()[i] << endl;
-				filtro << tmp << "\n";
+				filtro << tmp <<","<< "\n";
 						
 				
 			}else{
