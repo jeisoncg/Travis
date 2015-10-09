@@ -1,20 +1,19 @@
 #include "Vista/Vista.cpp"
-#include "./Controladores/HTML_Reader.cpp"
+//#include "./Controladores/HTML_Reader.cpp"
 
 int main(){
-		
+
 		
 		Vista*  x = new Vista("jarvis","root","root","localhost:3306", "/home/jeisoncg/FILES", "in.txt");
-		x->menu();
-		/*
-		HTML_Reader dx;
-		dx.readFile("/home/jeisoncg/correr.html");
-		//x.getTag("<title>","</title>" );
 		
+		//HTML_Reader x;
+		//x.readFile("/home/jeisoncg/FILES_VERBOS/saltar.html");
+		//x.loadPositions();
 		
-		
-		
-		std::vector <std::string> retorno = dx.getTag("<div class=\"aa\">","</div>" );
+		/*x.getTag("<title>","</title>" );
+
+		//std::vector <std::string> retorno = x.getTag("<div class=\"aa\">","</div>" );
+		std::vector <std::string> retorno = x.getTag("<h4>","</h4>" );
 		
 		
 		int tmp = retorno.size();
@@ -23,7 +22,7 @@ int main(){
 		for (int i = 0 ; i < tmp ; i++){
 			
 				std::cout << retorno[i] << "\n" << std::endl;
-			}*/
-		return 0;
+			}
+		return 0;*/
 	
 	}

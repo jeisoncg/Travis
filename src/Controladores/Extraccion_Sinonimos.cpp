@@ -100,6 +100,7 @@ int Extraccion_Sinonimos::construir_sinonimos(char *cadena, string palabra)
 	int estado=0;
 	int multiplicidad_de_palabras=0;
 	for(int i =0; i<500000; i++)
+	
 	{
 	 if(cadena[i] == 'E' && cadena[i+1] == 'S' && cadena[i+2] == 's')
 		 {
@@ -119,11 +120,16 @@ int Extraccion_Sinonimos::construir_sinonimos(char *cadena, string palabra)
 	}
 	if(cadena[i] == '<'&& cadena[i+1] == '/' && cadena[i+2] == 'l'&& cadena[i+3] == 'i'&& cadena[i+4] == '>')
 	{
-		
+		 try {
+   
 		if(lista_sinonimos.at(lista_sinonimos.length()-1) != ',')
 		{
 		lista_sinonimos+=",";
 	    }
+	}
+	 catch (const std::out_of_range& oor) {
+     estado = 0;
+  }
 		estado = 0;
 	}
 	if(estado==1&&cadena[i]!=' ')
@@ -134,6 +140,8 @@ int Extraccion_Sinonimos::construir_sinonimos(char *cadena, string palabra)
     Extraccion_Sinonimos::adicionar_relacion_sinonimos(lista_sinonimos,palabra);
 	return 0;
 }
+
+
 vector <Extraccion_Sinonimos::relac_sinonimo> Extraccion_Sinonimos::get_lista_sinonimos()
 {
 	return this->lista_sinonimos;

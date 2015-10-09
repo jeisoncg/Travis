@@ -142,3 +142,97 @@ std::vector <std::string> HTML_Reader::getTag(std::string tag_Open, std::string 
 		return this->recursive_vector;
 	
 	}
+	
+void HTML_Reader::loadPositions(void){
+	
+		std::string chain = "<div class=\"aa\">";
+		std::string chainEnd = "</div>";
+		std::vector <int> pos_ClassAA;
+		std::vector <int> pos_ClassAAEND;
+		int document_html_size = this->document_html.size();
+		for (int i = 0; i < document_html_size; i++){
+			
+				if ( ((this->document_html[i].find(chain)) >= 0) and ((this->document_html[i].find(chain)) <= 50000)  ){
+						
+						pos_ClassAA.push_back(i);
+						//std::cout << "AA " << i << std::endl;
+					}
+			
+			}
+		int contador = 0;
+		for (int i = pos_ClassAA[0]; i < document_html_size; i++){
+				
+				if (contador == 6){
+					
+						break;
+					
+					}
+				
+				if ( ((this->document_html[i].find(chainEnd)) >= 0) and ((this->document_html[i].find(chainEnd)) <= 50000)  ){
+						
+						pos_ClassAAEND.push_back(i);
+						contador++;
+						//std::cout << "EE " << i << std::endl;
+					}
+				
+			}
+		
+		this->indicativo_POS[0] = pos_ClassAA[0];
+		this->tiempos_Compuestos_Comunes_POS[0]= pos_ClassAA[1];
+		this->subjuntivo_POS[0]= pos_ClassAA[2];
+		this->tiempos_Compuestos_Subjuntivo_POS[0]= pos_ClassAA[3];
+		this->Imperativo_POS[0]= pos_ClassAA[4];
+		this->indicativo_preterito_anterior_POS[0]= pos_ClassAA[5];
+		
+		this->indicativo_POS[1] = pos_ClassAAEND[0];
+		this->tiempos_Compuestos_Comunes_POS[1]= pos_ClassAAEND[1];
+		this->subjuntivo_POS[1]= pos_ClassAAEND[2];
+		this->tiempos_Compuestos_Subjuntivo_POS[1]= pos_ClassAAEND[3];
+		this->Imperativo_POS[1]= pos_ClassAAEND[4];
+		this->indicativo_preterito_anterior_POS[1]= pos_ClassAAEND[5];
+		
+		//std::cout << indicativo_preterito_anterior_POS[0] << " - " << indicativo_preterito_anterior_POS[1] << std::endl;
+		
+		//-------------------------------------------------------------------------------------------------------------
+		std::string chain_tmp = "";
+		this->conjugaciones_sin_procesar.push_back("");
+		for (int i = this->indicativo_POS[0] ; i < this->indicativo_POS[1]+1; i++){
+				this->conjugaciones_sin_procesar[0] += this->document_html[i];
+				std::cout << " ---> " << this->document_html[i] << "\n" << std::endl;
+			}
+		//this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		for (int i = this->tiempos_Compuestos_Comunes_POS[0] ; i < this->tiempos_Compuestos_Comunes_POS[1]+1; i++){
+				chain_tmp += this->document_html[i];
+			}
+		this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		for (int i = this->subjuntivo_POS[0] ; i < this->subjuntivo_POS[1]+1; i++){
+				chain_tmp += this->document_html[i];
+			}
+		this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		for (int i = this->tiempos_Compuestos_Subjuntivo_POS[0] ; i < this->tiempos_Compuestos_Subjuntivo_POS[1]+1; i++){
+				chain_tmp += this->document_html[i];
+			}
+		this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		for (int i = this->Imperativo_POS[0] ; i < this->Imperativo_POS[1]+1; i++){
+				chain_tmp += this->document_html[i];
+			}
+		this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		for (int i = this->indicativo_preterito_anterior_POS[0] ; i < this->indicativo_preterito_anterior_POS[1]+1; i++){
+				chain_tmp += this->document_html[i];
+			}
+		this->conjugaciones_sin_procesar.push_back(chain_tmp);
+		chain_tmp = "";
+		
+		/*int conjugaciones_sin_procesar_size = this->conjugaciones_sin_procesar.size();
+		for (int i = 0 ; i < conjugaciones_sin_procesar_size ; i++){*/
+			
+				std::cout << " ---> " << this->conjugaciones_sin_procesar[0] << "\n" << std::endl;
+			
+			/*}*/
+		
+	}

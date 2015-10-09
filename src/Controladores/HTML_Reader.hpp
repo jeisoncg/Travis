@@ -52,13 +52,26 @@ class HTML_Reader {
 			 * 
 			 * **/
 			void getTagx(std::string tag_Open, std::string tag_Close); 
+			std::vector <std::string> getTag(std::string tag_Open, std::string tag_Close);
+			
+			int indicativo_POS[2];
+			int tiempos_Compuestos_Comunes_POS[2];
+			int subjuntivo_POS[2];
+			int tiempos_Compuestos_Subjuntivo_POS[2];
+			int Imperativo_POS[2];
+			int indicativo_preterito_anterior_POS[2];
+			
+			std::vector <std::string> conjugaciones_sin_procesar;
 			
 		public:
 			HTML_Reader();
 			~HTML_Reader();
+			
+			void loadPositions(void);
+			
 			void readFile(std::string route);
 			
-			std::vector <std::string> getTag(std::string tag_Open, std::string tag_Close);
+			
 	
 	};
 

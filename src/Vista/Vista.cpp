@@ -315,12 +315,14 @@ void Vista::descargar_palabras_caracter_expecial(void){
 void Vista::extraer_todas_relaciones_antonimos(int posInicial, int posFinal){
 	
 		string palabra ="";
-		
+		Extraccion_Sinonimos *extraccion  = new Extraccion_Sinonimos();
 		
 		for (int i = posInicial ; i < posFinal ;i++){
 				
 				RelacionSinAnt relacion;
+				
 				Extraccion_Sinonimos *extraccion  = new Extraccion_Sinonimos();
+				extraccion->extraer_sinonimos_antonimos(this->rutaArchivos,"zrvz");
 				extraccion->extraer_sinonimos_antonimos(this->rutaArchivos,lectura.getPalabras()[i]);
 				
 				relacion.setPalabra(lectura.getPalabras()[i]);
@@ -329,11 +331,12 @@ void Vista::extraer_todas_relaciones_antonimos(int posInicial, int posFinal){
 				
 				//relacion.print();
 				this->palabras_sinonimos_antonimos.push_back(relacion);
-				std::cout << extraccion->getSinonimos().size() << " " << extraccion->getAntonimos().size() << std::endl;
+				std::cout << "[ " << i << " ]" << extraccion->getSinonimos().size() << " " << extraccion->getAntonimos().size() << std::endl;
+				delete extraccion;
 				
 			}
 		
-		//extraccion->RegistrarSinonimosBD(this->palabras_sinonimos_antonimos,this->conexion);
+		extraccion->RegistrarSinonimosBD(this->palabras_sinonimos_antonimos,this->conexion);
 	
 	
 	}
