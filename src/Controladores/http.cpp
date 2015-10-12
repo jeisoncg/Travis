@@ -11,8 +11,8 @@ http::http()
 	//string comando_tmp = "mkdir /home/" + user + "/TravisTMP";
 	//system(comando_tmp.c_str());
 	//this->encabezadoComando="GET www.wordreference.com/sinonimos/"; 
-	this->encabezadoComando="aria2c http://www.wordreference.com/sinonimos/"; 
-	this->extencionComando = ".html"; 
+	this->encabezadoComando="aria2c https://es.wiktionary.org/wiki/"; 
+	this->extencionComando = ""; 
 }
 
 http::~http()

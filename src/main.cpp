@@ -4,7 +4,7 @@
 int main(){
 
 		
-		Vista*  x = new Vista("jarvis","root","root","localhost:3306", "/home/jeisoncg/FILES", "in.txt");
+		Vista*  x = new Vista("Proyecto","root","root","localhost:3306", "/home/jeisoncg/FILES", "in.txt");
 		
 		//HTML_Reader x;
 		//x.readFile("/home/jeisoncg/FILES_VERBOS/saltar.html");
