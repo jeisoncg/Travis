@@ -47,6 +47,7 @@ void Vista::menu(){
 		cout<<"8. Extraer sinonimos y antonimos del diccionario."<<endl;
 		cout<<"9. Descargar lista de sinonimos (Caracter especial)"<<endl;
 		cout<<"10. Conjugado de verbo (Solo Visualizacion)"<<endl;
+		cout<<"11. Palabras terminadas en [ar],[er],[ir]"<<endl;
 		cout<<endl;
 		
 		int seleccion = -1;
@@ -57,7 +58,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 11)){
+			if ((seleccion > 0)&&(seleccion < 12)){
 				
 				
 				if (seleccion == 1){
@@ -139,9 +140,38 @@ void Vista::menu(){
 					system(comando.c_str());
 				
 				}
+				
+				if (seleccion == 11){
+					
+					Vista::extraerPalabrasPorTerminacion();
+				}
 			
 		};
 		
+	}
+	
+void Vista::extraerPalabrasPorTerminacion(){
+	
+		//lectura.getPalabras();
+		int contadorVerbos = 0;
+		int palabras_size = lectura.getPalabras().size();
+		for (int i = 0; i < palabras_size;i++){
+			
+				int palabra_size = lectura.getPalabras()[i].length();
+				if ((lectura.getPalabras()[i][palabra_size-2]=='a')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
+						contadorVerbos++;
+						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDBLUE << " [AR] " << color.RESET  <<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+					}
+				if ((lectura.getPalabras()[i][palabra_size-2]=='e')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
+						contadorVerbos++;
+						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDRED << " [ER] " << color.RESET<<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+					}
+				if ((lectura.getPalabras()[i][palabra_size-2]=='i')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
+						contadorVerbos++;
+						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDMAGENTA << " [IR] " << color.RESET<<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+					}
+			}
+	
 	}
 	
 void Vista::cargar_proxis(){
