@@ -13,7 +13,7 @@ int main(int args, char **argv)
 	vector <string> palabras_faltantes;
 	FILE * pFile;
 	string directorio_principal,palabra,file,extencion;
-    ofstream archivo_salida("/home/jeisoncg/palabras_faltantes.txt");;
+    ofstream archivo_salida("/home/jeisoncg/palabras_faltantes.txt");
      char buffer[5000];
   	cout<<"ingrese el directorio donde estan los .html (con un / al final)"<<endl;
 	cin>>directorio_principal;

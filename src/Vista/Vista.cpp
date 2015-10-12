@@ -152,6 +152,7 @@ void Vista::menu(){
 	
 void Vista::extraerPalabrasPorTerminacion(){
 	
+		ofstream archivo_salida("verbos.txt");
 		//lectura.getPalabras();
 		int contadorVerbos = 0;
 		int palabras_size = lectura.getPalabras().size();
@@ -161,17 +162,20 @@ void Vista::extraerPalabrasPorTerminacion(){
 				if ((lectura.getPalabras()[i][palabra_size-2]=='a')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
 						contadorVerbos++;
 						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDBLUE << " [AR] " << color.RESET  <<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+						 archivo_salida<<lectura.getPalabras()[i]<<endl;
 					}
 				if ((lectura.getPalabras()[i][palabra_size-2]=='e')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
 						contadorVerbos++;
 						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDRED << " [ER] " << color.RESET<<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+						archivo_salida<<lectura.getPalabras()[i]<<endl;
 					}
 				if ((lectura.getPalabras()[i][palabra_size-2]=='i')and(lectura.getPalabras()[i][palabra_size-1] == 'r')){
 						contadorVerbos++;
 						cout << color.BOLDGREEN << " [" << contadorVerbos << "] " << color.RESET << color.BOLDMAGENTA << " [IR] " << color.RESET<<" [" << i << "/" << palabras_size << "] " << lectura.getPalabras()[i] << endl;
+						archivo_salida<<lectura.getPalabras()[i]<<endl;
 					}
 			}
-	
+		archivo_salida.close();
 	}
 	
 void Vista::cargar_proxis(){
