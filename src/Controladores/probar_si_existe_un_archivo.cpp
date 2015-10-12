@@ -13,12 +13,12 @@ int main(int args, char **argv)
 	vector <string> palabras_faltantes;
 	FILE * pFile;
 	string directorio_principal,palabra,file,extencion;
-    ofstream archivo_salida("/home/lusho/Escritorio/palabras_faltantes.txt");;
+    ofstream archivo_salida("/home/jeisoncg/palabras_faltantes.txt");;
      char buffer[5000];
   	cout<<"ingrese el directorio donde estan los .html (con un / al final)"<<endl;
 	cin>>directorio_principal;
 	extencion=".html";
-	una_lectura.Leer("/home/lusho/Travis/src/in.txt");
+	una_lectura.Leer("/home/jeisoncg/Travis/src/in.txt");
     cout<<"se han leido "<<una_lectura.getPalabras().size()<<" palabras"<<endl;
 
   

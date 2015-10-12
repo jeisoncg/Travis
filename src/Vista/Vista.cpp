@@ -46,6 +46,7 @@ void Vista::menu(){
 		cout<<"7. Mostrar sinonimos y antonimos de una palabra."<<endl;
 		cout<<"8. Extraer sinonimos y antonimos del diccionario."<<endl;
 		cout<<"9. Descargar lista de sinonimos (Caracter especial)"<<endl;
+		cout<<"10. Conjugado de verbo (Solo Visualizacion)"<<endl;
 		cout<<endl;
 		
 		int seleccion = -1;
@@ -56,7 +57,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 10)){
+			if ((seleccion > 0)&&(seleccion < 11)){
 				
 				
 				if (seleccion == 1){
@@ -127,6 +128,15 @@ void Vista::menu(){
 				
 					Vista::descargar_palabras_caracter_expecial();
 					
+				
+				}
+				
+				if (seleccion == 10){
+					string ruta_x = "";
+					cout <<"Ingrese la ruta del verbo.html: ";
+					cin>> ruta_x;
+					string comando = "java -jar JarvixVerbos/dist/JarvixVerbos.jar " + ruta_x;
+					system(comando.c_str());
 				
 				}
 			

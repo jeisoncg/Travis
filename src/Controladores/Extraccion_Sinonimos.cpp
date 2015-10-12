@@ -187,6 +187,7 @@ int Extraccion_Sinonimos::extraer_sinonimos_antonimos(string ruta, string palabr
     {
      for(int j = 0; j<500000; j++)
      {
+		 
 		 if(cadena[j] == 'E' && cadena[j+1] == 'S' && cadena[j+2] == 's')
 		 {
 		 construir_sinonimos(cadena,palabra);
