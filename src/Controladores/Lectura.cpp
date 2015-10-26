@@ -8,6 +8,8 @@ Lectura::~Lectura(){}
 //Soporta maximo cadenas de 127 caracteres.
 void Lectura::Leer(string file){
 		
+		this->entrada.clear();
+		this->palabras.clear();
 		ifstream input(file.c_str());
 		
 		while(!input.eof()) 
@@ -31,6 +33,15 @@ void Lectura::Leer(string file){
 			
 				int tmp_entrada_pos_vector_i = this->entrada[pos_vector].length();string palabra = "";
 				for(int posicion_caracter = 0 ; posicion_caracter < tmp_entrada_pos_vector_i; posicion_caracter++){
+						
+						
+						if ((this->entrada[pos_vector][posicion_caracter] != ',')and(posicion_caracter == tmp_entrada_pos_vector_i - 1)){
+								palabra = palabra + this->entrada[pos_vector][posicion_caracter] ;
+								this->palabras.push_back(palabra);
+								palabra = "";
+								
+								}
+						
 						
 						if(this->entrada[pos_vector][posicion_caracter] == ','){
 							

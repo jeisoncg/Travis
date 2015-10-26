@@ -35,6 +35,7 @@ class http{
     std::string get_proxy_actual();
 	int descargar_html(std::string palabra);
 	void descargar_sinonimos_completos();
+	int descargar_verbo_wordReference(std::string palabra);
 	void construir_comando(); //construlle el comando con base en el encabezado, la palabra a consulatar y la extencion
 	
 };

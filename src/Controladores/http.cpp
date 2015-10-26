@@ -61,6 +61,26 @@ int contador =0;
    fe.close();*/
    return 0;
 }
+
+int http::descargar_verbo_wordReference(string palabra)
+{
+	set_palabra(palabra);
+	//char cadena[6000]; //variable que recibe la linea leida del fstream
+	
+
+
+	string ruta = "FILES_VERBOS_WORDREFERENCE/";
+	
+	
+	this->comando= "aria2c http://www.wordreference.com/conj/ESverbs.aspx?v=" + palabraComando + " -o " + ruta  + palabraComando+extencionComando + 
+	" --http-proxy=localhost:8083"; //es la suma de los string anteriores para descargar la pagina con el comando GET
+
+
+    system(this->comando.c_str());
+
+   return 0;
+}
+
 void http::set_encabezado(string encabezado){
 	this->encabezadoComando=encabezado;
 }

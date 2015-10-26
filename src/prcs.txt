@@ -1,0 +1,270 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 01:55 ?        00:00:25 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 01:55 ?        00:00:00 [kthreadd]
+root         3     2  0 01:55 ?        00:00:06 [ksoftirqd/0]
+root         5     2  0 01:55 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 01:55 ?        00:00:00 [rcuc/0]
+root         8     2  0 01:55 ?        00:00:00 [rcub/0]
+root         9     2  0 01:55 ?        00:00:17 [rcu_preempt]
+root        10     2  0 01:55 ?        00:00:03 [rcuop/0]
+root        11     2  0 01:55 ?        00:00:02 [rcuop/1]
+root        12     2  0 01:55 ?        00:00:03 [rcuop/2]
+root        13     2  0 01:55 ?        00:00:02 [rcuop/3]
+root        14     2  0 01:55 ?        00:00:02 [rcuop/4]
+root        15     2  0 01:55 ?        00:00:01 [rcuop/5]
+root        16     2  0 01:55 ?        00:00:00 [rcuop/6]
+root        17     2  0 01:55 ?        00:00:00 [rcuop/7]
+root        18     2  0 01:55 ?        00:00:00 [rcu_sched]
+root        19     2  0 01:55 ?        00:00:00 [rcuos/0]
+root        20     2  0 01:55 ?        00:00:00 [rcuos/1]
+root        21     2  0 01:55 ?        00:00:00 [rcuos/2]
+root        22     2  0 01:55 ?        00:00:00 [rcuos/3]
+root        23     2  0 01:55 ?        00:00:00 [rcuos/4]
+root        24     2  0 01:55 ?        00:00:00 [rcuos/5]
+root        25     2  0 01:55 ?        00:00:00 [rcuos/6]
+root        26     2  0 01:55 ?        00:00:00 [rcuos/7]
+root        27     2  0 01:55 ?        00:00:00 [rcu_bh]
+root        28     2  0 01:55 ?        00:00:00 [rcuob/0]
+root        29     2  0 01:55 ?        00:00:00 [rcuob/1]
+root        30     2  0 01:55 ?        00:00:00 [rcuob/2]
+root        31     2  0 01:55 ?        00:00:00 [rcuob/3]
+root        32     2  0 01:55 ?        00:00:00 [rcuob/4]
+root        33     2  0 01:55 ?        00:00:00 [rcuob/5]
+root        34     2  0 01:55 ?        00:00:00 [rcuob/6]
+root        35     2  0 01:55 ?        00:00:00 [rcuob/7]
+root        36     2  0 01:55 ?        00:00:00 [migration/0]
+root        37     2  0 01:55 ?        00:00:03 [watchdog/0]
+root        38     2  0 01:55 ?        00:00:03 [watchdog/1]
+root        39     2  0 01:55 ?        00:00:00 [migration/1]
+root        40     2  0 01:55 ?        00:00:00 [rcuc/1]
+root        41     2  0 01:55 ?        00:00:06 [ksoftirqd/1]
+root        43     2  0 01:55 ?        00:00:00 [kworker/1:0H]
+root        44     2  0 01:55 ?        00:00:04 [watchdog/2]
+root        45     2  0 01:55 ?        00:00:00 [migration/2]
+root        46     2  0 01:55 ?        00:00:00 [rcuc/2]
+root        47     2  0 01:55 ?        00:00:09 [ksoftirqd/2]
+root        49     2  0 01:55 ?        00:00:00 [kworker/2:0H]
+root        50     2  0 01:55 ?        00:00:03 [watchdog/3]
+root        51     2  0 01:55 ?        00:00:00 [migration/3]
+root        52     2  0 01:55 ?        00:00:00 [rcuc/3]
+root        53     2  0 01:55 ?        00:00:04 [ksoftirqd/3]
+root        55     2  0 01:55 ?        00:00:00 [kworker/3:0H]
+root        56     2  0 01:55 ?        00:00:02 [watchdog/4]
+root        57     2  0 01:55 ?        00:00:00 [migration/4]
+root        58     2  0 01:55 ?        00:00:00 [rcuc/4]
+root        59     2  0 01:55 ?        00:00:01 [ksoftirqd/4]
+root        61     2  0 01:55 ?        00:00:00 [kworker/4:0H]
+root        62     2  0 01:55 ?        00:00:00 [watchdog/5]
+root        63     2  0 01:55 ?        00:00:00 [migration/5]
+root        64     2  0 01:55 ?        00:00:00 [rcuc/5]
+root        65     2  0 01:55 ?        00:00:00 [ksoftirqd/5]
+root        67     2  0 01:55 ?        00:00:00 [kworker/5:0H]
+root        68     2  0 01:55 ?        00:00:00 [khelper]
+root        69     2  0 01:55 ?        00:00:00 [kdevtmpfs]
+root        70     2  0 01:55 ?        00:00:00 [netns]
+root        71     2  0 01:55 ?        00:00:00 [khungtaskd]
+root        72     2  0 01:55 ?        00:00:00 [writeback]
+root        73     2  0 01:55 ?        00:00:00 [ksmd]
+root        74     2  0 01:55 ?        00:00:00 [khugepaged]
+root        75     2  0 01:55 ?        00:00:00 [crypto]
+root        76     2  0 01:55 ?        00:00:00 [kintegrityd]
+root        77     2  0 01:55 ?        00:00:00 [bioset]
+root        78     2  0 01:55 ?        00:00:00 [kblockd]
+root        79     2  0 01:55 ?        00:00:00 [ata_sff]
+root        80     2  0 01:55 ?        00:00:05 [khubd]
+root        82     2  0 01:55 ?        00:00:00 [kswapd0]
+root        83     2  0 01:55 ?        00:00:00 [fsnotify_mark]
+root        90     2  0 01:55 ?        00:00:00 [kthrotld]
+root        91     2  0 01:55 ?        00:00:00 [scsi_eh_0]
+root        92     2  0 01:55 ?        00:00:00 [scsi_tmf_0]
+root        93     2  0 01:55 ?        00:00:00 [scsi_eh_1]
+root        94     2  0 01:55 ?        00:00:00 [scsi_tmf_1]
+root        95     2  0 01:55 ?        00:00:00 [scsi_eh_2]
+root        96     2  0 01:55 ?        00:00:00 [scsi_tmf_2]
+root        97     2  0 01:55 ?        00:00:00 [scsi_eh_3]
+root        98     2  0 01:55 ?        00:00:00 [scsi_tmf_3]
+root       104     2  0 01:55 ?        00:00:00 [kpsmoused]
+root       106     2  0 01:55 ?        00:00:00 [ipv6_addrconf]
+root       107     2  0 01:55 ?        00:00:00 [deferwq]
+root       154     2  0 01:55 ?        00:00:00 [kauditd]
+root       200     2  0 01:55 ?        00:00:05 [kworker/0:2]
+root       260     2  0 01:55 ?        00:00:00 [ttm_swap]
+root       272     2  0 01:55 ?        00:00:00 [kworker/5:1H]
+root       273     2  0 01:55 ?        00:00:00 [kworker/0:1H]
+root       274     2  0 01:55 ?        00:00:00 [kworker/1:1H]
+root       275     2  0 01:55 ?        00:00:00 [kworker/2:1H]
+root       276     2  0 01:55 ?        00:00:00 [kworker/3:1H]
+root       277     2  0 01:55 ?        00:00:00 [kworker/4:1H]
+root       287     2  0 01:55 ?        00:00:00 [scsi_eh_4]
+root       288     2  0 01:55 ?        00:00:00 [scsi_tmf_4]
+root       289     2  0 01:55 ?        00:00:01 [scsi_eh_5]
+root       290     2  0 01:55 ?        00:00:00 [scsi_tmf_5]
+root       291     2  0 01:55 ?        00:00:00 [radeon-crtc]
+root       292     2  0 01:55 ?        00:00:00 [radeon-crtc]
+root       293     2  0 01:55 ?        00:00:00 [radeon-crtc]
+root       294     2  0 01:55 ?        00:00:00 [radeon-crtc]
+root       299     2  0 01:55 ?        00:00:00 [bioset]
+root       316     2  0 01:56 ?        00:00:00 [kworker/1:2]
+root       317     2  0 01:56 ?        00:00:00 [btrfs-worker]
+root       318     2  0 01:56 ?        00:00:00 [kworker/u17:0]
+root       319     2  0 01:56 ?        00:00:00 [btrfs-worker-hi]
+root       320     2  0 01:56 ?        00:00:00 [btrfs-delalloc]
+root       321     2  0 01:56 ?        00:00:00 [btrfs-flush_del]
+root       322     2  0 01:56 ?        00:00:00 [btrfs-cache]
+root       323     2  0 01:56 ?        00:00:00 [btrfs-submit]
+root       324     2  0 01:56 ?        00:00:00 [btrfs-fixup]
+root       325     2  0 01:56 ?        00:00:00 [btrfs-endio]
+root       326     2  0 01:56 ?        00:00:00 [btrfs-endio-met]
+root       327     2  0 01:56 ?        00:00:00 [btrfs-endio-met]
+root       328     2  0 01:56 ?        00:00:00 [btrfs-endio-rai]
+root       329     2  0 01:56 ?        00:00:00 [btrfs-rmw]
+root       330     2  0 01:56 ?        00:00:00 [btrfs-endio-wri]
+root       331     2  0 01:56 ?        00:00:00 [btrfs-freespace]
+root       332     2  0 01:56 ?        00:00:00 [btrfs-delayed-m]
+root       333     2  0 01:56 ?        00:00:00 [btrfs-readahead]
+root       334     2  0 01:56 ?        00:00:00 [btrfs-qgroup-re]
+root       335     2  0 01:56 ?        00:00:00 [btrfs-extent-re]
+root       336     2  0 01:56 ?        00:00:00 [btrfs-cleaner]
+root       337     2  0 01:56 ?        00:00:00 [btrfs-transacti]
+root       421     1  0 01:56 ?        00:00:01 /usr/lib/systemd/systemd-journald
+root       432     1  0 01:56 ?        00:00:00 /sbin/lvmetad
+root       433     1  0 01:56 ?        00:00:00 /sbin/dmeventd
+root       444     1  0 01:56 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       540     1  0 01:56 ?        00:00:03 /usr/sbin/haveged -w 1024 -v 0 -F
+root       577     2  0 01:56 ?        00:00:00 [edac-poller]
+root       580     2  0 01:56 ?        00:00:00 [hd-audio1]
+root       582     2  0 01:56 ?        00:00:00 [hd-audio0]
+root       636     2  0 01:56 ?        00:00:00 [xfsalloc]
+root       637     2  0 01:56 ?        00:00:00 [xfs_mru_cache]
+root       638     2  0 01:56 ?        00:00:00 [xfslogd]
+root       639     2  0 01:56 ?        00:00:00 [xfs-data/sda4]
+root       640     2  0 01:56 ?        00:00:00 [xfs-conv/sda4]
+root       641     2  0 01:56 ?        00:00:00 [xfs-cil/sda4]
+root       642     2  0 01:56 ?        00:00:02 [xfsaild/sda4]
+root       665     1  0 01:56 ?        00:00:00 /sbin/auditd -n
+root       844     1  0 01:56 ?        00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+avahi      845     1  0 01:56 ?        00:00:00 avahi-daemon: running [linux-0nbh.local]
+root       848     1  0 01:56 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log
+root       849     1  0 01:56 ?        00:00:00 /usr/sbin/ModemManager
+root       850     1  0 01:56 ?        00:00:00 /usr/sbin/irqbalance --foreground
+message+   853     1  0 01:56 ?        00:00:00 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nscd       854     1  0 01:56 ?        00:00:00 /usr/sbin/nscd
+root       871     1  0 01:56 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root       872     1  0 01:56 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+polkitd    933     1  0 01:56 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root       935     1  0 01:56 ?        00:00:00 /usr/lib/wicked/bin/wickedd-auto4 --systemd --foreground
+root       936     1  0 01:56 ?        00:00:00 /usr/lib/wicked/bin/wickedd-dhcp4 --systemd --foreground
+root       937     1  0 01:56 ?        00:00:00 /usr/lib/wicked/bin/wickedd-dhcp6 --systemd --foreground
+root       942     1  0 01:56 ?        00:00:00 /usr/sbin/wickedd --systemd --foreground
+root       943     1  0 01:56 ?        00:00:00 /usr/sbin/wickedd-nanny --systemd --foreground
+root       964     1  0 01:56 ?        00:00:00 /usr/sbin/gdm
+root      1016   964  3 01:56 tty7     00:01:57 /usr/bin/Xorg :0 -background none -noreset -verbose 3 -logfile /dev/null -auth /run/gdm/auth-for-gdm-GN6Ne4/database -seat seat0 -nolisten tcp vt7
+root      1021     1  0 01:56 ?        00:00:00 /usr/lib/accounts-daemon
+root      1444     1  0 01:56 ?        00:00:00 /usr/lib/upower/upowerd
+colord    1489     1  0 01:56 ?        00:00:00 /usr/lib/colord
+rtkit     1494     1  0 01:56 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+root      1507     1  0 01:56 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root      1570     1  0 01:57 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      1615     1  0 01:57 ?        00:00:00 /usr/sbin/cupsd -f
+ntp       1635     1  0 01:57 ?        00:00:00 /usr/sbin/ntpd -p /var/run/ntp/ntpd.pid -g -u ntp:ntp -c /etc/ntp.conf
+root      1782     1  0 01:57 ?        00:00:00 /usr/lib/postfix/master -w
+postfix   1783  1782  0 01:57 ?        00:00:00 pickup -l -t fifo -u
+postfix   1784  1782  0 01:57 ?        00:00:00 qmgr -l -t fifo -u
+root      1798     1  0 01:57 ?        00:00:00 /usr/sbin/cron -n
+root      1984   964  0 01:57 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+jeisoncg  1991     1  0 01:57 ?        00:00:00 /usr/lib/systemd/systemd --user
+jeisoncg  1992  1991  0 01:57 ?        00:00:00 (sd-pam)
+jeisoncg  1995     1  0 01:57 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+jeisoncg  2005  1984  0 01:57 ?        00:00:00 /usr/bin/gnome-session
+jeisoncg  2052     1  0 01:57 ?        00:00:00 dbus-launch --autolaunch=016627c3c4784cd4812d4b7e96a34226 --binary-syntax --close-stderr
+jeisoncg  2053     1  0 01:57 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+jeisoncg  2056     1  0 01:57 ?        00:00:00 /usr/lib/dconf-service
+jeisoncg  2098  2005  0 01:57 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/gpg-agent --sh --daemon --keep-display --write-env-file /home/jeisoncg/.gnupg/agent.info-linux-0nbh:0 /etc/X11/xinit/xinitrc
+jeisoncg  2099  2005  0 01:57 ?        00:00:00 /usr/bin/gpg-agent --sh --daemon --keep-display --write-env-file /home/jeisoncg/.gnupg/agent.info-linux-0nbh:0 /etc/X11/xinit/xinitrc
+jeisoncg  2103     1  0 01:57 ?        00:00:00 /usr/lib/at-spi2/at-spi-bus-launcher
+jeisoncg  2108  2103  0 01:57 ?        00:00:04 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+jeisoncg  2111     1  0 01:57 ?        00:00:01 /usr/lib/at-spi2/at-spi2-registryd --use-gnome-session
+jeisoncg  2114     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfsd
+jeisoncg  2119     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+jeisoncg  2129  2005  0 01:57 ?        00:00:00 /usr/lib/gnome-settings-daemon-3.0/gnome-settings-daemon
+jeisoncg  2149     1  0 01:57 ?        00:00:00 /usr/bin/pulseaudio --start
+jeisoncg  2157     1  0 01:57 ?        00:00:00 /usr/lib/gnome-settings-daemon-3.0/gsd-printer
+jeisoncg  2164  2149  0 01:57 ?        00:00:00 /usr/lib/pulse/gconf-helper
+jeisoncg  2166     1  0 01:57 ?        00:00:00 /usr/lib/GConf/2/gconfd-2
+jeisoncg  2173  2005  2 01:57 ?        00:01:22 /usr/bin/gnome-shell
+jeisoncg  2184     1  0 01:57 ?        00:00:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+jeisoncg  2188     1  0 01:57 ?        00:00:00 /usr/lib/evolution-data-server/evolution-source-registry
+jeisoncg  2193     1  0 01:57 ?        00:00:00 /usr/lib/goa-daemon
+jeisoncg  2199     1  0 01:57 ?        00:00:00 /usr/lib/mission-control-5
+jeisoncg  2205  2173  0 01:57 ?        00:00:00 ibus-daemon --xim --panel disable
+jeisoncg  2210  2205  0 01:57 ?        00:00:00 /usr/lib64/ibus/ibus-dconf
+jeisoncg  2212     1  0 01:57 ?        00:00:00 /usr/lib64/ibus/ibus-x11 --kill-daemon
+jeisoncg  2223     1  0 01:57 ?        00:00:04 /usr/lib/caribou
+jeisoncg  2229     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+jeisoncg  2234     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+jeisoncg  2239     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+jeisoncg  2243     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+jeisoncg  2247     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+jeisoncg  2251  2005  0 01:57 ?        00:00:00 /usr/bin/gnome-software --gapplication-service
+jeisoncg  2253  2005  0 01:57 ?        00:00:07 /usr/lib/tracker-miner-fs
+jeisoncg  2255  2005  0 01:57 ?        00:00:00 /usr/lib/tracker-miner-user-guides
+jeisoncg  2258  2005  0 01:57 ?        00:00:00 /usr/lib/evolution/3.12/evolution-alarm-notify
+jeisoncg  2261  2005  0 01:57 ?        00:00:00 nm-applet
+jeisoncg  2262  2005  0 01:57 ?        00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+jeisoncg  2267  2005  0 01:57 ?        00:00:02 /usr/lib/tracker-extract
+jeisoncg  2276     1  0 01:57 ?        00:00:01 /usr/lib/tracker-store
+jeisoncg  2278  2005  0 01:57 ?        00:00:00 /usr/lib/tracker-miner-apps
+jeisoncg  2288     1  0 01:57 ?        00:00:00 /usr/lib/evolution-data-server/evolution-calendar-factory
+jeisoncg  2325  2205  0 01:57 ?        00:00:00 /usr/lib64/ibus/ibus-engine-simple
+jeisoncg  2365     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+jeisoncg  2375     1  0 01:57 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+jeisoncg  2385     1  0 01:58 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+jeisoncg  2413  2173  0 01:58 ?        00:00:02 /usr/bin/python /usr/bin/terminator
+jeisoncg  2421  2413  0 01:58 ?        00:00:00 gnome-pty-helper
+jeisoncg  2422  2413  0 01:58 pts/0    00:00:00 /bin/bash
+root      2449  2422  0 01:58 pts/0    00:00:00 su --
+root      2453  2449  0 01:58 pts/0    00:00:00 bash
+jeisoncg  2533  2173  1 01:58 ?        00:00:51 geany
+jeisoncg  2541  2533  0 01:58 ?        00:00:00 gnome-pty-helper
+jeisoncg  2542  2533  0 01:58 pts/1    00:00:00 /bin/bash
+root      2689     2  0 02:06 ?        00:00:00 [kworker/u16:1]
+jeisoncg  2775     1  0 02:07 ?        00:00:11 /usr/bin/nautilus --gapplication-service
+root      2836     1  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun    2853  2836  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun    2855  2836  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun    2856  2836  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun    2858  2836  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+wwwrun    2859  2836  0 02:12 ?        00:00:00 /usr/sbin/httpd2-prefork -f /etc/apache2/httpd.conf -D SYSTEMD -DFOREGROUND -k start
+mysql     2881     1  0 02:12 ?        00:00:02 /usr/sbin/mysqld --user=mysql --innodb_file_format=Barracuda --innodb_file_per_table=ON --server-id=1 --sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+root      3016     2  0 02:15 ?        00:00:00 [kworker/1:0]
+root      3019     2  0 02:15 ?        00:00:00 [kworker/3:0]
+root      3020     2  0 02:15 ?        00:00:00 [kworker/u16:0]
+jeisoncg  3043  2173  3 02:18 ?        00:01:23 /usr/lib64/firefox/firefox
+jeisoncg  3109  3043  0 02:18 ?        00:00:00 /usr/lib/libproxy-0.4.11/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+root      3201     2  0 02:28 ?        00:00:00 [kworker/5:2]
+root      3238     2  0 02:30 ?        00:00:01 [kworker/0:1]
+root      3243     2  0 02:30 ?        00:00:00 [kworker/2:2]
+root      3244     2  0 02:30 ?        00:00:00 [kworker/4:1]
+root      3358     2  0 02:41 ?        00:00:00 [kworker/u16:2]
+root      3400     2  0 02:42 ?        00:00:00 [kworker/5:1]
+jeisoncg  3406  2413  0 02:42 pts/3    00:00:00 /bin/bash
+jeisoncg  3433  2413  0 02:42 pts/4    00:00:00 /bin/bash
+jeisoncg  3483     1  0 02:43 ?        00:00:00 http-proxy/bin/dg9_9_13 -{002:104/002}[RPM=9.29(0.0 20.8 6.9),IDLE=197s]-P8083 --
+root      3534     2  0 02:45 ?        00:00:00 [kworker/3:1]
+root      3535     2  0 02:45 ?        00:00:00 [kworker/4:2]
+root      3536     2  0 02:45 ?        00:00:00 [kworker/2:0]
+root      3540     2  0 02:45 ?        00:00:00 [kworker/u16:3]
+root      3574     2  0 02:47 ?        00:00:00 [kworker/5:0]
+root      3918     2  0 02:50 ?        00:00:00 [kworker/u16:4]
+root      4360     2  0 02:50 ?        00:00:00 [kworker/5:3]
+root      4412     2  0 02:50 ?        00:00:00 [kworker/u17:1]
+root      4417     2  0 02:50 ?        00:00:00 [kworker/u16:5]
+root      4418     2  0 02:50 ?        00:00:00 [kworker/u16:6]
+root      4419     2  0 02:50 ?        00:00:00 [kworker/u16:7]
+jeisoncg  4528  3406  0 02:51 pts/3    00:00:00 tor -controlport 9100
+root      7220     2  0 02:52 ?        00:00:00 [kworker/u16:8]
+jeisoncg  7286  2533 16 02:54 ?        00:00:00 /usr/bin/xterm -e /bin/sh ./geany_run_script.sh
+jeisoncg  7288  7286  0 02:54 pts/2    00:00:00 /bin/sh ./geany_run_script.sh
+jeisoncg  7290  7288  0 02:54 pts/2    00:00:00 ./main
+jeisoncg  7292  7290  0 02:54 pts/2    00:00:00 sh -c ps -ef > prcs.txt
+jeisoncg  7293  7292  0 02:54 pts/2    00:00:00 ps -ef

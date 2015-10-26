@@ -46,6 +46,7 @@ private:
 	void extraer_todas_relaciones_antonimos(int posInicial, int posFinal);
 	void descargar_palabras_caracter_expecial(void);
 	void extraerPalabrasPorTerminacion();
+	void descargar_todas_las_palabras();
 	    
 	public:
 		Vista();

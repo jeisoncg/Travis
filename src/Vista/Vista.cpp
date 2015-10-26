@@ -34,6 +34,9 @@ Vista::~Vista(){
 void Vista::menu(){
 	
 		cout<<endl;
+		int tamano = lectura.getPalabras().size();
+		cout << color.BOLDGREEN << " [Cantidad palabras: " << tamano << "]" << color.RESET <<  endl;
+		cout<<endl;
 		cout<<" Menú"<<endl<<endl;
 		cout<<"1. Leer palabras desde archivo. (Están precargadas)"<<endl;
 		cout<<"2. Mostrar palabras."<<endl;
@@ -48,6 +51,7 @@ void Vista::menu(){
 		cout<<"9. Descargar lista de sinonimos (Caracter especial)"<<endl;
 		cout<<"10. Conjugado de verbo (Solo Visualizacion)"<<endl;
 		cout<<"11. Palabras terminadas en [ar],[er],[ir]"<<endl;
+		cout<<"12. Descargar palabras."<<endl;
 		cout<<endl;
 		
 		int seleccion = -1;
@@ -58,7 +62,7 @@ void Vista::menu(){
 		while(seleccionNoValida){
 			
 			cin >> seleccion;
-			if ((seleccion > 0)&&(seleccion < 12)){
+			if ((seleccion > 0)&&(seleccion < 13)){
 				
 				
 				if (seleccion == 1){
@@ -119,9 +123,9 @@ void Vista::menu(){
 							size = tmp;
 						}
 					Vista::extraer_todas_relaciones_antonimos(i,size);
-					}
-				
 				}
+				
+				
 				
 				if (seleccion == 9){
 					
@@ -145,8 +149,13 @@ void Vista::menu(){
 					
 					Vista::extraerPalabrasPorTerminacion();
 				}
-			
-		};
+				
+				if (seleccion == 12){
+					
+					Vista::descargar_todas_las_palabras();
+				}
+			}
+		}
 		
 	}
 	
@@ -316,7 +325,7 @@ void Vista::descargar_todos_sinonimos()
 	  
 	  
 	 else{
-		  cout<<descargas.get_proxy_actual()<<endl;
+		  //cout<<descargas.get_proxy_actual()<<endl; Obsoleto
 		  descargas.descargar_html(lectura.getPalabras().at(i));
 	 }
   }
@@ -354,6 +363,55 @@ void Vista::descargar_palabras_caracter_expecial(void){
 	
 	filtro.close();
 
+}
+
+void Vista::descargar_todas_las_palabras(){
+	
+		int i=0;
+		int iaux=0;
+		//int j=0;
+		
+		int size =lectura.getPalabras().size();
+		cout <<"Ingrese el numero de palabra desde la que desea iniciar: ";
+		cin>> i;
+		cout <<"Ingrese el numero de palabra desde la que desea finalizar, escriba -1 si quiere que sean todas: ";
+		int tmp = 0;
+		cin>> tmp;
+		if (tmp != -1){
+				size = tmp;
+			}
+		iaux=i;
+		
+      for(; i<size;i++)
+      {
+	  if(((i-iaux)%500)==0)
+	  {
+		  /*for(int k=0; k<proxy.get_TotalProxiesAlmacenados(); k++)
+		  {
+				if(proxy.ping(proxy.retornar_url_sin_puerto(proxy.get_ProxyUrl(j)))==0)
+					{
+					descargas.set_proxy_actual(this->proxy.get_ProxyUrl(j));
+					descargas.descargar_html(lectura.getPalabras().at(i));
+					j++;
+					k=proxy.get_TotalProxiesAlmacenados();
+						}
+				else{
+				    j++;
+					}
+			}*/
+			
+			descargas.descargar_verbo_wordReference(lectura.getPalabras().at(i));
+			tormanager.get_New_Tot_IP_Address();
+			cout<<color.BOLDGREEN<<"Cambio de IP"<<color.RESET<<endl;
+	  }	 
+	  
+	  
+	 else{
+		  //cout<<descargas.get_proxy_actual()<<endl; Obsoleto
+		  descargas.descargar_verbo_wordReference(lectura.getPalabras().at(i));
+	 }
+	
+	}
 }
 	  
 void Vista::extraer_todas_relaciones_antonimos(int posInicial, int posFinal){
